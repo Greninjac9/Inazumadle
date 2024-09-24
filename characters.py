@@ -887,59 +887,59 @@ Characters = [
 
 CharacterRef = [
     ### A ###
-    'ADÉ KÉBÉ', 'AIDEN FROSTE', 'AITOR CAZADOR', 'ALAN MASTER', 'ALEX ZABEL', 'ALFA', 'APHRODITE', 'ARCHER HAWKINS', 
-    'ARION SHERWIND', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 
-    'ASTERO BLACK', 'AXEL BLAZE', 
+    'Adé Kébé', 'Aiden Froste', 'Aitor Cazador', 'Alan Master', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Archer Hawkins', 
+    'Arion Sherwind', 'Arion Sherwind (Arions)', 'Arion Sherwind (Chrono Stones)', 
+    'Astero Black', 'Axel Blaze', 
     ### B ### 
-    'BAI LONG', 'BAI LONG (CS)', 'BAI LONG (RESISTENCIA)', 'BELLATRIX', 'BETA', 'BOBBY SHEARER', 'BOBBY SHEARER (UNICORN)',
-    'BRIAR BLOOMHURST', 'BRYCE WITHINGALE', 'BUDDY FURY', 'BUNNY COTTONTAIL', 'BYRON LOVE', 
+    'Bai Long', 'Bai Long (Chrono Stones)', 'Bai Long (Resistencia)', 'Bellatrix', 'Beta', 'Bobby Shearer', 'Bobby Shearer (Unicorn)',
+    'Briar Bloomhurst', 'Bryce Withingale', 'Buddy Fury', 'Bunny Cottontail', 'Byron Love', 
     ### C ###
-    'CALEB STONEWALL', 'CALEB STONEWALL (ADULTO)', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 
-    'CERISE BLOSSOM', 'CLAUDE BEACONS', 'CRONUS FOURSEASONS', 'CRONUS FOURSEASONS (RESISTENCIA)',
+    'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Redux)', 'Celia Hills', 
+    'Cerise Blossom', 'Claude Beacons', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
     ### D ###
-    'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DAVID SAMFORD', 'DAVID SAMFORD (LEGENDARIO)',
-    'DAVID SAMFORD (REDUX)', 'DAVY JONES','DESTIN BILLOWS','DVALIN', 'DVALIN (PLUS)',
+    'Darren Lachance', 'Dave Quagmire', 'David Samford', 'David Samford (Legendario)',
+    'David Samford (Redux)', 'Davy Jones','Destin Billows','Dvalin', 'Dvalin (Plus)',
     ### E ###
-    'ELLIOT EMBER (ORION)', 'ERIK EAGLE', 'ERIK EAGLE (UNICORN)', 'EUGENE PEABODY', 
+    'Elliot Ember (Orion)', 'Erik Eagle', 'Erik Eagle (Unicorn)', 'Eugene Peabody', 
     ### F ###
-    'FALCO FLASHMAN', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'FRANK FOREMAN',
+    'Falco Flashman', 'Fei Rune', 'Fei Rune (Chrono Stones)', 'Flora', 'Frank Foreman',
     ### G ###
-    'GABRIEL GARCÍA', 'GABRIEL GARCÍA (CS)', 'GAMMA', 'GAZELLE', 'GOLDIE LEMMON (CS)', 
+    'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Gazelle', 'Goldie Lemmon (Chrono Stones)', 
     ### H ###
-    'HARROLD HOUDINI (RESISTENCIA)', 'HECTOR HELIO', 'HOTEL', 'HUGH', 
-    'HUNTER FOSTER', 'HURLEY KANE', 
+    'Harrold Houdini (Resistencia)', 'Hector Helio', 'Hotel', 'Hugh', 
+    'Hunter Foster', 'Hurley Kane', 
     ### J ###
-    'JACK WALLSIDE', 'JANUS', 'JEAN-PIERRE LAPAN', 'JEAN-PIERRE LAPAN (CS)', 'JUDE SHARP', 
-    'JOSEPH KING', 'JOSEPH KING (REDUX)', 'JORDAN GREENWAY', 'JULIETA', 
+    'Jack Wallside', 'Janus', 'Jean-Pierre Lapan', 'Jean-Pierre Lapan (Chrono Stones)', 'Jude Sharp', 
+    'Joseph King', 'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
     ### K ###
-    'KEENAN SHARPE', 'KEVIN DRAGONFLY', 'KEVIN DRAGONFLY (ARES)',
+    'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)',
     ### L ###
-    'LUCIAN DARK', 
+    'Lucian Dark', 
     ### M ###
-    'MARK EVANS', 'MARK EVANS (II)', 'MARK EVANS (ADULTO)', 'MARK EVANS (ARIONS)', 'MARK EVANS (LEGENDARIO)', 
-    'MAX', 'MECHAMARK', 'MICHAEL BALLZACK', 'MIKE', 'MISTER D', 
+    'Mark Evans', 'Mark Evans (II)', 'Mark Evans (Adulto)', 'Mark Evans (Arions)', 'Mark Evans (Legendario)', 
+    'Max', 'Mechamark', 'Michael Ballzack', 'Mike', 'Mister D', 
     ### N ###
-    'NATHAN SWIFT', 'NELLY RAIMON', 'NEPPTEN', 'NJORD SNIO', 'NJORD SNIO (RESISTENCIA)',
+    'Nathan Swift', 'Nelly Raimon', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
     ### O ###
     ### P ###
-    'PAOLO BIANCHI', 'PERCIVAL TRAVIS', 'PERSEO',
+    'Paolo Bianchi', 'Percival Travis', 'Perseo',
     ### Q ###
-    'QUENTIN CINQUEDEA (RESISTENCIA)',
+    'Quentin Cinquedea (Resistencia)',
     ### R ###
-    'RAY DARK', 'RICCARDO DI RIGO', 'RICCARDO DI RIGO (CS)', 'RYOMA NISHIKI', 'RYOMA NISHIKI (CS)', 
+    'Ray Dark', 'Riccardo Di Rigo', 'Riccardo Di Rigo (Chrono Stones)', 'Ryoma Nishiki', 'Ryoma Nishiki (Chrono Stones)', 
     ### S ###
-    'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SCOTTY', 'SHAWN FROSTE', 'SHAWN FROSTE (ADULTO)', 'SHAWN FROSTE (AIDEN)', 
-    'SHAWN FROSTE (DF)', 'SHAWN FROSTE (LEGENDARIO)', 'SHAWN FROSTE (ORION)', 'SHUN', 'SILVIA WOODS', 'SOL DAYSTAR (CS)', 
-    'SOR (CS)', 'STEVE GRIM', 'SUBARU HONDA', 'SUE', 
+    'Sam Kincaid', 'Samguk Han', 'Seymour Hillman', 'Scotty', 'Shawn Froste (Unido)', 'Shawn Froste (Adulto)', 'Shawn Froste (Aiden)', 
+    'Shawn Froste (DF)', 'Shawn Froste (Legendario)', 'Shawn Froste (Orion)', 'Shun', 'Silvia Woods', 'Sol Daystar (Chrono Stones)', 
+    'Sor (Chrono Stones)', 'Steve Grim', 'Subaru Honda', 'Sue', 
     ### T ###
-    'TERRY ARCHIBALD', 'TEZCAT', 'TOD IRONSIDE', 'TORCH', 'TORI', 'TRINA VERDURE', 'TYLER MURDOCK', 
+    'Terry Archibald', 'Tezcat', 'Tod Ironside', 'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 
     ### V ###
-    'VICTOR BLADE', 'VICTOR BLADE (CS)', 'VLADIMIR BLADE', 
+    'Victor Blade', 'Victor Blade (Chrono Stones)', 'Vladimir Blade', 
     ### W ###
-    'WANLI CHANGCHENG', 'WILLIAM GLASS',
+    'Wanli Changcheng', 'William Glass',
     ### X ###
-    'XAVIER FOSTER', 'XAVIER SCHILLER', 'XAVIER SCHILLER (ARES)', 'XENE', 
+    'Xavier Foster', 'Xavier Schiller', 'Xavier Schiller (Ares)', 'Xene', 
     ### Y ###
     ### Z ###
-    'ZACK AVALON', 'ZANARK AVALONIC (CS)', 'ZIPPY LERNER'
+    'Zack Avalon', 'Zanark Avalonic (Chrono Stones)', 'Zippy Lerner'
 ]
