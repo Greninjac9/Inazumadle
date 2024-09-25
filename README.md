@@ -10,10 +10,11 @@ En este juego deberás adivinar un personaje escogido aleatoriamente entre los d
 Las características comprobables son:
 | Personaje | Curso | Elemento | Posición | Género | Invocador | Equipo | 
 |-----------|-------|----------|----------|--------|-----------|--------|
-| Mirar listado personajes | 1º | Fuego | Delantero | Masculino | No puede | Mirar listado equipos |
-|  | 2º | ![Montaña](/assets/images/MISCELANEO/Montaña.png) | Defensa/Líbero | Femenino | Tiene EG |  |
-|  | 3º | Bosque | Medio | ??? | Tiene EG + Armadura |  |
-|  | Adulto | Aire | Portero |  | Tiene Tótem |  |
-|  | ??? | | Entrenador |  |  |  |
+| Mirar listado personajes | ![Primero](/assets/images/MISCELANEO/1º.png) | ![Fuego](/assets/images/MISCELANEO/Fuego.png) | ![Delantero](/assets/images/MISCELANEO/DL.png) | Masculino | ![No Invocador](/assets/images/MISCELANEO/EG_N.png) No puede | Mirar listado equipos |
+|  | ![Segundo](/assets/images/MISCELANEO/2º.png) | ![Montaña](/assets/images/MISCELANEO/Montaña.png) | ![Defensa](/assets/images/MISCELANEO/DF.png) | Femenino | ![EG](/assets/images/MISCELANEO/EG_Y.png) Tiene EG |  |
+|  | ![Tercero](/assets/images/MISCELANEO/3º.png) | ![Bosque](/assets/images/MISCELANEO/Bosque.png) | ![Medio](/assets/images/MISCELANEO/MD.png) | ??? | ![Armadura](/assets/images/MISCELANEO/EG_ARM.png) Tiene EG + Armadura |  |
+|  | ![Adulto](/assets/images/MISCELANEO/ADULTO.png) | ![Aire](/assets/images/MISCELANEO/Aire.png) | ![Portero](/assets/images/MISCELANEO/PR.png) |  | ![Tótem](/assets/images/MISCELANEO/EG_T.png) Tiene Tótem |  |
+|  | ??? | | ![Entrenador](/assets/images/MISCELANEO/DT.png) |  |  |  |
+|  | | | ![Líbero](/assets/images/MISCELANEO/LB.png) |  |  |  |
 
 _Proyecto PTD. Curso 2024-2025. 2n BACH_
