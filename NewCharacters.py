@@ -452,3 +452,62 @@ Characters = [
     { "Nombre": "ZIPPY-LERNER", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG_T", "EQUIPO": "EARTH-ELEVEN"}     
 ]
+
+CharacterRef = [
+    ### A ###
+    'Adé Kébé', 'Aiden Froste', 'Aitor Cazador', 'Alan Master', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Archer Hawkins', 
+    'Arion Sherwind', 'Arion Sherwind (Arions)', 'Arion Sherwind (Chrono Stones)', 
+    'Astero Black', 'Axel Blaze', 
+    ### B ### 
+    'Bai Long', 'Bai Long (Chrono Stones)', 'Bai Long (Resistencia)', 'Bellatrix', 'Beta', 'Bobby Shearer', 'Bobby Shearer (Unicorn)',
+    'Briar Bloomhurst', 'Bryce Withingale', 'Buddy Fury', 'Bunny Cottontail', 'Byron Love', 
+    ### C ###
+    'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Redux)', 'Celia Hills', 
+    'Cerise Blossom', 'Claude Beacons', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
+    ### D ###
+    'Darren Lachance', 'Dave Quagmire', 'David Samford', 'David Samford (Legendario)',
+    'David Samford (Redux)', 'Davy Jones','Destin Billows','Dvalin', 'Dvalin (Plus)',
+    ### E ###
+    'Elliot Ember (Orion)', 'Erik Eagle', 'Erik Eagle (Unicorn)', 'Eugene Peabody', 
+    ### F ###
+    'Falco Flashman', 'Fei Rune', 'Fei Rune (Chrono Stones)', 'Flora', 'Frank Foreman',
+    ### G ###
+    'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Gazelle', 'Goldie Lemmon (Chrono Stones)', 
+    ### H ###
+    'Harrold Houdini (Resistencia)', 'Hector Helio', 'Hotel', 'Hugh', 
+    'Hunter Foster', 'Hurley Kane', 
+    ### J ###
+    'Jack Wallside', 'Janus', 'Jean-Pierre Lapan', 'Jean-Pierre Lapan (Chrono Stones)', 'Jude Sharp', 
+    'Joseph King', 'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
+    ### K ###
+    'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)',
+    ### L ###
+    'Lucian Dark', 
+    ### M ###
+    'Mark Evans', 'Mark Evans (II)', 'Mark Evans (Adulto)', 'Mark Evans (Arions)', 'Mark Evans (Legendario)', 
+    'Max', 'Mechamark', 'Michael Ballzack', 'Mike', 'Mister D', 
+    ### N ###
+    'Nathan Swift', 'Nelly Raimon', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
+    ### O ###
+    ### P ###
+    'Paolo Bianchi', 'Percival Travis', 'Perseo',
+    ### Q ###
+    'Quentin Cinquedea (Resistencia)',
+    ### R ###
+    'Ray Dark', 'Riccardo Di Rigo', 'Riccardo Di Rigo (Chrono Stones)', 'Ryoma Nishiki', 'Ryoma Nishiki (Chrono Stones)', 
+    ### S ###
+    'Sam Kincaid', 'Samguk Han', 'Seymour Hillman', 'Scotty', 'Shawn Froste (Unido)', 'Shawn Froste (Adulto)', 'Shawn Froste (Aiden)', 
+    'Shawn Froste (DF)', 'Shawn Froste (Legendario)', 'Shawn Froste (Orion)', 'Shun', 'Silvia Woods', 'Sol Daystar (Chrono Stones)', 
+    'Sor (Chrono Stones)', 'Steve Grim', 'Subaru Honda', 'Sue', 
+    ### T ###
+    'Terry Archibald', 'Tezcat', 'Tod Ironside', 'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 
+    ### V ###
+    'Victor Blade', 'Victor Blade (Chrono Stones)', 'Vladimir Blade', 
+    ### W ###
+    'Wanli Changcheng', 'William Glass',
+    ### X ###
+    'Xavier Foster', 'Xavier Schiller', 'Xavier Schiller (Ares)', 'Xene', 
+    ### Y ###
+    ### Z ###
+    'Zack Avalon', 'Zanark Avalonic (Chrono Stones)', 'Zippy Lerner'
+]
