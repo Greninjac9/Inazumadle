@@ -1,6 +1,6 @@
-_Proyecto PTD.
+Proyecto PTD.
 Curso 2024-2025
-2n BACH C_
+2n BACH C
 
 ![Inazumadle Logo](/assets/Inazumadle.png)
 # INAZUMADLE
