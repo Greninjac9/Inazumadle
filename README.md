@@ -9,5 +9,7 @@ En este juego deberás adivinar un personaje escogido aleatoriamente entre los d
 
 Las características comprobables son:
 | Personaje | Curso | Elemento | Posición | Género | Invocador | Equipo | 
+|-----------|-------|----------|----------|--------|-----------|--------|
+| _________ | _____ | ________ | ________ | ______ | _________ | ______ |
 
 _Proyecto PTD. Curso 2024-2025. 2n BACH_
