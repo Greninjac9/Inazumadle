@@ -15,6 +15,5 @@ Las características comprobables son:
 |  | ![Tercero](/assets/images/MISCELANEO/3º.png) | ![Bosque](/assets/images/MISCELANEO/Bosque.png) | ![Medio](/assets/images/MISCELANEO/MD.png) | ??? | ![Armadura](/assets/images/MISCELANEO/EG_ARM.png) Tiene EG + Armadura |  |
 |  | ![Adulto](/assets/images/MISCELANEO/ADULTO.png) | ![Aire](/assets/images/MISCELANEO/Aire.png) | ![Portero](/assets/images/MISCELANEO/PR.png) |  | ![Tótem](/assets/images/MISCELANEO/EG_T.png) Tiene Tótem |  |
 |  | ??? | | ![Entrenador](/assets/images/MISCELANEO/DT.png) |  |  |  |
-|  | | | ![Líbero](/assets/images/MISCELANEO/LB.png) |  |  |  |
 
 _Proyecto PTD. Curso 2024-2025. 2n BACH_
