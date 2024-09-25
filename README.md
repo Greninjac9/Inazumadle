@@ -17,6 +17,8 @@ Las características comprobables son:
 - Equipo
 
 
-_Proyecto PTD.
-Curso 2024-2025
-2n BACH_
+_Proyecto PTD._
+
+_Curso 2024-2025_
+
+_2n BACH_
