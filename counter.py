@@ -20,6 +20,7 @@ def main(page: ft.Page):
                 ft.Container(
                     content=ft.Image(
                     src=f"assets\ARION_SHERWIND.png",
+                    fit=fit_width,
                     ),
                     height = 70,
                     width = 70,
