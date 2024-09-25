@@ -16,9 +16,4 @@ Las características comprobables son:
 - Invocador
 - Equipo
 
-
-_Proyecto PTD._
-
-_Curso 2024-2025_
-
-_2n BACH_
+_Proyecto PTD. Curso 2024-2025. 2n BACH_
