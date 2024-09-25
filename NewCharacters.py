@@ -201,9 +201,7 @@ Characters = [
     { "Nombre": "HURLEY KANE", "Curso": "3º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG_N", "EQUIPO": "RAIMON_II" },
       
-    ### I ###
-
-    
+    ### I ### 
     ### J ###
     
     { "Nombre": "JACK WALLSIDE", "Curso": "1º", "Elemento": "Montaña", "Posición": "DF",
@@ -299,8 +297,6 @@ Characters = [
       "Género": "M", "Invocador": "EG_Y", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },    
 
     ### O ###
-
-
     ### P ###
     
     { "Nombre": "PAOLO BIANCHI", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
@@ -411,8 +407,6 @@ Characters = [
       "Género": "M", "Invocador": "EG_N", "EQUIPO": "NEO-JAPON" },
       
     ### U ###
-
-
     ### V ###
 
     { "Nombre": "VICTOR BLADE", "Curso": "1º", "Elemento": "Fuego", "Posición": "DL",
@@ -447,8 +441,6 @@ Characters = [
       "Género": "M", "Invocador": "EG_N", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
       
     ### Y ###
-
-
     ### Z ###
 
     { "Nombre": "ZACK AVALON", "Curso": "3º", "Elemento": "Bosque", "Posición": "DL",
@@ -458,6 +450,5 @@ Characters = [
       "Género": "M", "Invocador": "EG_ARM", "EQUIPO": "CHRONO-STORM" },
       
     { "Nombre": "ZIPPY LERNER", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
-      "Género": "M", "Invocador": "EG_T", "EQUIPO": "EARTH-ELEVEN"}
-      
+      "Género": "M", "Invocador": "EG_T", "EQUIPO": "EARTH-ELEVEN"}     
 ]
