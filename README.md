@@ -8,12 +8,6 @@ _Inazumadle_ se inspira en mini-juegos web como [_Wordle_](https://www.nytimes.c
 En este juego deberás adivinar un personaje escogido aleatoriamente entre los disponibles y tú, con 6 intentos, deberás adivinar de qué personaje se trata. ¿Cómo? Al adivinar un personaje se verán siete características y se indicaran si son iguales o no a las del personaje que hay que adivinar.
 
 Las características comprobables son:
-- Personaje
-- Curso
-- Elemento
-- Posición
-- Género
-- Invocador
-- Equipo
+| Personaje | Curso | Elemento | Posición | Género | Invocador | Equipo | 
 
 _Proyecto PTD. Curso 2024-2025. 2n BACH_
