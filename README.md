@@ -11,9 +11,9 @@ Las características comprobables son:
 |**Personaje**|**Curso**|  **Elemento**  |   **Posición**   |**Género**| **Invocador** |**Equipo**| 
 |-----------|-------|----------|----------|--------|-----------|--------|
 | Mirar listado personajes | ![1º](/assets/images/MISCELANEO/1º.png) Primero| ![Fuego](/assets/images/MISCELANEO/Fuego.png) Fuego| ![Delantero](/assets/images/MISCELANEO/DL.png) Delantero| ![M](/assets/images/MISCELANEO/M.png) Masc. | ![No Invocador](/assets/images/MISCELANEO/EG_N.png) No puede | Mirar listado equipos |
-|  | ![2º](/assets/images/MISCELANEO/2º.png) Segundo| ![Montaña](/assets/images/MISCELANEO/Montaña.png) Montaña| ![Defensa](/assets/images/MISCELANEO/DF.png) Defensa| ![F](/assets/images/MISCELANEO/F.png) Fem. | ![EG](/assets/images/MISCELANEO/EG_Y.png) Tiene EG |  |
-|  | ![3º](/assets/images/MISCELANEO/3º.png) Tercero| ![Bosque](/assets/images/MISCELANEO/Bosque.png) Bosque| ![Medio](/assets/images/MISCELANEO/MD.png) Mediocampista| ![???](/assets/images/MISCELANEO/Por_Definir.png) Desconocido| ![Armadura](/assets/images/MISCELANEO/EG_ARM.png) Tiene Armadura |  |
+|  | ![2º](/assets/images/MISCELANEO/2º.png) Segundo| ![Montaña](/assets/images/MISCELANEO/Montaña.png) Mntaña| ![Defensa](/assets/images/MISCELANEO/DF.png) Defensa| ![F](/assets/images/MISCELANEO/F.png) Fem. | ![EG](/assets/images/MISCELANEO/EG_Y.png) Tiene EG |  |
+|  | ![3º](/assets/images/MISCELANEO/3º.png) Tercero| ![Bosque](/assets/images/MISCELANEO/Bosque.png) Bosque| ![Medio](/assets/images/MISCELANEO/MD.png) Mediocampista| ![???](/assets/images/MISCELANEO/Por_Definir.png)| ![Armadura](/assets/images/MISCELANEO/EG_ARM.png) Armadura |  |
 |  | ![Adulto](/assets/images/MISCELANEO/ADULTO.png) Adulto | ![Aire](/assets/images/MISCELANEO/Aire.png) Aire| ![Portero](/assets/images/MISCELANEO/PR.png) |  | ![Tótem](/assets/images/MISCELANEO/EG_T.png) Tiene Tótem |  |
-|  | ![???](/assets/images/MISCELANEO/Por_Definir.png) Desconocido| | ![Entrenador](/assets/images/MISCELANEO/DT.png) Entrenador|  |  |  |
+|  | ![???](/assets/images/MISCELANEO/Por_Definir.png) | | ![Entrenador](/assets/images/MISCELANEO/DT.png) Entrenador|  |  |  |
 
 _Proyecto PTD. Curso 2024-2025. 2n BACH_
