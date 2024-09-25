@@ -10,10 +10,10 @@ En este juego deberás adivinar un personaje escogido aleatoriamente entre los d
 Las características comprobables son:
 |**Personaje**|**Curso**|  **Elemento**  |   **Posición**   |**Género**| **Invocador** |**Equipo**| 
 |-----------|-------|----------|----------|--------|-----------|--------|
-| Mirar listado pjs. | ![1º](/assets/images/MISCELANEO/1º.png) | ![Fuego](/assets/images/MISCELANEO/Fuego.png) Fuego| ![Delantero](/assets/images/MISCELANEO/DL.png) Delantero| ![M](/assets/images/MISCELANEO/M.png)| ![No Invocador](/assets/images/MISCELANEO/EG_N.png) No puede | Mirar listado equipos |
-|  | ![2º](/assets/images/MISCELANEO/2º.png) | ![Montaña](/assets/images/MISCELANEO/Montaña.png) Mntaña| ![Defensa](/assets/images/MISCELANEO/DF.png) Defensa| ![F](/assets/images/MISCELANEO/F.png) | ![EG](/assets/images/MISCELANEO/EG_Y.png) EG |  |
-|  | ![3º](/assets/images/MISCELANEO/3º.png) | ![Bosque](/assets/images/MISCELANEO/Bosque.png) Bosque| ![Medio](/assets/images/MISCELANEO/MD.png) Mediocampista| ![???](/assets/images/MISCELANEO/Por_Definir.png)| ![Armadura](/assets/images/MISCELANEO/EG_ARM.png) Armadura |  |
-|  | ![Adulto](/assets/images/MISCELANEO/ADULTO.png) | ![Aire](/assets/images/MISCELANEO/Aire.png) Aire| ![Portero](/assets/images/MISCELANEO/PR.png) Portero|  | ![Tótem](/assets/images/MISCELANEO/EG_T.png) Tótem |  |
+| Mirar listado pjs. | ![1º](/assets/images/MISCELANEO/1º.png) | ![Fuego](/assets/images/MISCELANEO/Fuego.png) | ![Delantero](/assets/images/MISCELANEO/DL.png) Delantero| ![M](/assets/images/MISCELANEO/M.png)| ![No Invocador](/assets/images/MISCELANEO/EG_N.png) No puede | Mirar listado equipos |
+|  | ![2º](/assets/images/MISCELANEO/2º.png) | ![Montaña](/assets/images/MISCELANEO/Montaña.png) | ![Defensa](/assets/images/MISCELANEO/DF.png) Defensa| ![F](/assets/images/MISCELANEO/F.png) | ![EG](/assets/images/MISCELANEO/EG_Y.png) EG |  |
+|  | ![3º](/assets/images/MISCELANEO/3º.png) | ![Bosque](/assets/images/MISCELANEO/Bosque.png) | ![Medio](/assets/images/MISCELANEO/MD.png) Mediocampista| ![???](/assets/images/MISCELANEO/Por_Definir.png)| ![Armadura](/assets/images/MISCELANEO/EG_ARM.png) Armadura |  |
+|  | ![Adulto](/assets/images/MISCELANEO/ADULTO.png) | ![Aire](/assets/images/MISCELANEO/Aire.png) | ![Portero](/assets/images/MISCELANEO/PR.png) Portero|  | ![Tótem](/assets/images/MISCELANEO/EG_T.png) Tótem |  |
 |  | ![???](/assets/images/MISCELANEO/Por_Definir.png) | | ![Entrenador](/assets/images/MISCELANEO/DT.png) Entrenador|  |  |  |
 
 _Proyecto PTD. Curso 2024-2025. 2n BACH_
