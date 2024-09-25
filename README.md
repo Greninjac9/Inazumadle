@@ -10,6 +10,14 @@ En este juego deberás adivinar un personaje escogido aleatoriamente entre los d
 Las características comprobables son:
 | Personaje | Curso | Elemento | Posición | Género | Invocador | Equipo | 
 |-----------|-------|----------|----------|--------|-----------|--------|
-| _________ | _____ | ________ | ________ | ______ | _________ | ______ |
+| Mirar listado personajes | 1º | Fuego | Delantero | Masculino | No puede | Mirar listado equipos |
+|-----------|-------|----------|----------|--------|-----------|--------|
+|  | 2º | Montaña | Defensa/Líbero | Femenino | Tiene EG |  |
+|-----------|-------|----------|----------|--------|-----------|--------|
+|  | 3º | Bosque | Medio | ??? | Tiene EG + Armadura |  |
+|-----------|-------|----------|----------|--------|-----------|--------|
+|  | Adulto | Aire | Portero |  | Tiene Tótem |  |
+|-----------|-------|----------|----------|--------|-----------|--------|
+|  | ??? | | Entrenador |  |  |  |
 
 _Proyecto PTD. Curso 2024-2025. 2n BACH_
