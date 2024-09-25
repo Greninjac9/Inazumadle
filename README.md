@@ -1,6 +1,6 @@
 **Proyecto Curso 2024-2025 de 2n BACH**
 
-#INAZUMADLE
+# INAZUMADLE
 _Inazumadle_ es un proyecto escolar por parte de novatos con un tan solo un año de experiencia que trata de traer a fans de **Inazuma Eleven** un juego web sin ánimo de lucro.
 
 ### ¿QUÉ ES?
