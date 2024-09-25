@@ -178,7 +178,7 @@ Characters = [
     { "Nombre": "BRYCE-WITHINGALE_(GAZELLE)", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
       "Género": "M", "Invocador": "EG_N", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
       
-    { "Nombre": "GOLDIE-LEMMON_(CS)", "Curso": "1º", "Elemento": "Fuego", "Posición": "LB",
+    { "Nombre": "GOLDIE-LEMMON_(CS)", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "F", "Invocador": "EG_ARM", "EQUIPO": "CHRONO-STORM" },   
 
     ### H ###
@@ -252,7 +252,7 @@ Characters = [
     { "Nombre": "MARK-EVANS", "Curso": "2º", "Elemento": "Montaña", "Posición": "PR",
       "Género": "M", "Invocador": "EG_N", "EQUIPO": "RAIMON" },
       
-    { "Nombre": "MARK-EVANS_(II)", "Curso": "2º", "Elemento": "Montaña", "Posición": "LB",
+    { "Nombre": "MARK-EVANS_(II)", "Curso": "2º", "Elemento": "Montaña", "Posición": "DF",
       "Género": "M", "Invocador": "EG_N", "EQUIPO": "RAIMON-II" },
       
     { "Nombre": "MARK-EVANS_(ADULTO)", "Curso": "ADULTO", "Elemento": "Montaña", "Posición": "DT",
@@ -344,7 +344,7 @@ Characters = [
     { "Nombre": "SCOTT-BANYAN", "Curso": "1º", "Elemento": "Bosque", "Posición": "DF",
       "Género": "M", "Invocador": "EG_N", "EQUIPO": "RAIMON_II" },
       
-    { "Nombre": "SHAWN-FROSTE", "Curso": "2º", "Elemento": "Aire", "Posición": "LB",
+    { "Nombre": "SHAWN-FROSTE", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG_N", "EQUIPO": "INAZUMA-JAPON" },
       
     { "Nombre": "SHAWN-FROSTE_(ADULTO)", "Curso": "ADULTO", "Elemento": "Aire", "Posición": "DT",
