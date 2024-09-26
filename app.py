@@ -5,6 +5,7 @@ import random
 
 def main(page: ft.Page):
     page.title = "INAZUMADLE"
+    page.theme_mode = ft.ThemeMode.DARK
     PJ = random.choice(Characters)
     t = ft.Text(PJ)
     #################
@@ -41,6 +42,7 @@ def main(page: ft.Page):
 
         # FILA QUE CONTIENE TODOS LOS ELEMENTOS:
         Row = ft.Row(
+            alignment=ft.MainAxisAlignment.CENTER,
             spacing=25,
             controls=[
                 ft.Container(
@@ -75,7 +77,10 @@ def main(page: ft.Page):
                 ft.Container(
                     content=ft.Image(
                     src=("assets\images\\" + Char["Posición"] + ".png"),
+                    fit = ft.ImageFit.FIT_WIDTH,
                     ),
+                    border = ft.border.all(10, COLORS[3]),
+                    margin = 50,
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[3],
@@ -131,7 +136,12 @@ def main(page: ft.Page):
         on_tap = handle_tap
     )
 
-    page.add(Searchbar,t)
+    page.add(
+        ft.Row(
+            alignment=ft.MainAxisAlignment.CENTER,
+            controls = [Searchbar],
+    )
+    )
     page.update()
 
 ft.app(main)
