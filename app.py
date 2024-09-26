@@ -9,9 +9,6 @@ def main(page: ft.Page):
 
     #VARIABLES
     PJ = random.choice(Characters)
-    Victory = False
-    Defeat = False
-    Tries = 6
 
     #################
     ### FUNCIONES ###
@@ -27,6 +24,7 @@ def main(page: ft.Page):
     ### FUNCION PRINCIPAL ###
     def Comprobar(e):
         COLORS = []
+        
         for i in CharacterRef:
             # COMPRUEBA QUE EL PERSONAJE ELEGIDO ESTÁ ENTRE LOS PERSONAJES DISPONIBLES
             # CAPITALIZAMOS PARA EVITAR PROBLEMAS KEY SENSITIVE
@@ -38,17 +36,10 @@ def main(page: ft.Page):
                     # CAMBIA EL COLOR DEPENDIENDO DE SI ES IGUAL O NO
                     if Char[Elementos[k]] == PJ[Elementos[k]]:
                         COLORS.append(ft.colors.GREEN)
-                    elif (Char[Elementos[k]]).split(_)[0] == (PJ[Elementos[k]]).split(_)[0]:
+                    elif (Char[Elementos[k]]).split("_")[0] == (PJ[Elementos[k]]).split("_")[0]:
                         COLORS.append(ft.colors.AMBER)
                     else:
                         COLORS.append(ft.colors.RED)
-                # DETERMINA SI SE HA GANADO O PERDIDO:
-                Tries -= 1
-                if Char == PJ:
-                    Victory = True
-                elif Tries = 0:
-                    Defeat = True
-                break
         
         Searchbar.close_view()
 
@@ -59,9 +50,9 @@ def main(page: ft.Page):
             controls=[
                 ft.Container(
                     content=ft.Image(
-                        src=("assets\images\SPRITES\\" + Char["Nombre"] + ".png"),
+                        src=(r"assets\images\SPRITES\\" + Char["Nombre"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(10, COLORS[3]),
+                    border = ft.border.all(5, COLORS[0]),
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[0],
@@ -69,9 +60,9 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src = ("assets\images\MISCELANEO\\" + Char["Curso"] + ".png"),
+                        src = (r"assets\images\MISCELANEO\\" + Char["Curso"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(10, COLORS[3]),
+                    border = ft.border.all(10, COLORS[1]),
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[1],
@@ -79,9 +70,9 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=("assets\images\MISCELANEO\\" + Char["Elemento"] + ".png"),
+                        src=(r"assets\images\MISCELANEO\\" + Char["Elemento"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(10, COLORS[3]),
+                    border = ft.border.all(15, COLORS[2]),
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[2],
@@ -89,7 +80,7 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=("assets\images\MISCELANEO\\" + Char["Posición"] + ".png"),
+                        src=(r"assets\images\MISCELANEO\\" + Char["Posición"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(10, COLORS[3]),
                     height = 70,
@@ -99,9 +90,9 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=("assets\images\MISCELANEO\\" + Char["Género"] + ".png"),
+                        src=(r"assets\images\MISCELANEO\\" + Char["Género"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(10, COLORS[3]),
+                    border = ft.border.all(15, COLORS[4]),
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[4],
@@ -109,9 +100,9 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=("assets\images\MISCELANEO\\" + Char["Invocador"] + ".png"),
+                        src=(r"assets\images\MISCELANEO\\" + Char["Invocador"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(10, COLORS[3]),
+                    border = ft.border.all(15, COLORS[5]),
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[5],
@@ -119,9 +110,9 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=("assets\images\EQUIPO\\" + Char["EQUIPO"] + ".png"),
+                        src=(r"assets\images\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(10, COLORS[3]),
+                    border = ft.border.all(3, COLORS[6]),
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[6],
