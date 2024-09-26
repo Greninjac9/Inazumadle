@@ -6,6 +6,8 @@ import random
 def main(page: ft.Page):
     page.title = "INAZUMADLE"
     page.theme_mode = ft.ThemeMode.DARK
+
+    #VARIABLES
     PJ = random.choice(Characters)
     Victory = False
     Defeat = False
