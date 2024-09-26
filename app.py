@@ -36,6 +36,8 @@ def main(page: ft.Page):
                     # CAMBIA EL COLOR DEPENDIENDO DE SI ES IGUAL O NO
                     if Char[Elementos[k]] == PJ[Elementos[k]]:
                         COLORS.append(ft.colors.GREEN)
+                    elif (Char[Elementos[k]]).split(_)[0] == (PJ[Elementos[k]]).split(_)[0]:
+                        COLORS.append(ft.colors.AMBER)
                     else:
                         COLORS.append(ft.colors.RED)
                 # DETERMINA SI SE HA GANADO O PERDIDO:
