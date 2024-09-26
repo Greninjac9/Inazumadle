@@ -7,7 +7,10 @@ def main(page: ft.Page):
     page.title = "INAZUMADLE"
     page.theme_mode = ft.ThemeMode.DARK
     PJ = random.choice(Characters)
-    t = ft.Text(PJ)
+    Victory = False
+    Defeat = False
+    Tries = 6
+
     #################
     ### FUNCIONES ###
     #################
@@ -26,16 +29,21 @@ def main(page: ft.Page):
             # COMPRUEBA QUE EL PERSONAJE ELEGIDO ESTÁ ENTRE LOS PERSONAJES DISPONIBLES
             # CAPITALIZAMOS PARA EVITAR PROBLEMAS KEY SENSITIVE
             if (Searchbar.value).capitalize() == i.capitalize():
+                Char = Characters[CharacterRef.index(i)]
                 # COMPRUEBA SI LOS ELEMENTOS COINCIDEN CON EL PERSONAJE POR ADIVINAR
                 for k in range(7):
-                    Char = Characters[CharacterRef.index(i)]
-                    print(Char)
                     Elementos = ["Nombre", "Curso", "Elemento", "Posición", "Género", "Invocador", "EQUIPO"]
                     # CAMBIA EL COLOR DEPENDIENDO DE SI ES IGUAL O NO
                     if Char[Elementos[k]] == PJ[Elementos[k]]:
                         COLORS.append(ft.colors.GREEN)
                     else:
                         COLORS.append(ft.colors.RED)
+                # DETERMINA SI SE HA GANADO O PERDIDO:
+                Tries -= 1
+                if Char == PJ:
+                    Victory = True
+                elif Tries = 0:
+                    Defeat = True
                 break
         
         Searchbar.close_view()
