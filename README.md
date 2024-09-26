@@ -1,4 +1,6 @@
 ![Inazumadle Logo](/assets/Inazumadle.png)
+Antes de leer, este README ha sido diseñado teniendo en cuenta la interfaz de GitHub. Para una lectura adecuada, se recomienda leer en el repositorio.
+
 # INAZUMADLE
 _Inazumadle_ es un proyecto escolar por parte de novatos con un tan solo un año de experiencia que trata de traer a fans de [**Inazuma Eleven**](https://www.inazuma.jp/victory-road/en/) un juego web sin ánimo de lucro.
 
