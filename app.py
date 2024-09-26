@@ -59,7 +59,7 @@ def main(page: ft.Page):
             controls=[
                 ft.Container(
                     content=ft.Image(
-                    src=("assets\images\\" + Char["Nombre"] + ".png"),
+                    src=("assets\images\SPRITES\\" + Char["Nombre"] + ".png"),
                     ),
                     height = 70,
                     width = 70,
@@ -68,7 +68,7 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                    src = ("assets\images\\" + Char["Curso"] + ".png"),
+                    src = ("assets\images\MISCELANEO\\" + Char["Curso"] + ".png"),
                     height=700,
                     width = 700,
                     ),
@@ -79,7 +79,7 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                    src=("assets\images\\" + Char["Elemento"] + ".png"),
+                    src=("assets\images\MISCELANEO\\" + Char["Elemento"] + ".png"),
                     ),
                     height = 70,
                     width = 70,
@@ -88,7 +88,7 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                    src=("assets\images\\" + Char["Posición"] + ".png"),
+                    src=("assets\images\MISCELANEO\\" + Char["Posición"] + ".png"),
                     fit = ft.ImageFit.FIT_WIDTH,
                     ),
                     border = ft.border.all(10, COLORS[3]),
@@ -100,7 +100,7 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                    src=("assets\images\\" + Char["Género"] + ".png"),
+                    src=("assets\images\MISCELANEO\\" + Char["Género"] + ".png"),
                     ),
                     height = 70,
                     width = 70,
@@ -109,7 +109,7 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                    src=("assets\images\\" + Char["Invocador"] + ".png"),
+                    src=("assets\images\MISCELANEO\\" + Char["Invocador"] + ".png"),
                     ),
                     height = 70,
                     width = 70,
@@ -118,7 +118,7 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                    src=("assets\images\\" + Char["EQUIPO"] + ".png"),
+                    src=("assets\images\EQUIPO\\" + Char["EQUIPO"] + ".png"),
                     ),
                     height = 70,
                     width = 70,
