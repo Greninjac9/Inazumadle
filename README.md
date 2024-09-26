@@ -1,4 +1,4 @@
-![Inazumadle Logo](/assets/Inazumadle.png)
+![Inazumadle Logo](<img align="center" src="/assets/Inazumadle.png">)
 
 Antes de leer, este README ha sido diseñado teniendo en cuenta la interfaz de GitHub. Para una lectura adecuada, se recomienda leer en el repositorio.
 
