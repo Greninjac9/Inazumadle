@@ -8,7 +8,7 @@ def main(page: ft.Page):
 
     page.bgcolor = ft.colors.TRANSPARENT
     page.decoration = ft.BoxDecoration(
-        image=ft.DecorationImage(src="assets\InazumadleBG.png", fit = ft.ImageFit.COVER)
+        image=ft.DecorationImage(src="assets\images\WEB\InazumadleBG.png", fit = ft.ImageFit.COVER)
     )
 
     #VARIABLES
