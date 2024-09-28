@@ -5,14 +5,14 @@ import random
 
 def main(page: ft.Page):
     page.title = "INAZUMADLE"
-
     page.bgcolor = ft.colors.TRANSPARENT
     page.decoration = ft.BoxDecoration(
-        image=ft.DecorationImage(src="assets\images\WEB\InazumadleBG.png", fit = ft.ImageFit.COVER)
+        image=ft.DecorationImage(src=r"assets\images\WEB\InazumadleBG.png", fit = ft.ImageFit.COVER)
     )
 
     #VARIABLES
     PJ = random.choice(Characters)
+    lv = ft.ListView()
 
     #################
     ### FUNCIONES ###
@@ -24,6 +24,12 @@ def main(page: ft.Page):
     def handle_click(e):
         text = e.control.data
         Searchbar.close_view(text)
+    def handle_change(e):
+        list_to_show = [personaje for personaje in CharacterRef if e.data.lower() in personaje.lower()]
+        lv.controls.clear()
+        for i in list_to_show:
+            lv.controls.append(ft.ListTile(title=ft.Text(f"{i}"), on_click=handle_click, data=i))
+        Searchbar.update()
 
     ### FUNCION PRINCIPAL ###
     def Comprobar(e):
@@ -130,18 +136,16 @@ def main(page: ft.Page):
     #################
 
     Searchbar = ft.SearchBar(
-        view_elevation=10,
+        view_elevation=4,
         controls = [
-            ft.ListTile(
-                title = ft.Text(i), on_click = handle_click,
-                data = i
-                    )
-            for i in CharacterRef
+            lv,
         ],
         on_submit = Comprobar,
-        on_tap = handle_tap
+        on_tap = handle_tap,
+        on_change=handle_change,
     )
 
+    # AÑADIR LOGO DE INAZUMADLE + SEARCHBAR AL INICIO
     page.add(
         ft.Container(
                     foreground_decoration = ft.Image(
