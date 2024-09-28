@@ -150,7 +150,12 @@ def main(page: ft.Page):
                 ),
         ft.Row(
             alignment=ft.MainAxisAlignment.CENTER,
-            controls = [Searchbar],
+            controls = [
+            ft.Column(
+            alignment=ft.MainAxisAlignment.START,
+            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+            controls = [ft.Image(src = r"assets\images\WEB\Inazumadle.png", width = 600, height = 300), Searchbar],)
+        ],
     ),
     )
     page.update()
