@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/assets/Inazumadle.png">
+  <img src="/assets/images/WEB/Inazumadle.png">
 </p>
 
 Antes de leer, este README ha sido diseñado teniendo en cuenta la interfaz de GitHub. Para una lectura adecuada, se recomienda leer en el repositorio.
