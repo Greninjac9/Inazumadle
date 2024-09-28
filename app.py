@@ -9,6 +9,9 @@ def main(page: ft.Page):
     page.decoration = ft.BoxDecoration(
         image=ft.DecorationImage(src=r"assets\images\WEB\InazumadleBG.png", fit = ft.ImageFit.COVER)
     )
+    page.window.resizable = False
+    page.window.width = 830
+    page.window.height = 1000
 
     #VARIABLES
     PJ = random.choice(Characters)
