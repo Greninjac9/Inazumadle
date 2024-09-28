@@ -5,7 +5,11 @@ import random
 
 def main(page: ft.Page):
     page.title = "INAZUMADLE"
-    page.theme_mode = ft.ThemeMode.DARK
+
+    page.bgcolor = ft.colors.TRANSPARENT
+    page.decoration = ft.BoxDecoration(
+        image=ft.DecorationImage(src="assets\InazumadleBG.png", fit = ft.ImageFit.COVER)
+    )
 
     #VARIABLES
     PJ = random.choice(Characters)
@@ -56,7 +60,7 @@ def main(page: ft.Page):
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[0],
-                    border_radius = 10
+                    border_radius = 10,
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -66,7 +70,7 @@ def main(page: ft.Page):
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[1],
-                    border_radius = 10
+                    border_radius = 10,
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -112,10 +116,7 @@ def main(page: ft.Page):
                     content=ft.Image(
                         src=(r"assets\images\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(3, COLORS[6]),
-                    height = 70,
-                    width = 70,
-                    bgcolor=COLORS[6],
+                    border = ft.border.all(3, COLORS[6]), height = 70, width = 70, bgcolor=COLORS[6],
                     border_radius = 10
                 ),
             ]
@@ -142,10 +143,15 @@ def main(page: ft.Page):
     )
 
     page.add(
+        ft.Container(
+                    foreground_decoration = ft.Image(
+                        src=(r"assets\InazumadleBG"),
+                        fit = ft.ImageFit.COVER,),
+                ),
         ft.Row(
             alignment=ft.MainAxisAlignment.CENTER,
             controls = [Searchbar],
-    )
+    ),
     )
     page.update()
 
