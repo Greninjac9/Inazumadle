@@ -22,4 +22,6 @@ Las características comprobables son:
 |  | ![Niño](/assets/images/MISCELANEO/NINO.png) | | ![Entrenador](/assets/images/MISCELANEO/DT.png) Entrenador|  |  |  |
 |  | ![???](/assets/images/MISCELANEO/Por_Definir.png) | ||  |  |  |
 
+_(Todos los personajes pertenecen e iconos pertenecen a Level 5, a excepción de algunos pocos iconos personalizados para el juego)_
+
 _Proyecto PTD. Curso 2024-2025. 2n BACH_
