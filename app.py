@@ -22,12 +22,11 @@ def main(page: ft.Page):
     #################
 
     ### FUNCIONES SEARCHBAR ###
-    def handle_tap(e):
-        Searchbar.open_view()
     def handle_click(e):
         text = e.control.data
         Searchbar.close_view(text)
     def handle_change(e):
+        Searchbar.open_view()
         list_to_show = [personaje for personaje in CharacterRef if e.data.lower() in personaje.lower()]
         lv.controls.clear()
         for i in list_to_show:
@@ -150,7 +149,6 @@ def main(page: ft.Page):
             lv,
         ],
         on_submit = Comprobar,
-        on_tap = handle_tap,
         on_change=handle_change,
     )
 
