@@ -200,6 +200,9 @@ Characters = [
       
     { "Nombre": "XAVIER-FOSTER_(HUNTER)", "Curso": "3º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIA" },
+
+    { "Nombre": "XAVIER-FOSTER_(HUNTER_ORION)", "Curso": "3º", "Elemento": "Fuego", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON_ORION" },
       
     { "Nombre": "HURLEY-KANE", "Curso": "3º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_II" },
@@ -478,7 +481,7 @@ CharacterRef = [
     'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Gazelle', 'Goldie Lemmon (Chrono Stones)', 
     ### H ###
     'Harrold Houdini (Resistencia)', 'Hector Helio', 'Hotel', 'Hugh', 
-    'Hunter Foster', 'Hurley Kane', 
+    'Hunter Foster', 'Hunter Foster (Orion), 'Hurley Kane', 
     ### J ###
     'Jack Wallside', 'Janus', 'Jean-Pierre Lapan', 'Jean-Pierre Lapan (Chrono Stones)', 'Jude Sharp', 
     'Joseph King', 'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
