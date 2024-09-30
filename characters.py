@@ -256,7 +256,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
       
     { "Nombre": "MARK-EVANS_(II)", "Curso": "2º", "Elemento": "Montaña", "Posición": "DF_LB",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON-II" },
+      "Género": "M", "Invocador": "EG-N", "EQUIPO": "Raimon_II" },
       
     { "Nombre": "MARK-EVANS_(ADULTO)", "Curso": "ADULTO", "Elemento": "Montaña", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_(GO)" },
@@ -354,10 +354,10 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "ALPINO_(GO)" },
       
     { "Nombre": "SHAWN-FROSTE_(AIDEN)", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON-II" },
+      "Género": "M", "Invocador": "EG-N", "EQUIPO": "Raimon_II" },
       
     { "Nombre": "SHAWN-FROSTE_(DF)", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON-II" },
+      "Género": "M", "Invocador": "EG-N", "EQUIPO": "Raimon_II" },
       
     { "Nombre": "SHAWN-FROSTE_(LEGENDARIO)", "Curso": "ADULTO", "Elemento": "Aire", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
