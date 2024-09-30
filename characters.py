@@ -437,7 +437,7 @@ Characters = [
     { "Nombre": "XAVIER-FOSTER", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON" },
       
-    { "Nombre": "XAVIER-FOSTER (SCHILLER)", "Curso": "ADULTO", "Elemento": "Fuego", "Posición": "DL",
+    { "Nombre": "XAVIER-FOSTER_(SCHILLER)", "Curso": "ADULTO", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
       
     { "Nombre": "XAVIER-SCHILLER", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
