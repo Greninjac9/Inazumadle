@@ -23,8 +23,8 @@ def main(page: ft.Page):
 
     ### FUNCIONES SEARCHBAR ###
     def handle_click(e):
-        text = e.control.data
-        Searchbar.close_view(text)
+        Searchbar.close_view("")
+        Comprobar(e.control.data)
     def handle_change(e):
         Searchbar.open_view()
         list_to_show = [personaje for personaje in CharacterRef if e.data.lower() in personaje.lower()]
@@ -39,7 +39,7 @@ def main(page: ft.Page):
         for i in CharacterRef:
             # COMPRUEBA QUE EL PERSONAJE ELEGIDO ESTÁ ENTRE LOS PERSONAJES DISPONIBLES
             # CAPITALIZAMOS PARA EVITAR PROBLEMAS KEY SENSITIVE
-            if (Searchbar.value).capitalize() == i.capitalize():
+            if (Searchbar.value).capitalize() == i.capitalize() or e.capitalize() == i.capitalize():
                 Char = Characters[CharacterRef.index(i)]
                 # COMPRUEBA SI LOS ELEMENTOS COINCIDEN CON EL PERSONAJE POR ADIVINAR
                 for k in range(7):
@@ -145,10 +145,7 @@ def main(page: ft.Page):
 
     Searchbar = ft.SearchBar(
         view_elevation=4,
-        controls = [
-            lv,
-        ],
-        on_submit = Comprobar,
+        controls = [lv,],
         on_change=handle_change,
     )
 
