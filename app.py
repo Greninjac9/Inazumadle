@@ -11,7 +11,7 @@ def main(page: ft.Page):
     )
     page.window.resizable = False
     page.window.width = 830
-    page.window.height = 1000
+    page.window.height = 1080
 
     #VARIABLES
     PJ = random.choice(Characters)
@@ -37,7 +37,6 @@ def main(page: ft.Page):
     ### FUNCION PRINCIPAL ###
     def Comprobar(e):
         COLORS = []
-        
         for i in CharacterRef:
             # COMPRUEBA QUE EL PERSONAJE ELEGIDO ESTÁ ENTRE LOS PERSONAJES DISPONIBLES
             # CAPITALIZAMOS PARA EVITAR PROBLEMAS KEY SENSITIVE
@@ -59,7 +58,7 @@ def main(page: ft.Page):
         # FILA QUE CONTIENE TODOS LOS ELEMENTOS:
         Row = ft.Row(
             alignment=ft.MainAxisAlignment.CENTER,
-            spacing=25,
+            spacing=15,
             controls=[
                 ft.Container(
                     content=ft.Image(
@@ -70,6 +69,7 @@ def main(page: ft.Page):
                     width = 70,
                     bgcolor=COLORS[0],
                     border_radius = 10,
+                    margin = ft.margin.symmetric(vertical=10)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -80,6 +80,7 @@ def main(page: ft.Page):
                     width = 70,
                     bgcolor=COLORS[1],
                     border_radius = 10,
+                    margin = ft.margin.symmetric(vertical=10)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -89,7 +90,8 @@ def main(page: ft.Page):
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[2],
-                    border_radius = 10
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(vertical=10)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -99,7 +101,8 @@ def main(page: ft.Page):
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[3],
-                    border_radius = 10
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(vertical=10)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -109,7 +112,8 @@ def main(page: ft.Page):
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[4],
-                    border_radius = 10
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(vertical=10)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -119,19 +123,21 @@ def main(page: ft.Page):
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[5],
-                    border_radius = 10
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(vertical=10)
                 ),
                 ft.Container(
                     content=ft.Image(
                         src=(r"assets\images\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(3, COLORS[6]), height = 70, width = 70, bgcolor=COLORS[6],
-                    border_radius = 10
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(vertical=10)
                 ),
-            ]
+            ],
         )
 
-        page.add(Row) 
+        page.add(Row)
         page.update()
 
     #################
@@ -150,18 +156,13 @@ def main(page: ft.Page):
 
     # AÑADIR LOGO DE INAZUMADLE + SEARCHBAR AL INICIO
     page.add(
-        ft.Container(
-                    foreground_decoration = ft.Image(
-                        src=(r"assets\InazumadleBG"),
-                        fit = ft.ImageFit.COVER,),
-                ),
         ft.Row(
             alignment=ft.MainAxisAlignment.CENTER,
             controls = [
             ft.Column(
             alignment=ft.MainAxisAlignment.START,
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-            controls = [ft.Image(src = r"assets\images\WEB\Inazumadle.png", width = 600, height = 300), Searchbar],)
+            controls = [ft.Image(src = r"assets\images\WEB\Inazumadle.png", width = 600, height = 200), Searchbar],)
         ],
     ),
     )
