@@ -19,6 +19,7 @@ Las características comprobables son:
 |  | ![2º](/assets/images/MISCELANEO/2º.png) | ![Montaña](/assets/images/MISCELANEO/Montaña.png) | ![Defensa](/assets/images/MISCELANEO/DF.png) Defensa| ![F](/assets/images/MISCELANEO/F.png) | ![EG](/assets/images/MISCELANEO/EG.png) EG |  |
 |  | ![3º](/assets/images/MISCELANEO/3º.png) | ![Bosque](/assets/images/MISCELANEO/Bosque.png) | ![Medio](/assets/images/MISCELANEO/MD.png) Medio| ![???](/assets/images/MISCELANEO/Por_Definir.png)| ![Armadura](/assets/images/MISCELANEO/EG_ARM.png) Armadura |  |
 |  | ![Adulto](/assets/images/MISCELANEO/ADULTO.png) | ![Aire](/assets/images/MISCELANEO/Aire.png) | ![Portero](/assets/images/MISCELANEO/PR.png) Portero|  | ![Tótem](/assets/images/MISCELANEO/Totem.png) Tótem |  |
-|  | ![???](/assets/images/MISCELANEO/Por_Definir.png) | | ![Entrenador](/assets/images/MISCELANEO/DT.png) Entrenador|  |  |  |
+|  | ![Niño](/assets/images/MISCELANEO/NINO.png) | | ![Entrenador](/assets/images/MISCELANEO/DT.png) Entrenador|  |  |  |
+|  | ![???](/assets/images/MISCELANEO/Por_Definir.png) | ||  |  |  |
 
 _Proyecto PTD. Curso 2024-2025. 2n BACH_
