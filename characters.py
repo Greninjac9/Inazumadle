@@ -202,7 +202,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIA" },
 
     { "Nombre": "XAVIER-FOSTER_(HUNTER_ORION)", "Curso": "3º", "Elemento": "Fuego", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON_ORION" },
+      "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
       
     { "Nombre": "HURLEY-KANE", "Curso": "3º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_II" },
