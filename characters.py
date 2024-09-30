@@ -481,7 +481,7 @@ CharacterRef = [
     'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Gazelle', 'Goldie Lemmon (Chrono Stones)', 
     ### H ###
     'Harrold Houdini (Resistencia)', 'Hector Helio', 'Hotel', 'Hugh', 
-    'Hunter Foster', 'Hunter Foster (Orion), 'Hurley Kane', 
+    'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 
     ### J ###
     'Jack Wallside', 'Janus', 'Jean-Pierre Lapan', 'Jean-Pierre Lapan (Chrono Stones)', 'Jude Sharp', 
     'Joseph King', 'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
