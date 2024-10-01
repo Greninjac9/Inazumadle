@@ -134,7 +134,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
       
     { "Nombre": "DAVE-QUAGMIRE_(DVALIN-(PLUS))", "Curso": "3º", "Elemento": "Aire", "Posición": "PR",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON PLUS)" },
+      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON-PLUS)" },
     
     ### E ###
 
