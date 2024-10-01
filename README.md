@@ -20,7 +20,7 @@ Las características comprobables son:
 |  | ![3º](/assets/images/MISCELANEO/3º.png) | ![Bosque](/assets/images/MISCELANEO/Bosque.png) | ![Medio](/assets/images/MISCELANEO/MD.png) Medio| ![???](/assets/images/MISCELANEO/Por_Definir.png)| ![Armadura](/assets/images/MISCELANEO/EG_ARM.png) Armadura |  |
 |  | ![Adulto](/assets/images/MISCELANEO/ADULTO.png) | ![Aire](/assets/images/MISCELANEO/Aire.png) | ![Portero](/assets/images/MISCELANEO/PR.png) Portero|  | ![Tótem](/assets/images/MISCELANEO/Totem.png) Tótem |  |
 |  | ![Niño](/assets/images/MISCELANEO/NINO.png) || ![Entrenador](/assets/images/MISCELANEO/DT.png) Entrenador|  |  |  |
-|  | ![???](/assets/images/MISCELANEO/Por_Definir.png) | |<img src="/assets/images/MISCELANEO/DF_LB.png" width="30"> Líbero ||  |  |
+|  | ![???](/assets/images/MISCELANEO/Por_Definir.png) | |<img src="/assets/images/MISCELANEO/DF_LB.png" width="25"> Líbero ||  |  |
 
 _(Todos los personajes pertenecen e iconos pertenecen a Level 5, a excepción de algunos pocos iconos personalizados para el juego)_
 
