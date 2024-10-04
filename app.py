@@ -2,20 +2,24 @@
 import flet as ft
 from characters import CharacterRef, Characters
 import random
+from win32api import GetSystemMetrics
 
 def main(page: ft.Page):
     page.title = "INAZUMADLE"
+    ScreenWidth = GetSystemMetrics(0)
+    ScreenHeight = GetSystemMetrics(1)
     page.bgcolor = ft.colors.TRANSPARENT
     page.decoration = ft.BoxDecoration(
         image=ft.DecorationImage(src=r"assets\images\WEB\InazumadleBG.png", fit = ft.ImageFit.COVER)
     )
     page.window.resizable = False
     page.window.width = 830
-    page.window.height = 1080
+    page.window.height = ScreenHeight
 
     #VARIABLES
     PJ = random.choice(Characters)
     lv = ft.ListView()
+
 
     #################
     ### FUNCIONES ###
@@ -64,8 +68,8 @@ def main(page: ft.Page):
                         src=(r"assets\images\SPRITES\\" + Char["Nombre"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(5, COLORS[0]),
-                    height = 70,
-                    width = 70,
+                    height = ((0.24/100)*(ScreenHeight*ScreenWidth))**0.5,
+                    width = ((0.24/100)*(ScreenHeight*ScreenWidth))**0.5,
                     bgcolor=COLORS[0],
                     border_radius = 10,
                     margin = ft.margin.symmetric(vertical=10)
@@ -135,7 +139,6 @@ def main(page: ft.Page):
                 ),
             ],
         )
-
         page.add(Row)
         page.update()
 
