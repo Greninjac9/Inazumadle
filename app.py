@@ -5,6 +5,7 @@ import random
 from win32api import GetSystemMetrics
 
 def main(page: ft.Page):
+    # PROPIEDADES DE LA PÁGINA
     page.title = "INAZUMADLE"
     page.bgcolor = ft.colors.TRANSPARENT
     page.decoration = ft.BoxDecoration(
