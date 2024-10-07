@@ -6,8 +6,6 @@ from win32api import GetSystemMetrics
 
 def main(page: ft.Page):
     page.title = "INAZUMADLE"
-    ScreenWidth = GetSystemMetrics(0)
-    ScreenHeight = GetSystemMetrics(1)
     page.bgcolor = ft.colors.TRANSPARENT
     page.decoration = ft.BoxDecoration(
         image=ft.DecorationImage(src=r"assets\images\WEB\InazumadleBG.png", fit = ft.ImageFit.COVER)
@@ -19,7 +17,10 @@ def main(page: ft.Page):
     #VARIABLES
     PJ = random.choice(Characters)
     lv = ft.ListView()
-
+    ScreenWidth = GetSystemMetrics(0)
+    ScreenHeight = GetSystemMetrics(1)
+    ContainerSize = ((0.24/100)*(ScreenHeight*ScreenWidth))**0.5
+    
 
     #################
     ### FUNCIONES ###
@@ -61,15 +62,15 @@ def main(page: ft.Page):
         # FILA QUE CONTIENE TODOS LOS ELEMENTOS:
         Row = ft.Row(
             alignment=ft.MainAxisAlignment.CENTER,
-            spacing=15,
+            spacing = (((29,4270833333/100)*ScreenWidth)-(7*ContainerSize))/5,
             controls=[
                 ft.Container(
                     content=ft.Image(
                         src=(r"assets\images\SPRITES\\" + Char["Nombre"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(5, COLORS[0]),
-                    height = ((0.24/100)*(ScreenHeight*ScreenWidth))**0.5,
-                    width = ((0.24/100)*(ScreenHeight*ScreenWidth))**0.5,
+                    height = ContainerSize,
+                    width = ContainerSize,
                     bgcolor=COLORS[0],
                     border_radius = 10,
                     margin = ft.margin.symmetric(vertical=10)
@@ -79,8 +80,8 @@ def main(page: ft.Page):
                         src = (r"assets\images\MISCELANEO\\" + Char["Curso"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(10, COLORS[1]),
-                    height = 70,
-                    width = 70,
+                    height = ContainerSize,
+                    width = ContainerSize,
                     bgcolor=COLORS[1],
                     border_radius = 10,
                     margin = ft.margin.symmetric(vertical=10)
@@ -90,8 +91,8 @@ def main(page: ft.Page):
                         src=(r"assets\images\MISCELANEO\\" + Char["Elemento"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[2]),
-                    height = 70,
-                    width = 70,
+                    height = ContainerSize,
+                    width = ContainerSize,
                     bgcolor=COLORS[2],
                     border_radius = 10,
                     margin = ft.margin.symmetric(vertical=10)
@@ -101,8 +102,8 @@ def main(page: ft.Page):
                         src=(r"assets\images\MISCELANEO\\" + Char["Posición"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(10, COLORS[3]),
-                    height = 70,
-                    width = 70,
+                    height = ContainerSize,
+                    width = ContainerSize,
                     bgcolor=COLORS[3],
                     border_radius = 10,
                     margin = ft.margin.symmetric(vertical=10)
@@ -112,8 +113,8 @@ def main(page: ft.Page):
                         src=(r"assets\images\MISCELANEO\\" + Char["Género"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[4]),
-                    height = 70,
-                    width = 70,
+                    height = ContainerSize,
+                    width = ContainerSize,
                     bgcolor=COLORS[4],
                     border_radius = 10,
                     margin = ft.margin.symmetric(vertical=10)
@@ -123,8 +124,8 @@ def main(page: ft.Page):
                         src=(r"assets\images\MISCELANEO\\" + Char["Invocador"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[5]),
-                    height = 70,
-                    width = 70,
+                    height = ContainerSize,
+                    width = ContainerSize,
                     bgcolor=COLORS[5],
                     border_radius = 10,
                     margin = ft.margin.symmetric(vertical=10)
