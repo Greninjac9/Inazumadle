@@ -73,7 +73,7 @@ def main(page: ft.Page):
                     width = ContainerSize,
                     bgcolor=COLORS[0],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(vertical=10)
+                    margin = ft.margin.symmetric(vertical=(((42,59/100)*ScreenHeight)-(6*ContainerSize))/4)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -84,7 +84,7 @@ def main(page: ft.Page):
                     width = ContainerSize,
                     bgcolor=COLORS[1],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(vertical=10)
+                    margin = ft.margin.symmetric(vertical=(((42,59/100)*ScreenHeight)-(6*ContainerSize))/4)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -95,7 +95,7 @@ def main(page: ft.Page):
                     width = ContainerSize,
                     bgcolor=COLORS[2],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(vertical=10)
+                    margin = ft.margin.symmetric(vertical=(((42,59/100)*ScreenHeight)-(6*ContainerSize))/4)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -106,7 +106,7 @@ def main(page: ft.Page):
                     width = ContainerSize,
                     bgcolor=COLORS[3],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(vertical=10)
+                    margin = ft.margin.symmetric(vertical=(((42,59/100)*ScreenHeight)-(6*ContainerSize))/4)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -117,7 +117,7 @@ def main(page: ft.Page):
                     width = ContainerSize,
                     bgcolor=COLORS[4],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(vertical=10)
+                    margin = ft.margin.symmetric(vertical=(((42,59/100)*ScreenHeight)-(6*ContainerSize))/4)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -128,7 +128,7 @@ def main(page: ft.Page):
                     width = ContainerSize,
                     bgcolor=COLORS[5],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(vertical=10)
+                    margin = ft.margin.symmetric(vertical=(((42,59/100)*ScreenHeight)-(6*ContainerSize))/4)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -136,7 +136,7 @@ def main(page: ft.Page):
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(3, COLORS[6]), height = 70, width = 70, bgcolor=COLORS[6],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(vertical=10)
+                    margin = ft.margin.symmetric(vertical=(((42,59/100)*ScreenHeight)-(6*ContainerSize))/4)
                 ),
             ],
         )
