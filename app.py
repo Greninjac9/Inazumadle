@@ -16,7 +16,7 @@ def main(page: ft.Page):
     page.window.height = ScreenHeight
 
     #VARIABLES
-    PJ = random.choice(Characters)
+    PJ = random.choice(Characters) #Personaje a adivinar
     lv = ft.ListView()
     ScreenWidth = GetSystemMetrics(0)
     ScreenHeight = GetSystemMetrics(1)
