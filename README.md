@@ -22,6 +22,10 @@ Las características comprobables son:
 |  | ![Niño](/assets/images/MISCELANEO/NINO.png) || ![Entrenador](/assets/images/MISCELANEO/DT.png) Entrenador|  |  |  |
 |  | ![???](/assets/images/MISCELANEO/Por_Definir.png) | |<img src="/assets/images/MISCELANEO/DF_LB.png" width="28"> Líbero ||  |  |
 
+### LISTADO DE PERSONAJES[
+https://docs.google.com/spreadsheets/d/1Jmw9_HEDXiTBQyGbmJTQZdj3Ica8gQEIcfYQo_dYhbM/edit?usp=sharing](url)
+_El listado está incompleto._
+
 _(Todos los personajes pertenecen e iconos pertenecen a Level 5, a excepción de algunos pocos iconos hechos propios para el uso en Inazumadle)_
 
 _Proyecto PTD. Curso 2024-2025. 2n BACH_
