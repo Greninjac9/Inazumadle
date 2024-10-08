@@ -2,7 +2,6 @@
 import flet as ft
 from characters import CharacterRef, Characters
 import random
-from win32api import GetSystemMetrics
 
 def main(page: ft.Page):
     # PROPIEDADES DE LA PÁGINA
@@ -13,15 +12,14 @@ def main(page: ft.Page):
     )
     page.window.resizable = False
     page.window.width = 830
-    page.window.height = ScreenHeight
+    page.window.height = 1080
 
     #VARIABLES
     PJ = random.choice(Characters) #Personaje a adivinar
     lv = ft.ListView()
-    ScreenWidth = GetSystemMetrics(0)
-    ScreenHeight = GetSystemMetrics(1)
-    ContainerSize = ((0.24/100)*(ScreenHeight*ScreenWidth))**0.5
-    
+    Tries = 6
+    Defeat = False
+    Victory = True
 
     #################
     ### FUNCIONES ###
@@ -30,7 +28,7 @@ def main(page: ft.Page):
     ### FUNCIONES SEARCHBAR ###
     def handle_click(e):
         Searchbar.close_view("")
-        Comprobar(e.control.data)
+        Comprobar(e.control.data, Tries, Victory, Defeat)
     def handle_change(e):
         Searchbar.open_view()
         list_to_show = [personaje for personaje in CharacterRef if e.data.lower() in personaje.lower()]
@@ -40,7 +38,7 @@ def main(page: ft.Page):
         Searchbar.update()
 
     ### FUNCION PRINCIPAL ###
-    def Comprobar(e):
+    def Comprobar(e, Tries, Victory, Defeat):
         COLORS = []
         for i in CharacterRef:
             # COMPRUEBA QUE EL PERSONAJE ELEGIDO ESTÁ ENTRE LOS PERSONAJES DISPONIBLES
@@ -57,79 +55,85 @@ def main(page: ft.Page):
                         COLORS.append(ft.colors.AMBER)
                     else:
                         COLORS.append(ft.colors.RED)
+                for k in COLORS:
+                    Victory = True
+                    if k == ft.colors.RED or k == ft.colors.AMBER:
+                        Victory = False
+                        break
+                Tries -= 1
         
         Searchbar.close_view()
 
         # FILA QUE CONTIENE TODOS LOS ELEMENTOS:
         Row = ft.Row(
             alignment=ft.MainAxisAlignment.CENTER,
-            spacing = (((29,4270833333/100)*ScreenWidth)-(7*ContainerSize))/5,
+            spacing = 15,
             controls=[
                 ft.Container(
                     content=ft.Image(
                         src=(r"assets\images\SPRITES\\" + Char["Nombre"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(5, COLORS[0]),
-                    height = ContainerSize,
-                    width = ContainerSize,
+                    height = 70,
+                    width = 70,
                     bgcolor=COLORS[0],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(vertical=(((42,59/100)*ScreenHeight)-(6*ContainerSize))/4)
+                    margin = ft.margin.symmetric(15)
                 ),
                 ft.Container(
                     content=ft.Image(
                         src = (r"assets\images\MISCELANEO\\" + Char["Curso"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(10, COLORS[1]),
-                    height = ContainerSize,
-                    width = ContainerSize,
+                    height = 70,
+                    width = 70,
                     bgcolor=COLORS[1],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(vertical=(((42,59/100)*ScreenHeight)-(6*ContainerSize))/4)
+                    margin = ft.margin.symmetric(15)
                 ),
                 ft.Container(
                     content=ft.Image(
                         src=(r"assets\images\MISCELANEO\\" + Char["Elemento"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[2]),
-                    height = ContainerSize,
-                    width = ContainerSize,
+                    height = 70,
+                    width = 70,
                     bgcolor=COLORS[2],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(vertical=(((42,59/100)*ScreenHeight)-(6*ContainerSize))/4)
+                    margin = ft.margin.symmetric(15)
                 ),
                 ft.Container(
                     content=ft.Image(
                         src=(r"assets\images\MISCELANEO\\" + Char["Posición"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(10, COLORS[3]),
-                    height = ContainerSize,
-                    width = ContainerSize,
+                    height = 70,
+                    width = 70,
                     bgcolor=COLORS[3],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(vertical=(((42,59/100)*ScreenHeight)-(6*ContainerSize))/4)
+                    margin = ft.margin.symmetric(15)
                 ),
                 ft.Container(
                     content=ft.Image(
                         src=(r"assets\images\MISCELANEO\\" + Char["Género"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[4]),
-                    height = ContainerSize,
-                    width = ContainerSize,
+                    height = 70,
+                    width = 70,
                     bgcolor=COLORS[4],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(vertical=(((42,59/100)*ScreenHeight)-(6*ContainerSize))/4)
+                    margin = ft.margin.symmetric(15)
                 ),
                 ft.Container(
                     content=ft.Image(
                         src=(r"assets\images\MISCELANEO\\" + Char["Invocador"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[5]),
-                    height = ContainerSize,
-                    width = ContainerSize,
+                    height = 70,
+                    width = 70,
                     bgcolor=COLORS[5],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(vertical=(((42,59/100)*ScreenHeight)-(6*ContainerSize))/4)
+                    margin = ft.margin.symmetric(15)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -137,12 +141,33 @@ def main(page: ft.Page):
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(3, COLORS[6]), height = 70, width = 70, bgcolor=COLORS[6],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(vertical=(((42,59/100)*ScreenHeight)-(6*ContainerSize))/4)
+                    margin = ft.margin.symmetric(15)
                 ),
             ],
         )
+
         page.add(Row)
         page.update()
+
+        if not Victory and Tries == 0:
+            Defeat = True
+        if Defeat or Victory:
+            dlg_modal = ft.AlertDialog(
+                modal = True,
+                title=ft.Text("FIN DEL JUEGO"),
+                content = ft.Container(
+                    content=ft.Image(
+                        src=(r"assets\images\SPRITES\\" + PJ["Nombre"] + ".png"),
+                        fit = ft.ImageFit.FIT_WIDTH,),
+                    border = ft.border.all(5, COLORS[0]),
+                    height = 70,
+                    width = 70,
+                    bgcolor=COLORS[0],
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(15)
+                ),
+            )
+    
 
     #################
     ### SEARCHBAR ###
