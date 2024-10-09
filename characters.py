@@ -221,6 +221,9 @@ Characters = [
       
     { "Nombre": "JEAN-PIERRE-LAPAN_(CS)", "Curso": "1º", "Elemento": "Montaña", "Posición": "PR",
       "Género": "M", "Invocador": "EG_ARM", "EQUIPO": "CHRONO-STORM" },
+
+    { "Nombre": "JIM-WRAITH", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
       
     { "Nombre": "JUDE-SHARP", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
@@ -483,7 +486,7 @@ CharacterRef = [
     'Harrold Houdini (Resistencia)', 'Hector Helio', 'Hotel', 'Hugh', 
     'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 
     ### J ###
-    'Jack Wallside', 'Janus', 'Jean-Pierre Lapan', 'Jean-Pierre Lapan (Chrono Stones)', 'Jude Sharp', 
+    'Jack Wallside', 'Janus', 'Jean-Pierre Lapan', 'Jean-Pierre Lapan (Chrono Stones)', 'Jim Wraith', 'Jude Sharp', 
     'Joseph King', 'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
     ### K ###
     'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)',
