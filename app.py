@@ -18,7 +18,7 @@ def main(page: ft.Page):
     PJ = random.choice(Characters) #Personaje a adivinar
     print("PJ: ", PJ)
     lv = ft.ListView()
-    Tries = 6
+    Tries = 0
 
     #################
     ### FUNCIONES ###
@@ -39,7 +39,7 @@ def main(page: ft.Page):
     ### FUNCION PRINCIPAL ###
     def Comprobar(e):
         nonlocal Tries
-        Tries -= 1
+        Tries += 1
         Defeat = False
         Victory = False
         COLORS = []
@@ -152,7 +152,7 @@ def main(page: ft.Page):
         page.add(Row)
         page.update()
 
-        if not Victory and Tries == 0:
+        if not Victory and Tries == 6:
             Defeat = True
         if Defeat or Victory:
             dlg_modal = ft.AlertDialog(
@@ -265,7 +265,7 @@ def main(page: ft.Page):
             ft.Column(
             alignment=ft.MainAxisAlignment.START,
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-            controls = [ft.Image(src = r"assets\images\WEB\Inazumadle.png", width = 600, height = 200), Searchbar],)
+            controls = [ft.Image(src = r"assets\images\WEB\Inazumadle.png", width = 600, height = 200), Searchbar, [ft.Image(src = r"assets\images\WEB\TRY" +str(Tries)+ ".png")],)
         ],
     ),
     )
