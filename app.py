@@ -265,7 +265,10 @@ def main(page: ft.Page):
             ft.Column(
             alignment=ft.MainAxisAlignment.START,
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-            controls = [ft.Image(src = r"assets\images\WEB\Inazumadle.png", width = 600, height = 200), Searchbar, [ft.Image(src = r"assets\images\WEB\TRY" +str(Tries)+ ".png")],)
+            controls = [ft.Image(src = r"assets\images\WEB\Inazumadle.png", width = 600, height = 200), 
+                        Searchbar, 
+                        ft.Image(src = r"assets\images\WEB\TRY" +str(Tries)+ ".png", width = 270, height = 67.5)
+                        ],)
         ],
     ),
     )
