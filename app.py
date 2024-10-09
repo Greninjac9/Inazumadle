@@ -18,8 +18,6 @@ def main(page: ft.Page):
     PJ = random.choice(Characters) #Personaje a adivinar
     lv = ft.ListView()
     Tries = 6
-    Defeat = False
-    Victory = True
 
     #################
     ### FUNCIONES ###
@@ -27,8 +25,9 @@ def main(page: ft.Page):
 
     ### FUNCIONES SEARCHBAR ###
     def handle_click(e):
+        Tries
         Searchbar.close_view("")
-        Comprobar(e.control.data, Tries, Victory, Defeat)
+        Comprobar(e.control.data, Tries)
     def handle_change(e):
         Searchbar.open_view()
         list_to_show = [personaje for personaje in CharacterRef if e.data.lower() in personaje.lower()]
@@ -38,8 +37,11 @@ def main(page: ft.Page):
         Searchbar.update()
 
     ### FUNCION PRINCIPAL ###
-    def Comprobar(e, Tries, Victory, Defeat):
+    def Comprobar(e, T):
+        Defeat = False
+        Victory = False
         COLORS = []
+        
         for i in CharacterRef:
             # COMPRUEBA QUE EL PERSONAJE ELEGIDO ESTÁ ENTRE LOS PERSONAJES DISPONIBLES
             # CAPITALIZAMOS PARA EVITAR PROBLEMAS KEY SENSITIVE
@@ -149,7 +151,7 @@ def main(page: ft.Page):
         page.add(Row)
         page.update()
 
-        if not Victory and Tries == 0:
+        if not Victory and T == 0:
             Defeat = True
         if Defeat or Victory:
             dlg_modal = ft.AlertDialog(
@@ -167,6 +169,8 @@ def main(page: ft.Page):
                     margin = ft.margin.symmetric(15)
                 ),
             )
+            page.add(dlg_modal)
+        return(Tries)
     
 
     #################
