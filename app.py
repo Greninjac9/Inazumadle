@@ -16,6 +16,7 @@ def main(page: ft.Page):
 
     #VARIABLES
     PJ = random.choice(Characters) #Personaje a adivinar
+    print("PJ: ", PJ)
     lv = ft.ListView()
     Tries = 6
 
@@ -25,9 +26,8 @@ def main(page: ft.Page):
 
     ### FUNCIONES SEARCHBAR ###
     def handle_click(e):
-        Tries
         Searchbar.close_view("")
-        Comprobar(e.control.data, Tries)
+        Comprobar(e.control.data)
     def handle_change(e):
         Searchbar.open_view()
         list_to_show = [personaje for personaje in CharacterRef if e.data.lower() in personaje.lower()]
@@ -37,11 +37,13 @@ def main(page: ft.Page):
         Searchbar.update()
 
     ### FUNCION PRINCIPAL ###
-    def Comprobar(e, T):
+    def Comprobar(e):
+        nonlocal Tries
+        Tries -= 1
         Defeat = False
         Victory = False
         COLORS = []
-        
+
         for i in CharacterRef:
             # COMPRUEBA QUE EL PERSONAJE ELEGIDO ESTÁ ENTRE LOS PERSONAJES DISPONIBLES
             # CAPITALIZAMOS PARA EVITAR PROBLEMAS KEY SENSITIVE
@@ -62,7 +64,6 @@ def main(page: ft.Page):
                     if k == ft.colors.RED or k == ft.colors.AMBER:
                         Victory = False
                         break
-                Tries -= 1
         
         Searchbar.close_view()
 
@@ -151,26 +152,99 @@ def main(page: ft.Page):
         page.add(Row)
         page.update()
 
-        if not Victory and T == 0:
+        if not Victory and Tries == 0:
             Defeat = True
         if Defeat or Victory:
             dlg_modal = ft.AlertDialog(
                 modal = True,
-                title=ft.Text("FIN DEL JUEGO"),
-                content = ft.Container(
+                content = ft.Column(
+            alignment=ft.MainAxisAlignment.CENTER,
+            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+            controls = [
+                ft.Container(
+                        content=ft.Image(
+                            src=(r"assets\images\SPRITES\\" + PJ["Nombre"] + ".png"),
+                            fit = ft.ImageFit.FIT_WIDTH,),
+                        border = ft.border.all(5, COLORS[0]),
+                        height = 140,
+                        width = 140,
+                        bgcolor=COLORS[0],
+                        border_radius = 10,
+                    ),
+                ft.Text(CharacterRef[Characters.index(PJ)], size=30, weight=ft.FontWeight.BOLD),
+                ft.Row(
+            alignment=ft.MainAxisAlignment.CENTER,
+            spacing = 15,
+            controls=[
+                ft.Container(
                     content=ft.Image(
-                        src=(r"assets\images\SPRITES\\" + PJ["Nombre"] + ".png"),
+                        src = (r"assets\images\MISCELANEO\\" + Char["Curso"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(5, COLORS[0]),
+                    border = ft.border.all(10, COLORS[0]),
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[0],
                     border_radius = 10,
                     margin = ft.margin.symmetric(15)
                 ),
+                ft.Container(
+                    content=ft.Image(
+                        src=(r"assets\images\MISCELANEO\\" + Char["Elemento"] + ".png"),
+                        fit = ft.ImageFit.FIT_WIDTH,),
+                    border = ft.border.all(15, COLORS[0]),
+                    height = 70,
+                    width = 70,
+                    bgcolor=COLORS[0],
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(15)
+                ),
+                ft.Container(
+                    content=ft.Image(
+                        src=(r"assets\images\MISCELANEO\\" + Char["Posición"] + ".png"),
+                        fit = ft.ImageFit.FIT_WIDTH,),
+                    border = ft.border.all(10, COLORS[0]),
+                    height = 70,
+                    width = 70,
+                    bgcolor=COLORS[0],
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(15)
+                ),
+                ft.Container(
+                    content=ft.Image(
+                        src=(r"assets\images\MISCELANEO\\" + Char["Género"] + ".png"),
+                        fit = ft.ImageFit.FIT_WIDTH,),
+                    border = ft.border.all(15, COLORS[0]),
+                    height = 70,
+                    width = 70,
+                    bgcolor=COLORS[0],
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(15)
+                ),
+                ft.Container(
+                    content=ft.Image(
+                        src=(r"assets\images\MISCELANEO\\" + Char["Invocador"] + ".png"),
+                        fit = ft.ImageFit.FIT_WIDTH,),
+                    border = ft.border.all(15, COLORS[0]),
+                    height = 70,
+                    width = 70,
+                    bgcolor=COLORS[0],
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(15)
+                ),
+                ft.Container(
+                    content=ft.Image(
+                        src=(r"assets\images\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
+                        fit = ft.ImageFit.FIT_WIDTH,),
+                    border = ft.border.all(3, COLORS[0]), height = 70, width = 70, bgcolor=COLORS[0],
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(15)
+                ),
+            ],
+        )
+                ],)
             )
-            page.add(dlg_modal)
-        return(Tries)
+            page.open(dlg_modal)
+        print("Tries: ", Tries)
     
 
     #################
