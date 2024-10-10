@@ -39,6 +39,7 @@ def main(page: ft.Page):
         Searchbar.close_view("")
         ft.Audio(
             src=r"assets\audio\sfx\WINDOW_CLOSE.mp3", autoplay=True)
+        time.sleep(0.15)
         Comprobar(e.control.data)
     def handle_change(e):
         Searchbar.open_view()
