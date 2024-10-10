@@ -2,6 +2,7 @@
 import flet as ft
 from characters import CharacterRef, Characters
 import random
+import time
 
 def main(page: ft.Page):
     # PROPIEDADES DE LA PÁGINA
@@ -18,7 +19,7 @@ def main(page: ft.Page):
     PJ = random.choice(Characters) #Personaje a adivinar
     print("PJ: ", PJ)
     lv = ft.ListView()
-    Tries = 0
+    Tries = 6
 
     #################
     ### FUNCIONES ###
@@ -39,7 +40,7 @@ def main(page: ft.Page):
     ### FUNCION PRINCIPAL ###
     def Comprobar(e):
         nonlocal Tries
-        Tries += 1
+        Tries -= 1
         Defeat = False
         Victory = False
         COLORS = []
@@ -152,7 +153,9 @@ def main(page: ft.Page):
         page.add(Row)
         page.update()
 
-        if not Victory and Tries == 6:
+        time.sleep(0.5)
+
+        if not Victory and Tries == 0:
             Defeat = True
         if Defeat or Victory:
             dlg_modal = ft.AlertDialog(
@@ -240,7 +243,8 @@ def main(page: ft.Page):
                     margin = ft.margin.symmetric(15)
                 ),
             ],
-        )
+        ),
+                
                 ],)
             )
             page.open(dlg_modal)
@@ -265,10 +269,7 @@ def main(page: ft.Page):
             ft.Column(
             alignment=ft.MainAxisAlignment.START,
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-            controls = [ft.Image(src = r"assets\images\WEB\Inazumadle.png", width = 600, height = 200), 
-                        Searchbar, 
-                        ft.Image(src = r"assets\images\WEB\TRY" +str(Tries)+ ".png", width = 270, height = 67.5)
-                        ],)
+            controls = [ft.Image(src = r"assets\images\WEB\Inazumadle.png", width = 600, height = 200), Searchbar],)
         ],
     ),
     )
