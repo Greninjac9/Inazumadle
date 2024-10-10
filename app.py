@@ -38,7 +38,7 @@ def main(page: ft.Page):
             src=r"assets\audio\sfx\OK.mp3", autoplay=True)
         Searchbar.close_view("")
         ft.Audio(
-            src=r"assets\audio\sfx\WINDOW_CLOSE.mp3", autoplay=True)
+            src=r"assets\audio\sfx\WINDOW_CLOSE.wav", autoplay=True)
         time.sleep(0.15)
         Comprobar(e.control.data)
     def handle_change(e):
@@ -162,6 +162,8 @@ def main(page: ft.Page):
         )
 
         page.add(Row)
+        ft.Audio(
+            src=r"assets\audio\sfx\NEXT_MESSAGE.wav", autoplay=True)
         page.update()
 
         time.sleep(0.5)
