@@ -404,7 +404,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
       
     { "Nombre": "CLAUDE-BEACONS_(TORCH)", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIUS (CAOS)" },
+      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
       
     { "Nombre": "VICTORIA-VANGUARD", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
       "Género": "F", "Invocador": "EG-N", "EQUIPO": "RAIMON_II" },
