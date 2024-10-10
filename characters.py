@@ -360,10 +360,10 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "ALPINO_(GO)" },
       
     { "Nombre": "SHAWN-FROSTE_(AIDEN)", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "Raimon_II" },
+      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_II" },
       
     { "Nombre": "SHAWN-FROSTE_(DF)", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "Raimon_II" },
+      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_II" },
       
     { "Nombre": "SHAWN-FROSTE_(LEGENDARIO)", "Curso": "ADULTO", "Elemento": "Aire", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
@@ -404,7 +404,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
       
     { "Nombre": "CLAUDE-BEACONS_(TORCH)", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
+      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIUS (CAOS)" },
       
     { "Nombre": "VICTORIA-VANGUARD", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
       "Género": "F", "Invocador": "EG-N", "EQUIPO": "RAIMON_II" },
