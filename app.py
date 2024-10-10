@@ -35,8 +35,10 @@ def main(page: ft.Page):
     ### FUNCIONES SEARCHBAR ###
     def handle_click(e):
         ft.Audio(
-            src=r"assets\audio\sfx\OK.wav", autoplay=True),
+            src=r"assets\audio\sfx\OK.mp3", autoplay=True)
         Searchbar.close_view("")
+        ft.Audio(
+            src=r"assets\audio\sfx\WINDOW_CLOSE.mp3", autoplay=True)
         Comprobar(e.control.data)
     def handle_change(e):
         Searchbar.open_view()
