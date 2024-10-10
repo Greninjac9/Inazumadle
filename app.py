@@ -3,6 +3,13 @@ import flet as ft
 from characters import CharacterRef, Characters
 import random
 import time
+import sys
+import os
+
+def restart_program():
+    time.sleep(2)
+    python = sys.executable
+    os.execl(python, python, * sys.argv)
 
 def main(page: ft.Page):
     # PROPIEDADES DE LA PÁGINA
@@ -24,9 +31,11 @@ def main(page: ft.Page):
     #################
     ### FUNCIONES ###
     #################
-
+    
     ### FUNCIONES SEARCHBAR ###
     def handle_click(e):
+        ft.Audio(
+            src=r"assets\audio\sfx\OK.wav", autoplay=True),
         Searchbar.close_view("")
         Comprobar(e.control.data)
     def handle_change(e):
@@ -41,8 +50,7 @@ def main(page: ft.Page):
     def Comprobar(e):
         nonlocal Tries
         Tries -= 1
-        Defeat = False
-        Victory = False
+        STATE = ""
         COLORS = []
 
         for i in CharacterRef:
@@ -61,9 +69,9 @@ def main(page: ft.Page):
                     else:
                         COLORS.append(ft.colors.RED)
                 for k in COLORS:
-                    Victory = True
+                    STATE = "VICTORY"
                     if k == ft.colors.RED or k == ft.colors.AMBER:
-                        Victory = False
+                        STATE = ""
                         break
         
         Searchbar.close_view()
@@ -155,15 +163,17 @@ def main(page: ft.Page):
 
         time.sleep(0.5)
 
-        if not Victory and Tries == 0:
-            Defeat = True
-        if Defeat or Victory:
+        if STATE == "" and Tries == 0:
+            STATE = "DEFEAT"
+        if STATE == "VICTORY" or STATE == "DEFEAT":
             dlg_modal = ft.AlertDialog(
                 modal = True,
                 content = ft.Column(
             alignment=ft.MainAxisAlignment.CENTER,
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
             controls = [
+                ft.Audio(
+                    src=r"assets\audio\sfx\\" + STATE + ".mp3", autoplay=True),
                 ft.Container(
                         content=ft.Image(
                             src=(r"assets\images\SPRITES\\" + PJ["Nombre"] + ".png"),
@@ -181,7 +191,7 @@ def main(page: ft.Page):
             controls=[
                 ft.Container(
                     content=ft.Image(
-                        src = (r"assets\images\MISCELANEO\\" + Char["Curso"] + ".png"),
+                        src = (r"assets\images\MISCELANEO\\" + PJ["Curso"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(10, COLORS[0]),
                     height = 70,
@@ -192,7 +202,7 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=(r"assets\images\MISCELANEO\\" + Char["Elemento"] + ".png"),
+                        src=(r"assets\images\MISCELANEO\\" + PJ["Elemento"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[0]),
                     height = 70,
@@ -203,7 +213,7 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=(r"assets\images\MISCELANEO\\" + Char["Posición"] + ".png"),
+                        src=(r"assets\images\MISCELANEO\\" + PJ["Posición"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(10, COLORS[0]),
                     height = 70,
@@ -214,7 +224,7 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=(r"assets\images\MISCELANEO\\" + Char["Género"] + ".png"),
+                        src=(r"assets\images\MISCELANEO\\" + PJ["Género"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[0]),
                     height = 70,
@@ -225,7 +235,7 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=(r"assets\images\MISCELANEO\\" + Char["Invocador"] + ".png"),
+                        src=(r"assets\images\MISCELANEO\\" + PJ["Invocador"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[0]),
                     height = 70,
@@ -236,19 +246,15 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=(r"assets\images\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
+                        src=(r"assets\images\EQUIPOS\\" + PJ["EQUIPO"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(3, COLORS[0]), height = 70, width = 70, bgcolor=COLORS[0],
                     border_radius = 10,
                     margin = ft.margin.symmetric(15)
                 ),
             ],
-        ),
-                
-                ],)
-            )
+        ),],))
             page.open(dlg_modal)
-        print("Tries: ", Tries)
     
 
     #################
