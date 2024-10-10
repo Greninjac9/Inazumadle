@@ -262,7 +262,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
       
     { "Nombre": "MARK-EVANS_(II)", "Curso": "2º", "Elemento": "Montaña", "Posición": "DF_LB",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "Raimon_II" },
+      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_II" },
       
     { "Nombre": "MARK-EVANS_(ADULTO)", "Curso": "ADULTO", "Elemento": "Montaña", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_(GO)" },
