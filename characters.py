@@ -399,6 +399,9 @@ Characters = [
       
     { "Nombre": "TEZCAT", "Curso": "1º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG", "EQUIPO": "EQUIPO-ZERO" },
+
+    { "Nombre": "TIM-SAUNDERS", "Curso": "1º", "Elemento": "Bosque", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
       
     { "Nombre": "TOD-IRONSIDE", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
@@ -509,7 +512,7 @@ CharacterRef = [
     'Shawn Froste (DF)', 'Shawn Froste (Legendario)', 'Shawn Froste (Orion)', 'Shun', 'Silvia Woods', 'Sol Daystar (Chrono Stones)', 
     'Sor (Chrono Stones)', 'Steve Grim', 'Subaru Honda', 'Sue', 
     ### T ###
-    'Terry Archibald', 'Tezcat', 'Tod Ironside', 'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 
+    'Terry Archibald', 'Tezcat', 'Timmy', 'Tod Ironside', 'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 
     ### V ###
     'Victor Blade', 'Victor Blade (Chrono Stones)', 'Vladimir Blade', 
     ### W ###
