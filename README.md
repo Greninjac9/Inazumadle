@@ -21,6 +21,8 @@ Las características comprobables son:
 |  | ![Adulto](/assets/images/MISCELANEO/ADULTO.png) | ![Aire](/assets/images/MISCELANEO/Aire.png) | ![Portero](/assets/images/MISCELANEO/PR.png) Portero|  | ![Tótem](/assets/images/MISCELANEO/Totem.png) Tótem |![KOR](/assets/images/MISCELANEO/KOR.png) Coreano|<img src="/assets/images/MISCELANEO/CI.png" width="40"> Camino Imperial||
 |  | ![Niño](/assets/images/MISCELANEO/NINO.png) || ![Entrenador](/assets/images/MISCELANEO/DT.png) Entrenador|  |  ||<img src="/assets/images/MISCELANEO/CS.png" width="40"> Chrono Stones ||
 |  | ![???](/assets/images/MISCELANEO/Por_Definir.png) | |<img src="/assets/images/MISCELANEO/DF_LB.png" width="28"> Líbero ||  ||<img src="/assets/images/MISCELANEO/GCG.png" width="40"> Gran Celesta Galaxy||
+|||||||||<img src="/assets/images/MISCELANEO/FF_ARES.png" width="40"> Fútbol Frontier (Ares)||
+|||||||||<img src="/assets/images/MISCELANEO/FFI_ORION.png" width="40"> Fútbol Frontier Internacional (Orión)||
 
 ### LISTADO DE PERSONAJES
 [**Listado**](https://docs.google.com/spreadsheets/d/1Jmw9_HEDXiTBQyGbmJTQZdj3Ica8gQEIcfYQo_dYhbM/edit?usp=sharing)
