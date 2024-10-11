@@ -62,8 +62,9 @@ def main(page: ft.Page):
             if (Searchbar.value).capitalize() == i.capitalize() or e.capitalize() == i.capitalize():
                 Char = Characters[CharacterRef.index(i)]
                 # COMPRUEBA SI LOS ELEMENTOS COINCIDEN CON EL PERSONAJE POR ADIVINAR
-                for k in range(7):
-                    Elementos = ["Nombre", "Curso", "Elemento", "Posición", "Género", "Invocador", "EQUIPO"]
+                for k in range(9):
+                    Elementos = ["Nombre", "Curso", "Elemento", "Posición", "Género", 
+                                 "Invocador", "Nacionalidad", "Debut", "EQUIPO"]
                     # CAMBIA EL COLOR DEPENDIENDO DE SI ES IGUAL O NO
                     if Char[Elementos[k]] == PJ[Elementos[k]]:
                         COLORS.append(ft.colors.GREEN)
@@ -152,9 +153,25 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=(r"assets\images\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
+                        src=(r"assets\images\EQUIPOS\\" + Char["Nacionalidad"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(3, COLORS[6]), height = 70, width = 70, bgcolor=COLORS[6],
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(15)
+                ),
+                ft.Container(
+                    content=ft.Image(
+                        src=(r"assets\images\EQUIPOS\\" + Char["Debut"] + ".png"),
+                        fit = ft.ImageFit.FIT_WIDTH,),
+                    border = ft.border.all(3, COLORS[7]), height = 70, width = 70, bgcolor=COLORS[6],
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(15)
+                ),
+                ft.Container(
+                    content=ft.Image(
+                        src=(r"assets\images\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
+                        fit = ft.ImageFit.FIT_WIDTH,),
+                    border = ft.border.all(3, COLORS[8]), height = 70, width = 70, bgcolor=COLORS[6],
                     border_radius = 10,
                     margin = ft.margin.symmetric(15)
                 ),
@@ -246,6 +263,22 @@ def main(page: ft.Page):
                     height = 70,
                     width = 70,
                     bgcolor=COLORS[0],
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(15)
+                ),
+                ft.Container(
+                    content=ft.Image(
+                        src=(r"assets\images\EQUIPOS\\" + PJ["Nacionalidad"] + ".png"),
+                        fit = ft.ImageFit.FIT_WIDTH,),
+                    border = ft.border.all(3, COLORS[0]), height = 70, width = 70, bgcolor=COLORS[0],
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(15)
+                ),
+                ft.Container(
+                    content=ft.Image(
+                        src=(r"assets\images\EQUIPOS\\" + PJ["Debut"] + ".png"),
+                        fit = ft.ImageFit.FIT_WIDTH,),
+                    border = ft.border.all(3, COLORS[0]), height = 70, width = 70, bgcolor=COLORS[0],
                     border_radius = 10,
                     margin = ft.margin.symmetric(15)
                 ),
