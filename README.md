@@ -14,7 +14,7 @@ En este juego deberás adivinar un personaje escogido aleatoriamente entre los d
 
 Las características comprobables son:
 |**Personaje**|**Curso**|  **Elemento**  |   **Posición**   |**Género**| **Invocador** |**Nacionalidad**|**Equipo**| 
-|-----------|:---:|:---:|----------|:---:|-----------|--------|
+|-----------|:---:|:---:|----------|:---:|-----------|-----------|--------|
 |120+ PJs.| ![1º](/assets/images/MISCELANEO/1º.png) | ![Fuego](/assets/images/MISCELANEO/Fuego.png) | ![Delantero](/assets/images/MISCELANEO/DL.png) Delantero| ![M](/assets/images/MISCELANEO/M.png)| ![No Invocador](/assets/images/MISCELANEO/EG-N.png) No puede ||30+ Equipos|
 |  | ![2º](/assets/images/MISCELANEO/2º.png) | ![Montaña](/assets/images/MISCELANEO/Montaña.png) | ![Defensa](/assets/images/MISCELANEO/DF.png) Defensa| ![F](/assets/images/MISCELANEO/F.png) | ![EG](/assets/images/MISCELANEO/EG.png) EG |||
 |  | ![3º](/assets/images/MISCELANEO/3º.png) | ![Bosque](/assets/images/MISCELANEO/Bosque.png) | ![Medio](/assets/images/MISCELANEO/MD.png) Medio| ![???](/assets/images/MISCELANEO/Por_Definir.png)| ![Armadura](/assets/images/MISCELANEO/EG_ARM.png) Armadura |||
