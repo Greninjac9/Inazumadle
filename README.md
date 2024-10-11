@@ -16,7 +16,7 @@ Las características comprobables son:
 |**Personaje**|**Curso**|  **Elemento**  |   **Posición**   |**Género**| **Invocador** |**Nacionalidad**|**Debut**|**Equipo**| 
 |:-----------:|:---:|:---:|:----------:|:---:|:-----------:|:-----------:|:----------:|:--------:|
 |120+ PJs.| ![1º](/assets/images/MISCELANEO/1º.png) | ![Fuego](/assets/images/MISCELANEO/Fuego.png) | ![Delantero](/assets/images/MISCELANEO/DL.png) Delantero| ![M](/assets/images/MISCELANEO/M.png)| ![No Invocador](/assets/images/MISCELANEO/EG-N.png) No puede |![ALIEN](/assets/images/MISCELANEO/ALIEN.png) Extraterrestre||30+ Equipos|
-|  | ![2º](/assets/images/MISCELANEO/2º.png) | ![Montaña](/assets/images/MISCELANEO/Montaña.png) | ![Defensa](/assets/images/MISCELANEO/DF.png) Defensa| ![F](/assets/images/MISCELANEO/F.png) | ![EG](/assets/images/MISCELANEO/EG.png) EG |||
+|  | ![2º](/assets/images/MISCELANEO/2º.png) | ![Montaña](/assets/images/MISCELANEO/Montaña.png) | ![Defensa](/assets/images/MISCELANEO/DF.png) Defensa| ![F](/assets/images/MISCELANEO/F.png) | ![EG](/assets/images/MISCELANEO/EG.png) EG |![JAP](/assets/images/MISCELANEO/JAP.png) Japonés||
 |  | ![3º](/assets/images/MISCELANEO/3º.png) | ![Bosque](/assets/images/MISCELANEO/Bosque.png) | ![Medio](/assets/images/MISCELANEO/MD.png) Centrocampista| ![???](/assets/images/MISCELANEO/Por_Definir.png)| ![Armadura](/assets/images/MISCELANEO/EG_ARM.png) Armadura ||||
 |  | ![Adulto](/assets/images/MISCELANEO/ADULTO.png) | ![Aire](/assets/images/MISCELANEO/Aire.png) | ![Portero](/assets/images/MISCELANEO/PR.png) Portero|  | ![Tótem](/assets/images/MISCELANEO/Totem.png) Tótem ||||
 |  | ![Niño](/assets/images/MISCELANEO/NINO.png) || ![Entrenador](/assets/images/MISCELANEO/DT.png) Entrenador|  |  ||||
