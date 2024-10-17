@@ -70,7 +70,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF_VR", "EQUIPO": "SOUTH-CIRRUS" },
     
     { "Nombre": "BRYCE-WITHINGALE", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "KOR", "Debut": "ALIUS", "EQUIPO": "DRAGONES-DE-FUEGO" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "KOR", "Debut": "FFI", "EQUIPO": "DRAGONES-DE-FUEGO" },
     
     { "Nombre": "BUDDY-FURY", "Curso": "3º", "Elemento": "Montaña", "Posición": "MD",
       "Género": "M", "Invocador": "Totem", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
@@ -99,7 +99,7 @@ Characters = [
       "Género": "F", "Invocador": "Totem", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
       
     { "Nombre": "CLAUDE-BEACONS", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "KOR", "Debut": "ALIUS", "EQUIPO": "DRAGONES-DE-FUEGO" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "KOR", "Debut": "FFI", "EQUIPO": "DRAGONES-DE-FUEGO" },
         
     { "Nombre": "CRONUS-FOURSEASONS", "Curso": "2º", "Elemento": "Fuego", "Posición": "MD",
       "Género": "M", "Invocador": "EG", "EQUIPO": "MONTE-OLIMPO" },
@@ -175,7 +175,7 @@ Characters = [
     { "Nombre": "GAMMA", "Curso": "Por_Definir", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
       
-    { "Nombre": "BRYCE-WITHINGALE_(GAZELLE)", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
+    { "Nombre": "BRYCE-WITHINGALE_()", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "KOR", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
       
     { "Nombre": "GOLDIE-LEMMON_(CS)", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
@@ -232,7 +232,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(REDUX)" },
       
     { "Nombre": "JORDAN-GREENWAY", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "INAZUMA-JAPON" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "INAZUMA-JAPON" },
       
     { "Nombre": "JULIETA", "Curso": "Por_Definir", "Elemento": "Bosque", "Posición": "DL",
       "Género": "F", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_1.0" },
@@ -372,94 +372,94 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
       
     { "Nombre": "SILVIA-WOODS", "Curso": "2º", "Elemento": "Montaña", "Posición": "PR",
-      "Género": "F", "Invocador": "EG-N", "EQUIPO": "EQUIPO-FEMENINO" },
+      "Género": "F", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "EQUIPO-FEMENINO" },
       
     { "Nombre": "SOL-DAYSTAR_(CS)", "Curso": "1º", "Elemento": "Fuego", "Posición": "MD",
-      "Género": "M", "Invocador": "EG_ARM", "EQUIPO": "CHRONO-STORM" },
+      "Género": "M", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "CHRONO-STORM" },
       
     { "Nombre": "SOR_(CS)", "Curso": "Por_Definir", "Elemento": "Aire", "Posición": "DF",
-      "Género": "M", "Invocador": "EG_ARM", "EQUIPO": "CHRONO-STORM" },
+      "Género": "M", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "CHRONO-STORM" },
       
     { "Nombre": "STEVE-GRIM", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
       
     { "Nombre": "SUBARU-HONDA", "Curso": "3º", "Elemento": "Fuego", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_(GO)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
       
     { "Nombre": "SUZETTE-HARTLAND", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
-      "Género": "F", "Invocador": "EG-N", "EQUIPO": "RAIMON_II" },
+      "Género": "F", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
       
     ### T ###
 
     { "Nombre": "TERRY-ARCHIBALD", "Curso": "2º", "Elemento": "Aire", "Posición": "PR",
-      "Género": "M", "Invocador": "Totem", "EQUIPO": "EARTH-ELEVEN" },
+      "Género": "M", "Invocador": "Totem", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
       
     { "Nombre": "TEZCAT", "Curso": "1º", "Elemento": "Bosque", "Posición": "DL",
-      "Género": "M", "Invocador": "EG", "EQUIPO": "EQUIPO-ZERO" },
+      "Género": "M", "Invocador": "EG", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "EQUIPO-ZERO" },
 
     { "Nombre": "TIM-SAUNDERS", "Curso": "1º", "Elemento": "Bosque", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
       
     { "Nombre": "TOD-IRONSIDE", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
       
     { "Nombre": "CLAUDE-BEACONS_(TORCH)", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "KOR", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
       
     { "Nombre": "VICTORIA-VANGUARD", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
-      "Género": "F", "Invocador": "EG-N", "EQUIPO": "RAIMON_II" },
+      "Género": "F", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
       
     { "Nombre": "TRINA-VERDURE", "Curso": "1º", "Elemento": "Bosque", "Posición": "DF",
-      "Género": "F", "Invocador": "Totem", "EQUIPO": "EARTH-ELEVEN" },
+      "Género": "F", "Invocador": "Totem", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
       
     { "Nombre": "TYLER-MURDOCK", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "NEO-JAPON" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
       
     ### U ###
     ### V ###
 
     { "Nombre": "VICTOR-BLADE", "Curso": "1º", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG", "EQUIPO": "RAIMON_(GO)" },
+      "Género": "M", "Invocador": "EG", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
       
     { "Nombre": "VICTOR-BLADE_(CS)", "Curso": "1º", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG_ARM", "EQUIPO": "CHRONO-STORM" },
+      "Género": "M", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "CHRONO-STORM" },
       
     { "Nombre": "VLADIMIR-BLADE", "Curso": "ADULTO", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG_ARM", "EQUIPO": "LOS-ARIONS" },
+      "Género": "M", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "LOS-ARIONS" },
       
     ### W ###
 
     { "Nombre": "WANLI-CHANGCHENG", "Curso": "3º", "Elemento": "Montaña", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_(GO)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
       
     { "Nombre": "WILLIAM-GLASS", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
 
     ### X ###
     
     { "Nombre": "XAVIER-FOSTER", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "INAZUMA-JAPON" },
       
     { "Nombre": "XAVIER-FOSTER_(SCHILLER)", "Curso": "ADULTO", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
       
     { "Nombre": "XAVIER-SCHILLER", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIA" },
+      "Género": "M", "Invocador": "EG-N",  "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "ACADEMIA-ALIA" },
       
     { "Nombre": "XAVIER-FOSTER_(XENE)", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
       
     ### Y ###
     ### Z ###
 
     { "Nombre": "ZACK-AVALON", "Curso": "3º", "Elemento": "Bosque", "Posición": "DL",
-      "Género": "M", "Invocador": "Totem", "EQUIPO": "EARTH-ELEVEN" },
+      "Género": "M", "Invocador": "Totem", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
       
     { "Nombre": "ZANARK-AVALONIC_(CS)", "Curso": "Por_Definir", "Elemento": "Montaña", "Posición": "DL",
-      "Género": "M", "Invocador": "EG_ARM", "EQUIPO": "CHRONO-STORM" },
+      "Género": "M", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "CHRONO-STORM" },
       
     { "Nombre": "ZIPPY-LERNER", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
-      "Género": "M", "Invocador": "Totem", "EQUIPO": "EARTH-ELEVEN"}     
+      "Género": "M", "Invocador": "Totem", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN"}     
 ]
 
 CharacterRef = [
