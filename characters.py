@@ -136,73 +136,73 @@ Characters = [
     ### E ###
 
     { "Nombre": "ELLIOT-EMBER_(ORION)", "Curso": "1º", "Elemento": "Bosque", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
       
     { "Nombre": "ERIK-EAGLE", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "EEUU", "Debut": "FF", "EQUIPO": "RAIMON" },
       
     { "Nombre": "ERIK-EAGLE_(UNICORN)", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "UNICORN" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "EEUU", "Debut": "FF", "EQUIPO": "UNICORN" },
       
     { "Nombre": "EUGENE-PEABODY", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_(GO)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
 
     ### F ###
     
     { "Nombre": "FALCO-FLASHMAN", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
-      "Género": "M", "Invocador": "Totem", "EQUIPO": "EARTH-ELEVEN" },
+      "Género": "M", "Invocador": "Totem", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
       
     { "Nombre": "FEI-RUNE", "Curso": "Por_Definir", "Elemento": "Bosque", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "LOS-ARIONS" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "LOS-ARIONS" },
       
     { "Nombre": "FEI-RUNE_(CS)", "Curso": "Por_Definir", "Elemento": "Bosque", "Posición": "MD",
-      "Género": "M", "Invocador": "EG_ARM", "EQUIPO": "CHRONO_STORM" },
+      "Género": "M", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "CHRONO_STORM" },
       
     { "Nombre": "FLORA", "Curso": "Por_Definir", "Elemento": "Aire", "Posición": "DL",
-      "Género": "F", "Invocador": "EG_ARM", "EQUIPO": "DESESPERDIDOS" },
+      "Género": "F", "Invocador": "EG_ARM", "Nacionalidad": "Por_definir", "Debut": "Por_definir", "EQUIPO": "DESESPERDIDOS" },
       
     { "Nombre": "FRANK-FOREMAN", "Curso": "2º", "Elemento": "Fuego", "Posición": "DF",
-      "Género": "M", "Invocador": "Totem", "EQUIPO": "EARTH-ELEVEN" },
+      "Género": "M", "Invocador": "Totem", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
     
     ### G ###
 
     { "Nombre": "GABRIEL-GARCÍA", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_(GO)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
       
     { "Nombre": "GABRIEL-GARCÍA_(CS)", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
-      "Género": "M", "Invocador": "EG_ARM", "EQUIPO": "CHRONO-STORM" },
+      "Género": "M", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "CHRONO-STORM" },
       
     { "Nombre": "GAMMA", "Curso": "Por_Definir", "Elemento": "Bosque", "Posición": "DL",
-      "Género": "M", "Invocador": "EG_ARM", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
+      "Género": "M", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
       
     { "Nombre": "BRYCE-WITHINGALE_(GAZELLE)", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "KOR", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
       
     { "Nombre": "GOLDIE-LEMMON_(CS)", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
-      "Género": "F", "Invocador": "EG_ARM", "EQUIPO": "CHRONO-STORM" },   
+      "Género": "F", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "CHRONO-STORM" },   
 
     ### H ###
 
     { "Nombre": "HARROLD-HOUDINI_(RESISTENCIA)", "Curso": "3º", "Elemento": "Bosque", "Posición": "MD",
-      "Género": "M", "Invocador": "EG", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },
+      "Género": "M", "Invocador": "EG", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },
       
     { "Nombre": "HECTOR-HELIO", "Curso": "2º", "Elemento": "Fuego", "Posición": "PR",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "THE-LITTLE-GIANTS" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
       
     { "Nombre": "HOTEL", "Curso": "Por_Definir", "Elemento": "Montaña", "Posición": "PR",
-      "Género": "M", "Invocador": "EG", "EQUIPO": "PROTOCOLO-OMEGA_1.0" },
+      "Género": "M", "Invocador": "EG", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_1.0" },
       
     { "Nombre": "HUGUES-BAUDET", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_(GO)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
       
     { "Nombre": "XAVIER-FOSTER_(HUNTER)", "Curso": "3º", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIA" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "ACADEMIA-ALIA" },
 
     { "Nombre": "XAVIER-FOSTER_(HUNTER_ORION)", "Curso": "3º", "Elemento": "Fuego", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
       
     { "Nombre": "HURLEY-KANE", "Curso": "3º", "Elemento": "Aire", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_II" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
       
     ### I ### 
     ### J ###
