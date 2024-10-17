@@ -288,88 +288,88 @@ Characters = [
     ### N ###
     
     { "Nombre": "NATHAN-SWIFT", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
       
     { "Nombre": "NELLY-RAIMON", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "F", "Invocador": "EG-N", "EQUIPO": "EQUIPO-FEMENINO" },
+      "Género": "F", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "EQUIPO-FEMENINO" },
       
     { "Nombre": "NIGEL-AUGUST_(NEPPTEN)", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
       
     { "Nombre": "NJORD-SNIO", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
-      "Género": "M", "Invocador": "EG", "EQUIPO": "ALPINO_(GO)" },
+      "Género": "M", "Invocador": "EG", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "ALPINO_(GO)" },
       
     { "Nombre": "NJORD-SNIO_(RESISTENCIA)", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
-      "Género": "M", "Invocador": "EG", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },    
+      "Género": "M", "Invocador": "EG", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },    
 
     ### O ###
     ### P ###
     
     { "Nombre": "PAOLO-BIANCHI", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ORFEO" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
       
     { "Nombre": "PERCIVAL-TRAVIS", "Curso": "ADULTO", "Elemento": "Bosque", "Posición": "DT",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "INAZUMA-JAPON" },
       
     { "Nombre": "PERCY-HURST_(PERSEO)", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ZEUS_(ARES)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "ZEUS_(ARES)" },
       
     ### Q ###
 
     { "Nombre": "QUENTIN-CINQUEDEA_(RESISTENCIA)", "Curso": "2º", "Elemento": "Fuego", "Posición": "PR",
-      "Género": "M", "Invocador": "EG", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },    
+      "Género": "M", "Invocador": "EG", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },    
     
     ### R ###
     
     { "Nombre": "RAY-DARK", "Curso": "ADULTO", "Elemento": "Montaña", "Posición": "DT",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ACADEMIA-ALIUS_(REDUX)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(REDUX)" },
       
     { "Nombre": "RICCARDO-DI-RIGO", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
-      "Género": "M", "Invocador": "EG", "EQUIPO": "RAIMON_(GO)" },
+      "Género": "M", "Invocador": "EG", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
       
     { "Nombre": "RICCARDO-DI-RIGO_(CS)", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
-      "Género": "M", "Invocador": "EG_ARM", "EQUIPO": "CHRONO-STORM" },
+      "Género": "M", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "CHRONO-STORM" },
       
     { "Nombre": "RYOMA-NISHIKI", "Curso": "2º", "Elemento": "Montaña", "Posición": "MD",
-      "Género": "M", "Invocador": "EG", "EQUIPO": "RAIMON_(GO)" },
+      "Género": "M", "Invocador": "EG", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
       
     { "Nombre": "RYOMA-NISHIKI_(CS)", "Curso": "2º", "Elemento": "Montaña", "Posición": "MD",
-      "Género": "M", "Invocador": "EG_ARM", "EQUIPO": "CHRONO-STORM" }, 
+      "Género": "M", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "CHRONO-STORM" }, 
 
     ### S ###
     
     { "Nombre": "SAM-KINCAID", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
       
     { "Nombre": "SAMGUK-HAN", "Curso": "3º", "Elemento": "Fuego", "Posición": "PR",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_(GO)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
       
     { "Nombre": "SEYMOUR-HILLMAN", "Curso": "ADULTO", "Elemento": "Montaña", "Posición": "DT",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
       
     { "Nombre": "SCOTT-BANYAN", "Curso": "1º", "Elemento": "Bosque", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_II" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
       
     { "Nombre": "SHAWN-FROSTE", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "INAZUMA-JAPON" },
       
     { "Nombre": "SHAWN-FROSTE_(ADULTO)", "Curso": "ADULTO", "Elemento": "Aire", "Posición": "DT",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "ALPINO_(GO)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ALPINO_(GO)" },
       
     { "Nombre": "SHAWN-FROSTE_(AIDEN)", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_II" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
       
     { "Nombre": "SHAWN-FROSTE_(DF)", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_II" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
       
     { "Nombre": "SHAWN-FROSTE_(LEGENDARIO)", "Curso": "ADULTO", "Elemento": "Aire", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
       
     { "Nombre": "SHAWN-FROSTE_(ORION)", "Curso": "3º", "Elemento": "Aire", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
       
     { "Nombre": "SHUNSUKE-AOYAMA", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-N", "EQUIPO": "RAIMON_(GO)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
       
     { "Nombre": "SILVIA-WOODS", "Curso": "2º", "Elemento": "Montaña", "Posición": "PR",
       "Género": "F", "Invocador": "EG-N", "EQUIPO": "EQUIPO-FEMENINO" },
