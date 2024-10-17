@@ -1,6 +1,6 @@
 ### IMPORTS ###
 import flet as ft
-from characters import CharacterRef, Characters
+from characters import CharacterRef, Characters, Table
 import random
 import time
 import sys
@@ -19,12 +19,12 @@ def main(page: ft.Page):
         image=ft.DecorationImage(src=r"assets\images\WEB\InazumadleBG.png", fit = ft.ImageFit.COVER)
     )
     page.window.resizable = False
-    page.window.width = 830
+    page.window.width = 900
     page.window.height = 1080
 
     #VARIABLES
     PJ = random.choice(Characters) #Personaje a adivinar
-    print("PJ: ", PJ)
+    print("PJ: ", PJ["Nombre"])
     lv = ft.ListView()
     Tries = 6
 
@@ -90,90 +90,99 @@ def main(page: ft.Page):
                         src=(r"assets\images\SPRITES\\" + Char["Nombre"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(5, COLORS[0]),
-                    height = 70,
-                    width = 70,
+                    height = 80,
+                    width = 80,
                     bgcolor=COLORS[0],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(8)
                 ),
                 ft.Container(
                     content=ft.Image(
                         src = (r"assets\images\MISCELANEO\\" + Char["Curso"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(10, COLORS[1]),
-                    height = 70,
-                    width = 70,
+                    height = 80,
+                    width = 80,
                     bgcolor=COLORS[1],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(8)
                 ),
                 ft.Container(
                     content=ft.Image(
                         src=(r"assets\images\MISCELANEO\\" + Char["Elemento"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[2]),
-                    height = 70,
-                    width = 70,
+                    height = 80,
+                    width = 80,
                     bgcolor=COLORS[2],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(8)
                 ),
                 ft.Container(
                     content=ft.Image(
                         src=(r"assets\images\MISCELANEO\\" + Char["Posición"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(10, COLORS[3]),
-                    height = 70,
-                    width = 70,
+                    height = 80,
+                    width = 80,
                     bgcolor=COLORS[3],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(8)
                 ),
                 ft.Container(
                     content=ft.Image(
                         src=(r"assets\images\MISCELANEO\\" + Char["Género"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[4]),
-                    height = 70,
-                    width = 70,
+                    height = 80,
+                    width = 80,
                     bgcolor=COLORS[4],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(8)
                 ),
                 ft.Container(
                     content=ft.Image(
                         src=(r"assets\images\MISCELANEO\\" + Char["Invocador"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[5]),
-                    height = 70,
-                    width = 70,
+                    height = 80,
+                    width = 80,
                     bgcolor=COLORS[5],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(8)
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=(r"assets\images\EQUIPOS\\" + Char["Nacionalidad"] + ".png"),
+                        src=(r"assets\images\MISCELANEO\\" + Char["Nacionalidad"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(3, COLORS[6]), height = 70, width = 70, bgcolor=COLORS[6],
+                    border = ft.border.all(15, COLORS[6]),
+                    height = 80,
+                    width = 80,
+                    bgcolor=COLORS[6],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(8)
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=(r"assets\images\EQUIPOS\\" + Char["Debut"] + ".png"),
-                        fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(3, COLORS[7]), height = 70, width = 70, bgcolor=COLORS[6],
+                        src=(r"assets\images\MISCELANEO\\" + Char["Debut"] + ".png"),
+                        fit = ft.ImageFit.FILL,),
+                    border = ft.border.all(10, COLORS[7]),
+                    height = 80,
+                    width = 80,
+                    bgcolor=COLORS[7],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(8)
                 ),
                 ft.Container(
                     content=ft.Image(
                         src=(r"assets\images\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
-                        fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(3, COLORS[8]), height = 70, width = 70, bgcolor=COLORS[6],
+                        fit = ft.ImageFit.FILL,),
+                    border = ft.border.all(5, COLORS[8]),
+                    height = 80,
+                    width = 80,
+                    bgcolor=COLORS[8],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(8)
                 ),
             ],
         )
@@ -220,7 +229,7 @@ def main(page: ft.Page):
                     width = 70,
                     bgcolor=COLORS[0],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(10)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -231,7 +240,7 @@ def main(page: ft.Page):
                     width = 70,
                     bgcolor=COLORS[0],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(10)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -242,7 +251,7 @@ def main(page: ft.Page):
                     width = 70,
                     bgcolor=COLORS[0],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(10)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -253,7 +262,7 @@ def main(page: ft.Page):
                     width = 70,
                     bgcolor=COLORS[0],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(10)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -264,31 +273,31 @@ def main(page: ft.Page):
                     width = 70,
                     bgcolor=COLORS[0],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(10)
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=(r"assets\images\EQUIPOS\\" + PJ["Nacionalidad"] + ".png"),
+                        src=(r"assets\images\MISCELANEO\\" + PJ["Nacionalidad"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(3, COLORS[0]), height = 70, width = 70, bgcolor=COLORS[0],
+                    border = ft.border.all(15, COLORS[0]), height = 70, width = 70, bgcolor=COLORS[0],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(10)
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=(r"assets\images\EQUIPOS\\" + PJ["Debut"] + ".png"),
+                        src=(r"assets\images\MISCELANEO\\" + PJ["Debut"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(3, COLORS[0]), height = 70, width = 70, bgcolor=COLORS[0],
+                    border = ft.border.all(10, COLORS[0]), height = 70, width = 70, bgcolor=COLORS[0],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(10)
                 ),
                 ft.Container(
                     content=ft.Image(
                         src=(r"assets\images\EQUIPOS\\" + PJ["EQUIPO"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(3, COLORS[0]), height = 70, width = 70, bgcolor=COLORS[0],
+                    border = ft.border.all(5, COLORS[0]), height = 70, width = 70, bgcolor=COLORS[0],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(15)
+                    margin = ft.margin.symmetric(10)
                 ),
             ],
         ),],))
@@ -313,7 +322,8 @@ def main(page: ft.Page):
             ft.Column(
             alignment=ft.MainAxisAlignment.START,
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-            controls = [ft.Image(src = r"assets\images\WEB\Inazumadle.png", width = 600, height = 200), Searchbar],)
+            controls = [ft.Image(src = r"assets\images\WEB\Inazumadle.png", width = 600, height = 200), Searchbar,
+                        Table],)
         ],
     ),
     )
