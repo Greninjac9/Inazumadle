@@ -174,7 +174,7 @@ def main(page: ft.Page):
                 ft.Container(
                     content=ft.Image(
                         src=get_resource_path("assets\\images\\MISCELANEO\\" + Char["Debut"] + ".png"),
-                        fit = ft.ImageFit.FILL,),
+                        fit = ft.ImageFit.SCALE_DOWN,),
                     border = ft.border.all(10, COLORS[7]),
                     height = 80,
                     width = 80,
@@ -185,7 +185,7 @@ def main(page: ft.Page):
                 ft.Container(
                     content=ft.Image(
                         src=get_resource_path("assets\\images\\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
-                        fit = ft.ImageFit.FILL,),
+                        fit = ft.ImageFit.SCALE_DOWN,),
                     border = ft.border.all(5, COLORS[8]),
                     height = 80,
                     width = 80,
