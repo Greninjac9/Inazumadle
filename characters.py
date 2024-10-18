@@ -223,7 +223,10 @@ Characters = [
 
     { "Nombre": "JIM-WRAITH", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
-      
+
+    { "Nombre": "JUDE-SHARP_(ROYAL)", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
+    
     { "Nombre": "JUDE-SHARP", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
 
@@ -491,8 +494,9 @@ CharacterRef = [
     'Harrold Houdini (Resistencia)', 'Hector Helio', 'Hotel', 'Hugh', 
     'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 
     ### J ###
-    'Jack Wallside', 'Janus', 'Jean-Pierre Lapan', 'Jean-Pierre Lapan (Chrono Stones)', 'Jim Wraith', 'Jude Sharp', 
-    'Joseph King', 'Joseph King (Neo Japón)', 'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
+    'Jack Wallside', 'Janus', 'Jean-Pierre Lapan', 'Jean-Pierre Lapan (Chrono Stones)', 'Jim Wraith', 'Jude Sharp (Royal Academy)', 
+    'Jude Sharp', 'Joseph King', 'Joseph King (Neo Japón)', 
+    'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
     ### K ###
     'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)',
     ### L ###
