@@ -174,7 +174,7 @@ def main(page: ft.Page):
                 ft.Container(
                     content=ft.Image(
                         src=get_resource_path("assets\\images\\MISCELANEO\\" + Char["Debut"] + ".png"),
-                        fit = ft.ImageFit.SCALE_DOWN,),
+                        fit = ft.ImageFit.FILL,),
                     border = ft.border.all(10, COLORS[7]),
                     height = 80,
                     width = 80,
@@ -185,7 +185,7 @@ def main(page: ft.Page):
                 ft.Container(
                     content=ft.Image(
                         src=get_resource_path("assets\\images\\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
-                        fit = ft.ImageFit.SCALE_DOWN,),
+                        fit = ft.ImageFit.FILL,),
                     border = ft.border.all(5, COLORS[8]),
                     height = 80,
                     width = 80,
@@ -198,7 +198,7 @@ def main(page: ft.Page):
 
         page.add(Row)
         ft.Audio(
-            src=get_resource_path("assets\\audio\\sfx\\NEXT_MESSAGE.wav", autoplay=True)
+            src=get_resource_path("assets\\audio\\sfx\\NEXT_MESSAGE.wav", autoplay=True))
         page.update()
 
         time.sleep(0.5)
@@ -213,11 +213,11 @@ def main(page: ft.Page):
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
             controls = [
                 ft.Audio(
-                    src=get_resource_path("assets\\audio\\sfx\\" + STATE + ".mp3", autoplay=True),
+                    src=get_resource_path("assets\\audio\\sfx\\" + STATE + ".mp3", autoplay=True),),
                 ft.Container(
                         content=ft.Image(
                             src=get_resource_path("assets\\images\\SPRITES\\" + PJ["Nombre"] + ".png"),
-                            fit = ft.ImageFit.FIT_WIDTH,),
+                            fit = ft.ImageFit.FIT_WIDTH),
                         border = ft.border.all(5, COLORS[0]),
                         height = 140,
                         width = 140,
@@ -309,7 +309,7 @@ def main(page: ft.Page):
                     margin = ft.margin.symmetric(10)
                 ),
             ],
-        ),],))
+        ),],),)
             page.open(dlg_modal)
     
 
@@ -331,7 +331,7 @@ def main(page: ft.Page):
             ft.Column(
             alignment=ft.MainAxisAlignment.START,
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-            controls = [ft.Image(src = get_resource_path("assets\\images\\WEB\\Inazumadle.png", width = 600, height = 200), Searchbar,
+            controls = [ft.Image(src = get_resource_path("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200), Searchbar,
                         Table],)
         ],
     ),
