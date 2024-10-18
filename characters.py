@@ -116,8 +116,11 @@ Characters = [
       
     { "Nombre": "DAVE-QUAGMIRE", "Curso": "3º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "NEO-JAPON" },
-        
+
     { "Nombre": "DAVID-SAMFORD", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
+    
+    { "Nombre": "DAVID-SAMFORD_(INAZUMA)", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON" },
       
     { "Nombre": "DAVID-SAMFORD_(LEGENDARIO)", "Curso": "ADULTO", "Elemento": "Bosque", "Posición": "DF",
@@ -482,7 +485,7 @@ CharacterRef = [
     'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Redux)', 'Celia Hills', 
     'Cerise Blossom', 'Claude Beacons', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
     ### D ###
-    'Darren Lachance', 'Dave Quagmire', 'David Samford', 'David Samford (Legendario)',
+    'Darren Lachance', 'Dave Quagmire', 'David Samford', 'David Samford (Inazuma Japón)', 'David Samford (Legendario)',
     'David Samford (Redux)', 'Davy Jones','Destin Billows','Dvalin',
     ### E ###
     'Elliot Ember (Orion)', 'Erik Eagle', 'Erik Eagle (Unicorn)', 'Eugene Peabody', 
