@@ -275,7 +275,7 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=get_resource_path("assets\\\images\MISCELANEO\\" + PJ["Invocador"] + ".png"),
+                        src=get_resource_path("assets\\images\\MISCELANEO\\" + PJ["Invocador"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[0]),
                     height = 70,
