@@ -130,7 +130,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
       
     { "Nombre": "DAVID-SAMFORD_(REDUX)", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS (REDUX)" },
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(REDUX)" },
       
     { "Nombre": "DAVY-JONES", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
       "Género": "M", "Invocador": "EG", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },
