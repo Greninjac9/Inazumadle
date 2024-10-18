@@ -226,8 +226,11 @@ Characters = [
       
     { "Nombre": "JUDE-SHARP", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
-      
+
     { "Nombre": "JOSEPH-KING", "Curso": "2º", "Elemento": "Fuego", "Posición": "PR",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
+      
+    { "Nombre": "JOSEPH-KING_(NEO-JAPON)", "Curso": "2º", "Elemento": "Fuego", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
       
     { "Nombre": "JOSEPH-KING_(REDUX)", "Curso": "2º", "Elemento": "Fuego", "Posición": "PR",
@@ -489,7 +492,7 @@ CharacterRef = [
     'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 
     ### J ###
     'Jack Wallside', 'Janus', 'Jean-Pierre Lapan', 'Jean-Pierre Lapan (Chrono Stones)', 'Jim Wraith', 'Jude Sharp', 
-    'Joseph King', 'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
+    'Joseph King', 'Joseph King (Neo Japón)', 'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
     ### K ###
     'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)',
     ### L ###
