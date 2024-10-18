@@ -64,6 +64,9 @@ Characters = [
     
     { "Nombre": "BETA", "Curso": "Por_Definir", "Elemento": "Aire", "Posición": "DL",
       "Género": "F", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_2.0" },
+
+    { "Nombre": "BEN-SIMMONS", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
     
     { "Nombre": "BOBBY-SHEARER", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "EEUU", "Debut": "FF", "EQUIPO": "RAIMON" },
@@ -327,6 +330,9 @@ Characters = [
       
     { "Nombre": "PERCY-HURST_(PERSEO)", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "ZEUS_(ARES)" },
+
+    { "Nombre": "PETER-DRENT", "Curso": "2º", "Elemento": "Montaña", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
       
     ### Q ###
 
@@ -483,7 +489,8 @@ CharacterRef = [
     'Arion Sherwind', 'Arion Sherwind (Arions)', 'Arion Sherwind (Chrono Stones)', 
     'Astero Black', 'Axel Blaze', 
     ### B ### 
-    'Bai Long', 'Bai Long (Chrono Stones)', 'Bai Long (Resistencia)', 'Bellatrix', 'Beta', 'Bobby Shearer', 'Bobby Shearer (Unicorn)',
+    'Bai Long', 'Bai Long (Chrono Stones)', 'Bai Long (Resistencia)', 'Bellatrix', 'Beta', 
+    'Ben Simmons', 'Bobby Shearer', 'Bobby Shearer (Unicorn)',
     'Briar Bloomhurst', 'Bryce Withingale', 'Buddy Fury', 'Bunny Cottontail', 'Byron Love', 
     ### C ###
     'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Redux)', 'Celia Hills', 
@@ -515,7 +522,7 @@ CharacterRef = [
     'Nathan Swift', 'Nelly Raimon', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
     ### O ###
     ### P ###
-    'Paolo Bianchi', 'Percival Travis', 'Perseo',
+    'Paolo Bianchi', 'Percival Travis', 'Perseo', 'Peter Drent',
     ### Q ###
     'Quentin Cinquedea (Resistencia)',
     ### R ###
