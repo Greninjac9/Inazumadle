@@ -538,8 +538,10 @@ CharacterRef = [
     ### R ###
     'Ray Dark', 'Riccardo Di Rigo', 'Riccardo Di Rigo (Chrono Stones)', 'Ryoma Nishiki', 'Ryoma Nishiki (Chrono Stones)', 
     ### S ###
-    'Sam Kincaid', 'Samguk Han', 'Seymour Hillman', 'Scotty', 'Shawn Froste (Unido)', 'Shawn Froste (Adulto)', 'Shawn Froste (Aiden)', 
-    'Shawn Froste (DF)', 'Shawn Froste (Legendario)', 'Shawn Froste (Orion)', 'Shun', 'Silvia Woods', 'Sol Daystar (Chrono Stones)', 
+    'Sam Kincaid', 'Samguk Han', 'Seymour Hillman', 'Scotty', 'Shawn Froste (Unido)', 
+    'Shawn Froste (Adulto)', 'Shawn Froste (Aiden)', 
+    'Shawn Froste (DF)', 'Shawn Froste (Legendario)', 'Shawn Froste (Orion)', 
+    'Shun', 'Silvia Woods', 'Sol Daystar (Chrono Stones)', 
     'Sor (Chrono Stones)', 'Steve Grim', 'Subaru Honda', 'Sue', 
     ### T ###
     'Terry Archibald', 'Tezcat', 'Timmy', 'Tod Ironside', 'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 
