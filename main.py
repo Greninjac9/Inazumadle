@@ -15,9 +15,7 @@ def main(page: ft.Page):
     # PROPIEDADES DE LA PÁGINA
     page.title = "INAZUMADLE"
     page.bgcolor = ft.colors.TRANSPARENT
-    page.decoration = ft.BoxDecoration(
-        image=ft.DecorationImage(src=get_resource_path("assets\\images\\WEB\\InazumadleBG.png"), fit = ft.ImageFit.COVER)
-    )
+    page.decoration = ft.BoxDecoration(image=ft.DecorationImage(src=get_resource_path("assets\\images\\WEB\\InazumadleBG.png"), fit = ft.ImageFit.COVER))
     page.window.resizable = False
     page.window.width = 900
     page.window.height = 1080
@@ -29,8 +27,7 @@ def main(page: ft.Page):
     ### FUNCIONES SEARCHBAR ###
     def handle_click(e):
         nonlocal FirstOpen
-        page.overlay.append(ft.Audio(
-            src=get_resource_path("assets\\audio\\sfx\\OK.mp3"), autoplay=True))
+        page.overlay.append(ft.Audio(src=get_resource_path("assets\\audio\\sfx\\OK.mp3"), autoplay=True))
         page.update()
         Searchbar.close_view("")
         time.sleep(0.15)
@@ -92,10 +89,8 @@ def main(page: ft.Page):
                         src=get_resource_path("assets\\images\\SPRITES\\" + Char["Nombre"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(5, COLORS[0]),
-                    height = 80,
-                    width = 80,
-                    bgcolor=COLORS[0],
-                    border_radius = 10,
+                    height = 80, width = 80,
+                    bgcolor=COLORS[0], border_radius = 10,
                     margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
@@ -103,10 +98,8 @@ def main(page: ft.Page):
                         src = get_resource_path("assets\\images\\MISCELANEO\\" + Char["Curso"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(10, COLORS[1]),
-                    height = 80,
-                    width = 80,
-                    bgcolor=COLORS[1],
-                    border_radius = 10,
+                    height = 80, width = 80,
+                    bgcolor=COLORS[1], border_radius = 10,
                     margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
@@ -114,10 +107,8 @@ def main(page: ft.Page):
                         src=get_resource_path("assets\\images\\MISCELANEO\\" + Char["Elemento"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[2]),
-                    height = 80,
-                    width = 80,
-                    bgcolor=COLORS[2],
-                    border_radius = 10,
+                    height = 80, width = 80,
+                    bgcolor=COLORS[2], border_radius = 10,
                     margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
@@ -125,10 +116,8 @@ def main(page: ft.Page):
                         src=get_resource_path("assets\\images\\MISCELANEO\\" + Char["Posición"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(10, COLORS[3]),
-                    height = 80,
-                    width = 80,
-                    bgcolor=COLORS[3],
-                    border_radius = 10,
+                    height = 80, width = 80,
+                    bgcolor=COLORS[3], border_radius = 10,
                     margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
@@ -136,10 +125,8 @@ def main(page: ft.Page):
                         src=get_resource_path("assets\\images\\MISCELANEO\\" + Char["Género"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[4]),
-                    height = 80,
-                    width = 80,
-                    bgcolor=COLORS[4],
-                    border_radius = 10,
+                    height = 80, width = 80,
+                    bgcolor=COLORS[4], border_radius = 10,
                     margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
@@ -147,10 +134,8 @@ def main(page: ft.Page):
                         src=get_resource_path("assets\\images\\MISCELANEO\\" + Char["Invocador"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[5]),
-                    height = 80,
-                    width = 80,
-                    bgcolor=COLORS[5],
-                    border_radius = 10,
+                    height = 80, width = 80,
+                    bgcolor=COLORS[5], border_radius = 10,
                     margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
@@ -158,10 +143,8 @@ def main(page: ft.Page):
                         src=get_resource_path("assets\\images\\MISCELANEO\\" + Char["Nacionalidad"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[6]),
-                    height = 80,
-                    width = 80,
-                    bgcolor=COLORS[6],
-                    border_radius = 10,
+                    height = 80, width = 80,
+                    bgcolor=COLORS[6], border_radius = 10,
                     margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
@@ -169,10 +152,8 @@ def main(page: ft.Page):
                         src=get_resource_path("assets\\images\\MISCELANEO\\" + Char["Debut"] + ".png"),
                         fit = ft.ImageFit.SCALE_DOWN,),
                     border = ft.border.all(10, COLORS[7]),
-                    height = 80,
-                    width = 80,
-                    bgcolor=COLORS[7],
-                    border_radius = 10,
+                    height = 80, width = 80,
+                    bgcolor=COLORS[7], border_radius = 10,
                     margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
@@ -180,40 +161,33 @@ def main(page: ft.Page):
                         src=get_resource_path("assets\\images\\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
                         fit = ft.ImageFit.SCALE_DOWN,),
                     border = ft.border.all(5, COLORS[8]),
-                    height = 80,
-                    width = 80,
-                    bgcolor=COLORS[8],
-                    border_radius = 10,
+                    height = 80, width = 80,
+                    bgcolor=COLORS[8], border_radius = 10,
                     margin = ft.margin.symmetric(4)
                 ),
             ],
         )
-
         page.add(Row)
         page.update()
-
         time.sleep(0.5)
 
         if STATE == "" and Tries == 0:
             STATE = "DEFEAT"
-        if STATE == "VICTORY" or STATE == "DEFEAT":
+        if STATE != "":
             dlg_modal = ft.AlertDialog(
                 modal = True,
                 content = ft.Column(
             alignment=ft.MainAxisAlignment.CENTER,
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
             controls = [
-                ft.Audio(
-                    src=get_resource_path("assets\\audio\\sfx\\" + STATE + ".mp3"), autoplay=True,),
+                ft.Audio(src=get_resource_path("assets\\audio\\sfx\\" + STATE + ".mp3"), autoplay=True,),
                 ft.Container(
                         content=ft.Image(
                             src=get_resource_path("assets\\images\\SPRITES\\" + PJ["Nombre"] + ".png"),
                             fit = ft.ImageFit.FIT_WIDTH),
                         border = ft.border.all(5, COLORS[0]),
-                        height = 140,
-                        width = 140,
-                        bgcolor=COLORS[0],
-                        border_radius = 10,
+                        height = 140, width = 140,
+                        bgcolor=COLORS[0], border_radius = 10,
                     ),
                 ft.Text(CharacterRef[Characters.index(PJ)], size=30, weight=ft.FontWeight.BOLD),
                 ft.Row(
