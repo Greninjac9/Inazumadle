@@ -1,26 +1,19 @@
 ### IMPORTS ###
 import flet as ft
-from characters import CharacterRef, Characters, Table
+from characters import CharacterRef, Characters
+from extra import Table, get_resource_path, restart_program
 import random
 import time
 import sys
 import os
-
-def restart_program():
-    time.sleep(2)
-    python = sys.executable
-    os.execl(python, python, * sys.argv)
     
 def main(page: ft.Page):
-    def get_resource_path(relative_path):
-        try:
-            # PyInstaller almacena archivos de datos en una carpeta temporal
-            base_path = sys._MEIPASS
-        except Exception:
-            base_path = os.path.abspath(".")
-
-        return os.path.join(base_path, relative_path)
-
+    #VARIABLES
+    PJ = random.choice(Characters) #Personaje a adivinar
+    print("PJ: ", PJ["Nombre"])
+    lv = ft.ListView()
+    Tries = 6
+    FirstOpen = True
     # PROPIEDADES DE LA PÁGINA
     page.title = "INAZUMADLE"
     page.bgcolor = ft.colors.TRANSPARENT
@@ -31,26 +24,24 @@ def main(page: ft.Page):
     page.window.width = 900
     page.window.height = 1080
 
-    #VARIABLES
-    PJ = random.choice(Characters) #Personaje a adivinar
-    print("PJ: ", PJ["Nombre"])
-    lv = ft.ListView()
-    Tries = 6
-
     #################
     ### FUNCIONES ###
     #################
     
     ### FUNCIONES SEARCHBAR ###
     def handle_click(e):
-        ft.Audio(
-            src=get_resource_path("assets\\audio\\sfx\\OK.mp3"), autoplay=True)
+        nonlocal FirstOpen
+        page.add(ft.Audio(
+            src=get_resource_path("assets\\audio\\sfx\\OK.mp3"), autoplay=True))
         Searchbar.close_view("")
-        ft.Audio(
-            src=get_resource_path("assets\\audio\\sfx\\WINDOW_CLOSE.wav"), autoplay=True)
         time.sleep(0.15)
         Comprobar(e.control.data)
+        FirstOpen = True
     def handle_change(e):
+        nonlocal FirstOpen
+        if FirstOpen:
+            page.add(ft.Audio(src=get_resource_path("assets\\audio\\sfx\\WINDOW_OPEN.wav"), autoplay=True))
+            FirstOpen = False
         Searchbar.open_view()
         list_to_show = [personaje for personaje in CharacterRef if e.data.lower() in personaje.lower()]
         lv.controls.clear()
@@ -103,7 +94,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[0],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(8)
+                    margin = ft.margin.symmetric(2)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -114,7 +105,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[1],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(8)
+                    margin = ft.margin.symmetric(2)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -125,7 +116,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[2],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(8)
+                    margin = ft.margin.symmetric(2)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -136,7 +127,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[3],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(8)
+                    margin = ft.margin.symmetric(2)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -147,7 +138,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[4],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(8)
+                    margin = ft.margin.symmetric(2)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -158,7 +149,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[5],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(8)
+                    margin = ft.margin.symmetric(2)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -169,7 +160,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[6],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(8)
+                    margin = ft.margin.symmetric(2)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -180,7 +171,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[7],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(8)
+                    margin = ft.margin.symmetric(2)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -191,14 +182,14 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[8],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(8)
+                    margin = ft.margin.symmetric(2)
                 ),
             ],
         )
 
         page.add(Row)
         ft.Audio(
-            src=get_resource_path("assets\\audio\\sfx\\NEXT_MESSAGE.wav", autoplay=True))
+            src=get_resource_path("assets\\audio\\sfx\\NEXT_MESSAGE.wav"), autoplay=True)
         page.update()
 
         time.sleep(0.5)
@@ -213,7 +204,7 @@ def main(page: ft.Page):
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
             controls = [
                 ft.Audio(
-                    src=get_resource_path("assets\\audio\\sfx\\" + STATE + ".mp3", autoplay=True),),
+                    src=get_resource_path("assets\\audio\\sfx\\" + STATE + ".mp3"), autoplay=True,),
                 ft.Container(
                         content=ft.Image(
                             src=get_resource_path("assets\\images\\SPRITES\\" + PJ["Nombre"] + ".png"),
@@ -312,7 +303,6 @@ def main(page: ft.Page):
         ),],),)
             page.open(dlg_modal)
     
-
     #################
     ### SEARCHBAR ###
     #################
@@ -323,7 +313,7 @@ def main(page: ft.Page):
         on_change=handle_change,
     )
 
-    # AÑADIR LOGO DE INAZUMADLE + SEARCHBAR AL INICIO
+    # AÑADIR LOGO DE INAZUMADLE + SEARCHBAR AL INICIO + TABLA DE REFERENCIA:
     page.add(
         ft.Row(
             alignment=ft.MainAxisAlignment.CENTER,
