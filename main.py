@@ -4,8 +4,6 @@ from characters import CharacterRef, Characters
 from extra import Table, get_resource_path, restart_program
 import random
 import time
-import sys
-import os
     
 def main(page: ft.Page):
     #VARIABLES
@@ -31,8 +29,9 @@ def main(page: ft.Page):
     ### FUNCIONES SEARCHBAR ###
     def handle_click(e):
         nonlocal FirstOpen
-        page.add(ft.Audio(
+        page.overlay.append(ft.Audio(
             src=get_resource_path("assets\\audio\\sfx\\OK.mp3"), autoplay=True))
+        page.update()
         Searchbar.close_view("")
         time.sleep(0.15)
         Comprobar(e.control.data)
@@ -40,8 +39,11 @@ def main(page: ft.Page):
     def handle_change(e):
         nonlocal FirstOpen
         if FirstOpen:
-            page.add(ft.Audio(src=get_resource_path("assets\\audio\\sfx\\WINDOW_OPEN.wav"), autoplay=True))
+            page.overlay.append(ft.Audio(src=get_resource_path("assets\\audio\\sfx\\WINDOW_OPEN.wav"), autoplay=True))
+            page.update()
             FirstOpen = False
+        page.overlay.append(ft.Audio(src=get_resource_path("assets\\audio\\sfx\\NEXT_MESSAGE.wav"), autoplay=True))
+        page.update()
         Searchbar.open_view()
         list_to_show = [personaje for personaje in CharacterRef if e.data.lower() in personaje.lower()]
         lv.controls.clear()
@@ -94,7 +96,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[0],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(2)
+                    margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -105,7 +107,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[1],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(2)
+                    margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -116,7 +118,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[2],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(2)
+                    margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -127,7 +129,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[3],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(2)
+                    margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -138,7 +140,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[4],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(2)
+                    margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -149,7 +151,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[5],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(2)
+                    margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -160,7 +162,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[6],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(2)
+                    margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -171,7 +173,7 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[7],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(2)
+                    margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -182,14 +184,12 @@ def main(page: ft.Page):
                     width = 80,
                     bgcolor=COLORS[8],
                     border_radius = 10,
-                    margin = ft.margin.symmetric(2)
+                    margin = ft.margin.symmetric(4)
                 ),
             ],
         )
 
         page.add(Row)
-        ft.Audio(
-            src=get_resource_path("assets\\audio\\sfx\\NEXT_MESSAGE.wav"), autoplay=True)
         page.update()
 
         time.sleep(0.5)
@@ -299,7 +299,7 @@ def main(page: ft.Page):
                     border_radius = 10,
                     margin = ft.margin.symmetric(10)
                 ),
-            ],
+                ],
         ),],),)
             page.open(dlg_modal)
     
