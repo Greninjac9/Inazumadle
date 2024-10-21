@@ -23,7 +23,6 @@ Table = ft.Row(
           controls=[
               ft.Container(
                   content=ft.Text("Jugador", weight=ft.FontWeight.BOLD),
-                  border = ft.border.all(5, ft.colors.GREY_300),
                   height = 30, width = 80,
                   bgcolor=ft.colors.GREY_300, border_radius = 10,
                   alignment=ft.alignment.center
