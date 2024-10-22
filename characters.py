@@ -18,6 +18,9 @@ Characters = [
     { "Nombre": "ALAN-MASTER_(NEO)", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
 
+    { "Nombre": "LANE-WAR_ARES", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
+
     { "Nombre": "AUSTIN-HOBBES", "Curso": "NINO", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "INAZUMA-JAPON" },
     
@@ -148,7 +151,10 @@ Characters = [
     
     { "Nombre": "DESTIN-BILLOWS", "Curso": "1º", "Elemento": "Bosque", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF_VR", "EQUIPO": "SOUTH-CIRRUS" },
-      
+
+    { "Nombre": "DANNY-WOOD_DIONYSUS", "Curso": "1º", "Elemento": "Bosque", "Posición": "DT",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF_VR", "EQUIPO": "SOUTH-CIRRUS" },
+    
     { "Nombre": "DAVE-QUAGMIRE_(DVALIN)", "Curso": "3º", "Elemento": "Fuego", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
 
@@ -213,6 +219,9 @@ Characters = [
       
     { "Nombre": "HECTOR-HELIO", "Curso": "2º", "Elemento": "Fuego", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
+
+    { "Nombre": "JEFF-IRON_HEPHESTUS", "Curso": "3º", "Elemento": "Fuego", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
     
     { "Nombre": "HERMAN-WALDON", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
@@ -507,7 +516,7 @@ Characters = [
 
 CharacterRef = [
     ### A ###
-    'Adé Kébé', 'Aiden Froste', 'Aitor Cazador', 'Alan Master', 'Alan Master (Neo Japón)', 
+    'Adé Kébé', 'Aiden Froste', 'Aitor Cazador', 'Alan Master', 'Alan Master (Neo Japón)', 'Ares',
     'Austin Hobbes', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Apollo', 'Archer Hawkins', 
     'Arion Sherwind', 'Arion Sherwind (Arions)', 'Arion Sherwind (Chrono Stones)', 
     'Astero Black', 'Axel Blaze', 
@@ -520,7 +529,8 @@ CharacterRef = [
     'Cerise Blossom', 'Claude Beacons', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
     ### D ###
     'Daniel Hatch', 'Darren Lachance', 'Dave Quagmire', 'David Samford', 'David Samford (Inazuma Japón)', 
-    'David Samford (Legendario)', 'David Samford (Redux)', 'Davy Jones', 'Derek Swing', 'Destin Billows','Dvalin',
+    'David Samford (Legendario)', 'David Samford (Redux)', 'Davy Jones', 'Derek Swing', 
+    'Destin Billows','Dionysus','Dvalin',
     ### E ###
     'Elliot Ember (Orion)', 'Erik Eagle', 'Erik Eagle (Unicorn)', 'Eugene Peabody', 
     ### F ###
@@ -529,7 +539,7 @@ CharacterRef = [
     'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Gazelle', 
     'Goldie Lemmon (Chrono Stones)', 'Gus Martin', 'Gus Martin (Adulto)',
     ### H ###
-    'Harrold Houdini (Resistencia)', 'Hector Helio', 'Herman Waldon', 'Hotel', 'Hugh', 
+    'Harrold Houdini (Resistencia)', 'Hector Helio', 'Hephestus', 'Herman Waldon', 'Hotel', 'Hugh', 
     'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 
     ### J ###
     'Jack Wallside', 'John Bloom', 'Janus', 'Jean-Pierre Lapan', 
