@@ -29,6 +29,9 @@ Characters = [
     
     { "Nombre": "BYRON-LOVE_(APHRODITE)", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "KOR", "Debut": "FF", "EQUIPO": "ZEUS" },
+
+    { "Nombre": "APOLLO-LIGHT_APOLLO", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
     
     { "Nombre": "ARCHER-HAWKINS", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "INAZUMA-JAPON" },
@@ -505,7 +508,7 @@ Characters = [
 CharacterRef = [
     ### A ###
     'Adé Kébé', 'Aiden Froste', 'Aitor Cazador', 'Alan Master', 'Alan Master (Neo Japón)', 
-    'Austin Hobbes', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Archer Hawkins', 
+    'Austin Hobbes', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Apollo', 'Archer Hawkins', 
     'Arion Sherwind', 'Arion Sherwind (Arions)', 'Arion Sherwind (Chrono Stones)', 
     'Astero Black', 'Axel Blaze', 
     ### B ### 
