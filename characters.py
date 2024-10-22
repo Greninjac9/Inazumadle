@@ -39,7 +39,7 @@ Characters = [
     { "Nombre": "ARION-SHERWIND_(ARIONS)", "Curso": "1º", "Elemento": "Aire", "Posición": "DL",
       "Género": "M", "Invocador": "EG", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "LOS-ARIONS" },
     
-    { "Nombre": "ARION SHERWIND_(CS)", "Curso": "1º", "Elemento": "Aire", "Posición": "MD",
+    { "Nombre": "ARION-SHERWIND_(CS)", "Curso": "1º", "Elemento": "Aire", "Posición": "MD",
       "Género": "M", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "CHRONO-STORM" },
     
     { "Nombre": "RAY-DARK_(ASTERO-BLACK)", "Curso": "ADULTO", "Elemento": "Montaña", "Posición": "DT",
