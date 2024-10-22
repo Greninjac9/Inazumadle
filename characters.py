@@ -350,6 +350,9 @@ Characters = [
 
     { "Nombre": "PETER-DRENT", "Curso": "2º", "Elemento": "Montaña", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
+
+    { "Nombre": "PAUL-SIDDON_POSEIDON", "Curso": "3º", "Elemento": "Montaña", "Posición": "PR",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
       
     ### Q ###
 
@@ -541,7 +544,7 @@ CharacterRef = [
     'Nathan Swift', 'Nelly Raimon', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
     ### O ###
     ### P ###
-    'Paolo Bianchi', 'Percival Travis', 'Perseo', 'Peter Drent',
+    'Paolo Bianchi', 'Percival Travis', 'Perseo', 'Peter Drent', 'Poseidón',
     ### Q ###
     'Quentin Cinquedea (Resistencia)',
     ### R ###
