@@ -86,7 +86,8 @@ def main(page: ft.Page):
             spacing = 15,
             controls=[
                 ft.Container(
-                    content=ft.Image(
+                    decoration=ft.Image()
+                    content=ft.Image("assets\\images\\MISCELANEO\\DL.png"),
                         src=("assets\\images\\SPRITES\\" + Char["Nombre"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(5, COLORS[0]),
