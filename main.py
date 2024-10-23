@@ -288,6 +288,14 @@ def main(page: ft.Page):
                 controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200), Searchbar, Table],)
               ],),)
         
-    page.add(ft.FilledButton(text="Play", on_click=PLAY))
+    page.add(ft.Column(
+                alignment=ft.MainAxisAlignment.START,
+                horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+                controls = [
+                    ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200),
+                    ft.FilledButton(text="Play", on_click=PLAY)
+                ]
+            )
+        )
 
 ft.app(main)
