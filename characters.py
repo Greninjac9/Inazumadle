@@ -20,7 +20,10 @@ Characters = [
 
     { "Nombre": "LANE-WAR_ARES", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
-
+    
+    { "Nombre": "ARTIE-MISHMAN_ARTEMIS", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
+    
     { "Nombre": "AUSTIN-HOBBES", "Curso": "NINO", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "INAZUMA-JAPON" },
     
@@ -50,6 +53,9 @@ Characters = [
     
     { "Nombre": "RAY-DARK_(ASTERO-BLACK)", "Curso": "ADULTO", "Elemento": "Montaña", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
+
+    { "Nombre": "WESLEY-KNOX_ATHENA", "Curso": "1º", "Elemento": "Bosque", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
     
     { "Nombre": "AXEL-BLAZE", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
@@ -146,6 +152,9 @@ Characters = [
     { "Nombre": "DAVY-JONES", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
       "Género": "M", "Invocador": "EG", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },
 
+    { "Nombre": "JONAS-DEMETRIUS_DEMETER", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
+
     { "Nombre": "DEREK-SWING", "Curso": "1º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
     
@@ -219,6 +228,12 @@ Characters = [
       
     { "Nombre": "HECTOR-HELIO", "Curso": "2º", "Elemento": "Fuego", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
+
+    { "Nombre": "HENRY-HOUSE_HERA", "Curso": "3º", "Elemento": "Fuego", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
+
+    { "Nombre": "ARION-MATLOCK_HERMES", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
 
     { "Nombre": "JEFF-IRON_HEPHESTUS", "Curso": "3º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
@@ -517,9 +532,9 @@ Characters = [
 CharacterRef = [
     ### A ###
     'Adé Kébé', 'Aiden Froste', 'Aitor Cazador', 'Alan Master', 'Alan Master (Neo Japón)', 'Ares',
-    'Austin Hobbes', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Apollo', 'Archer Hawkins', 
+    'Artemis', 'Austin Hobbes', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Apollo', 'Archer Hawkins', 
     'Arion Sherwind', 'Arion Sherwind (Arions)', 'Arion Sherwind (Chrono Stones)', 
-    'Astero Black', 'Axel Blaze', 
+    'Astero Black', 'Athena', 'Axel Blaze', 
     ### B ### 
     'Bai Long', 'Bai Long (Chrono Stones)', 'Bai Long (Resistencia)', 'Bellatrix', 'Beta', 
     'Ben Simmons', 'Bobby Shearer', 'Bobby Shearer (Unicorn)',
@@ -529,7 +544,7 @@ CharacterRef = [
     'Cerise Blossom', 'Claude Beacons', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
     ### D ###
     'Daniel Hatch', 'Darren Lachance', 'Dave Quagmire', 'David Samford', 'David Samford (Inazuma Japón)', 
-    'David Samford (Legendario)', 'David Samford (Redux)', 'Davy Jones', 'Derek Swing', 
+    'David Samford (Legendario)', 'David Samford (Redux)', 'Davy Jones', 'Demetrius', 'Derek Swing', 
     'Destin Billows','Dionysus','Dvalin',
     ### E ###
     'Elliot Ember (Orion)', 'Erik Eagle', 'Erik Eagle (Unicorn)', 'Eugene Peabody', 
@@ -539,7 +554,7 @@ CharacterRef = [
     'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Gazelle', 
     'Goldie Lemmon (Chrono Stones)', 'Gus Martin', 'Gus Martin (Adulto)',
     ### H ###
-    'Harrold Houdini (Resistencia)', 'Hector Helio', 'Hephestus', 'Herman Waldon', 'Hotel', 'Hugh', 
+    'Harrold Houdini (Resistencia)', 'Hector Helio', 'Hera', 'Hermes', 'Hephestus', 'Herman Waldon', 'Hotel', 'Hugh', 
     'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 
     ### J ###
     'Jack Wallside', 'John Bloom', 'Janus', 'Jean-Pierre Lapan', 
