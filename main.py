@@ -86,14 +86,14 @@ def main(page: ft.Page):
             spacing = 15,
             controls=[
                 ft.Container(
-                    decoration=ft.Image()
-                    content=ft.Image("assets\\images\\MISCELANEO\\DL.png"),
+                    content=ft.Image(
                         src=("assets\\images\\SPRITES\\" + Char["Nombre"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(5, COLORS[0]),
                     height = 80, width = 80,
                     bgcolor=COLORS[0], border_radius = 10,
-                    margin = ft.margin.symmetric(4)
+                    margin = ft.margin.symmetric(4),
+                    decoration=ft.BoxDecoration(image=ft.DecorationImage(src=("assets\\images\\MISCELANEO\\DL.png"),
                 ),
                 ft.Container(
                     content=ft.Image(
