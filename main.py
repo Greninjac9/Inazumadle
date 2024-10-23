@@ -10,7 +10,6 @@ def ChooseCharacter():
 
 def main(page: ft.Page):
     PJ = ""
-    print("PJ: ", PJ["Nombre"])
     lv = ft.ListView()
     Tries = 6
     FirstOpen = True
@@ -19,7 +18,7 @@ def main(page: ft.Page):
     page.bgcolor = ft.colors.TRANSPARENT
     page.decoration = ft.BoxDecoration(image=ft.DecorationImage(src=("assets\\images\\WEB\\InazumadleBG.png"), fit = ft.ImageFit.COVER))
     page.window.resizable = False
-    page.window.width = 900
+    page.window.width = 1000
     page.window.height = 1080
 
     def handle_click(e):
@@ -57,16 +56,36 @@ def main(page: ft.Page):
             if (Searchbar.value).capitalize() == i.capitalize() or e.capitalize() == i.capitalize():
                 Char = Characters[CharacterRef.index(i)]
                 # COMPRUEBA SI LOS ELEMENTOS COINCIDEN CON EL PERSONAJE POR ADIVINAR
-                for k in range(9):
+                for k in range(10):
                     Elementos = ["Nombre", "Curso", "Elemento", "Posición", "Género", 
-                                 "Invocador", "Nacionalidad", "Debut", "EQUIPO"]
+                                 "Invocador", "Dorsal", "Nacionalidad", "Debut", "EQUIPO"]
                     # CAMBIA EL COLOR DEPENDIENDO DE SI ES IGUAL O NO
-                    if Char[Elementos[k]] == PJ[Elementos[k]]:
-                        COLORS.append(ft.colors.GREEN)
-                    elif (Char[Elementos[k]]).split("_")[0] == (PJ[Elementos[k]]).split("_")[0]:
-                        COLORS.append(ft.colors.AMBER)
+                    if Elementos[k] == "Dorsal":
+                        if Char[Elementos[k]] == PJ[Elementos[k]]:
+                            DorsalValue = ""
+                            COLORS.append(ft.colors.GREEN)
+                        elif Char[Elementos[k]] == "" or PJ[Elementos[k]] == "":
+                            DorsalValue = ""
+                            COLORS.append(ft.colors.RED)
+                        elif int(Char[Elementos[k]]) < int(PJ[Elementos[k]]):
+                            DorsalValue = "MAYOR"
+                            if int(Char[Elementos[k]]) >= int(PJ[Elementos[k]]) - 3:
+                                COLORS.append(ft.colors.AMBER)
+                            else:
+                                COLORS.append(ft.colors.RED)
+                        else:
+                            DorsalValue = "MENOR"
+                            if int(Char[Elementos[k]]) <= int(PJ[Elementos[k]]) + 3:
+                                COLORS.append(ft.colors.AMBER)
+                            else:
+                                COLORS.append(ft.colors.RED)
                     else:
-                        COLORS.append(ft.colors.RED)
+                        if Char[Elementos[k]] == PJ[Elementos[k]]:
+                            COLORS.append(ft.colors.GREEN)
+                        elif (Char[Elementos[k]]).split("_")[0] == (PJ[Elementos[k]]).split("_")[0]:
+                            COLORS.append(ft.colors.AMBER)
+                        else:
+                            COLORS.append(ft.colors.RED)
                 for k in COLORS:
                     STATE = "VICTORY"
                     if k == ft.colors.RED or k == ft.colors.AMBER:
@@ -87,7 +106,7 @@ def main(page: ft.Page):
                     height = 80, width = 80,
                     bgcolor=COLORS[0], border_radius = 10,
                     margin = ft.margin.symmetric(4),
-                    decoration=ft.BoxDecoration(image=ft.DecorationImage(src=("assets\\images\\MISCELANEO\\DL.png"),
+
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -135,34 +154,41 @@ def main(page: ft.Page):
                     margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
-                    content=ft.Image(
-                        src=("assets\\images\\MISCELANEO\\" + Char["Nacionalidad"] + ".png"),
-                        fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(15, COLORS[6]),
+                    image=ft.DecorationImage(src=("assets\\images\\MISCELANEO\\" + DorsalValue + ".png"), opacity=0.4),
+                    content=ft.Row(alignment=ft.MainAxisAlignment.CENTER, controls=[ft.Text(Char["Dorsal"], size=50, weight=ft.FontWeight.BOLD, color=ft.colors.BLACK)]),
                     height = 80, width = 80,
                     bgcolor=COLORS[6], border_radius = 10,
                     margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=("assets\\images\\MISCELANEO\\" + Char["Debut"] + ".png"),
-                        fit = ft.ImageFit.SCALE_DOWN,),
-                    border = ft.border.all(10, COLORS[7]),
+                        src=("assets\\images\\MISCELANEO\\" + Char["Nacionalidad"] + ".png"),
+                        fit = ft.ImageFit.FIT_WIDTH,),
+                    border = ft.border.all(15, COLORS[7]),
                     height = 80, width = 80,
                     bgcolor=COLORS[7], border_radius = 10,
                     margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=("assets\\images\\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
+                        src=("assets\\images\\MISCELANEO\\" + Char["Debut"] + ".png"),
                         fit = ft.ImageFit.SCALE_DOWN,),
-                    border = ft.border.all(5, COLORS[8]),
+                    border = ft.border.all(10, COLORS[8]),
                     height = 80, width = 80,
                     bgcolor=COLORS[8], border_radius = 10,
                     margin = ft.margin.symmetric(4)
                 ),
+                ft.Container(
+                    content=ft.Image(
+                        src=("assets\\images\\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
+                        fit = ft.ImageFit.SCALE_DOWN,),
+                    border = ft.border.all(5, COLORS[9]),
+                    height = 80, width = 80,
+                    bgcolor=COLORS[9], border_radius = 10,
+                    margin = ft.margin.symmetric(4)
+                ),
             ],
-        )
+        )                    
         page.add(Row)
         page.update()
 
@@ -245,6 +271,12 @@ def main(page: ft.Page):
                     margin = ft.margin.symmetric(10)
                 ),
                 ft.Container(
+                    content=ft.Row(alignment=ft.MainAxisAlignment.CENTER, controls=[ft.Text(Char["Dorsal"], size=50, weight=ft.FontWeight.BOLD, color=ft.colors.BLACK)]),
+                    border = ft.border.all(15, COLORS[0]), height = 70, width = 70, bgcolor=COLORS[0],
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(10)
+                ),
+                ft.Container(
                     content=ft.Image(
                         src=("assets\\images\\MISCELANEO\\" + PJ["Nacionalidad"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
@@ -293,16 +325,13 @@ def main(page: ft.Page):
               ],),)
         
     page.add(
-          ft.Column(
-                alignment=ft.MainAxisAlignment.START,
-                horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-                controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200),]
-                  ),
           ft.Row(
                 alignment=ft.MainAxisAlignment.CENTER,
-                vertical_alignment=ft.CrossAxisAlignment.CENTER,
-                controls = [ft.FilledButton(text="Jugar", on_click=PLAY)]
-                )
+                controls=[ft.Column(
+                alignment=ft.MainAxisAlignment.START,
+                horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+                controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200),ft.FilledButton(text="Jugar", on_click=PLAY)],
+                  ),])
         )
 
 ft.app(main)
