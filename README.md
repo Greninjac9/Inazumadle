@@ -13,8 +13,8 @@ _Inazumadle_ se inspira en mini-juegos web como [_Wordle_](https://www.nytimes.c
 En este juego deberás adivinar un personaje escogido aleatoriamente entre los disponibles y tú, con 6 intentos, deberás adivinar de qué personaje se trata. ¿Cómo? Al adivinar un personaje se verán siete características y se indicaran si son iguales o no a las del personaje que hay que adivinar.
 
 Las características comprobables son:
-|**Personaje**|**Curso**|  **Elemento**  |   **Posición**   |**Género**| **Invocador** |**Nacionalidad**|**Debut**|**Equipo**| 
-|:-----------:|:---:|:---:|:----------:|:---:|:-----------:|:-----------:|:----------:|:--------:|
+|**Personaje**|**Curso**|  **Elemento**  |   **Posición**   |**Género**| **Invocador**|**Dorsal**|**Nacionalidad**|**Debut**|**Equipo**| 
+|:-----------:|:---:|:---:|:----------:|:---:|:-----------:|:-----------:|:----------:|:--------:|:--------:|
 |120+ PJs.| ![1º](/assets/images/MISCELANEO/1º.png) | ![Fuego](/assets/images/MISCELANEO/Fuego.png) | ![Delantero](/assets/images/MISCELANEO/DL.png) Delantero| ![M](/assets/images/MISCELANEO/M.png)| ![No Invocador](/assets/images/MISCELANEO/EG-N.png) No puede |![ALIEN](/assets/images/MISCELANEO/ALIEN.png) Extraterrestre|<img src="/assets/images/MISCELANEO/FF.png" width="40"> Fútbol Frontier|30+ Equipos|
 |  | ![2º](/assets/images/MISCELANEO/2º.png) | ![Montaña](/assets/images/MISCELANEO/Montaña.png) | ![Defensa](/assets/images/MISCELANEO/DF.png) Defensa| ![F](/assets/images/MISCELANEO/F.png) | ![EG](/assets/images/MISCELANEO/EG.png) EG |![JAP](/assets/images/MISCELANEO/JAP.png) Japonés|<img src="/assets/images/MISCELANEO/ALIUS.png" width="40"> La Amenaza de los Invasores||
 |  | ![3º](/assets/images/MISCELANEO/3º.png) | ![Bosque](/assets/images/MISCELANEO/Bosque.png) | ![Medio](/assets/images/MISCELANEO/MD.png) Centrocampista| ![???](/assets/images/MISCELANEO/Por_Definir.png)| ![Armadura](/assets/images/MISCELANEO/EG_ARM.png) Armadura |![EEUU](/assets/images/MISCELANEO/EEUU.png) Estadounidense|<img src="/assets/images/MISCELANEO/FFI.png" width="40"> Fútbol Frontier Internacional||
