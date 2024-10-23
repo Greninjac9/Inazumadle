@@ -276,8 +276,8 @@ def main(page: ft.Page):
                     margin = ft.margin.symmetric(10)
                 ),
                 ft.Container(
-                    content=ft.Row(alignment=ft.MainAxisAlignment.CENTER, controls=[ft.Text(Char["Dorsal"], size=50, weight=ft.FontWeight.BOLD, color=ft.colors.BLACK)]),
-                    border = ft.border.all(15, COLORS[0]), height = 70, width = 70, bgcolor=COLORS[0],
+                    content=ft.Row(alignment=ft.MainAxisAlignment.CENTER, controls=[ft.Text(Char["Dorsal"], size=50, weight=ft.FontWeight.BOLD, color=ft.colors.BLACK)]), 
+                    height = 70, width = 70, bgcolor=COLORS[0],
                     border_radius = 10,
                     margin = ft.margin.symmetric(10)
                 ),
