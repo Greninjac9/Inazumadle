@@ -1,14 +1,11 @@
 ### IMPORTS ###
 import flet as ft
 from characters import CharacterRef, Characters
-from extra import Table, PLAY
+from extra import Table, PLAY, ChooseCharacter
 import random
     
 def main(page: ft.Page):
     #VARIABLES
-    def ChooseCharacter():
-        PJ = random.choice(Characters) #Personaje a adivinar
-        return PJ
     PJ = ChooseCharacter()
     print("PJ: ", PJ["Nombre"])
     lv = ft.ListView()
@@ -287,16 +284,6 @@ def main(page: ft.Page):
         controls = [lv,],
         on_change=handle_change,
     )
-
-    def PLAY(e):
-        page.controls.clear()
-        page.add(ft.Row(
-            alignment=ft.MainAxisAlignment.CENTER,
-            controls = [ft.Column(
-            alignment=ft.MainAxisAlignment.START,
-            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-            controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200), Searchbar, Table],)
-        ],),)
 
     # AÑADIR LOGO DE INAZUMADLE + SEARCHBAR AL INICIO + TABLA DE REFERENCIA:
     page.add(ft.FilledButton(text="Play", on_click=PLAY))
