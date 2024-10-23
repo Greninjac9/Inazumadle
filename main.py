@@ -10,6 +10,7 @@ def ChooseCharacter():
 
 def main(page: ft.Page):
     PJ = ""
+    Voiceline = ""
     lv = ft.ListView()
     Tries = 6
     FirstOpen = True
@@ -42,6 +43,10 @@ def main(page: ft.Page):
         for i in list_to_show:
             lv.controls.append(ft.ListTile(title=ft.Text(f"{i}"), on_click=handle_click, data=i))
         Searchbar.update()
+
+    def GetVoiceline():
+        page.overlay.append(ft.Audio(src=("assets\\audio\\voicelines\\" + PJ["Nombre"] + ".mp3"), autoplay=True))
+        page.update()
 
     ### FUNCION PRINCIPAL ###
     def Comprobar(e):
@@ -106,7 +111,6 @@ def main(page: ft.Page):
                     height = 80, width = 80,
                     bgcolor=COLORS[0], border_radius = 10,
                     margin = ft.margin.symmetric(4),
-
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -201,7 +205,7 @@ def main(page: ft.Page):
             alignment=ft.MainAxisAlignment.CENTER,
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
             controls = [
-                ft.Audio(src=("assets\\audio\\sfx\\" + STATE + ".mp3"), autoplay=True,),
+                ft.Audio(src=("assets\\audio\\sfx\\" + STATE + ".mp3"), autoplay=True),
                 ft.Container(
                         content=ft.Image(
                             src=("assets\\images\\SPRITES\\" + PJ["Nombre"] + ".png"),
@@ -209,6 +213,7 @@ def main(page: ft.Page):
                         border = ft.border.all(5, COLORS[0]),
                         height = 140, width = 140,
                         bgcolor=COLORS[0], border_radius = 10,
+                        on_click=GetVoiceline,
                     ),
                 ft.Text(CharacterRef[Characters.index(PJ)], size=30, weight=ft.FontWeight.BOLD),
                 ft.Row(
@@ -312,10 +317,12 @@ def main(page: ft.Page):
     
     def PLAY(e):
             nonlocal PJ      
+            nonlocal Voiceline
             page.overlay.append(ft.Audio(src=("assets\\audio\\sfx\\OK.mp3"), autoplay=True))
             page.update()
             page.controls.clear()
             PJ = ChooseCharacter()
+            Voiceline = ("assets\\audio\\voicelines\\" + PJ["Nombre"] + ".mp3")
             page.add(ft.Row(
                 alignment=ft.MainAxisAlignment.CENTER,
                 controls = [ft.Column(
