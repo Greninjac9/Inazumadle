@@ -1,17 +1,20 @@
 ### IMPORTS ###
 import flet as ft
 from characters import CharacterRef, Characters
-from extra import Table, PLAY, ChooseCharacter
+from extra import Table
 import random
     
 def main(page: ft.Page):
-    #VARIABLES
+    
+    def ChooseCharacter():
+          PJ = random.choice(Characters) #Personaje a adivinar
+          return PJ
     PJ = ChooseCharacter()
     print("PJ: ", PJ["Nombre"])
     lv = ft.ListView()
     Tries = 6
     FirstOpen = True
-    # PROPIEDADES DE LA PÁGINA
+    
     page.title = "INAZUMADLE"
     page.bgcolor = ft.colors.TRANSPARENT
     page.decoration = ft.BoxDecoration(image=ft.DecorationImage(src=("assets\\images\\WEB\\InazumadleBG.png"), fit = ft.ImageFit.COVER))
@@ -19,11 +22,6 @@ def main(page: ft.Page):
     page.window.width = 900
     page.window.height = 1080
 
-    #################
-    ### FUNCIONES ###
-    #################
-
-    ### FUNCIONES SEARCHBAR ###
     def handle_click(e):
         nonlocal FirstOpen
         page.overlay.append(ft.Audio(src=("assets\\audio\\sfx\\OK.mp3"), autoplay=True))
@@ -77,7 +75,6 @@ def main(page: ft.Page):
         
         Searchbar.close_view()
 
-        # FILA QUE CONTIENE TODOS LOS ELEMENTOS:
         Row = ft.Row(
             alignment=ft.MainAxisAlignment.CENTER,
             spacing = 15,
@@ -274,18 +271,23 @@ def main(page: ft.Page):
                 ],
         ),],),)
             page.open(dlg_modal)
-    
-    #################
-    ### SEARCHBAR ###
-    #################
 
     Searchbar = ft.SearchBar(
         view_elevation=4,
         controls = [lv,],
         on_change=handle_change,
     )
-
-    # AÑADIR LOGO DE INAZUMADLE + SEARCHBAR AL INICIO + TABLA DE REFERENCIA:
+    
+    def PLAY(e):
+              page.controls.clear()
+              page.add(ft.Row(
+                alignment=ft.MainAxisAlignment.CENTER,
+                controls = [ft.Column(
+                alignment=ft.MainAxisAlignment.START,
+                horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+                controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200), Searchbar, Table],)
+              ],),)
+        
     page.add(ft.FilledButton(text="Play", on_click=PLAY))
 
 ft.app(main)
