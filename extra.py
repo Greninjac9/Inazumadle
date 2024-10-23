@@ -1,4 +1,15 @@
 import flet as ft
+
+def PLAY(e):
+          page.controls.clear()
+          page.add(ft.Row(
+            alignment=ft.MainAxisAlignment.CENTER,
+            controls = [ft.Column(
+            alignment=ft.MainAxisAlignment.START,
+            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+            controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200), Searchbar, Table],)
+          ],),)
+
 Table = ft.Row(
           alignment=ft.MainAxisAlignment.CENTER,
           spacing = 15,
