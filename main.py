@@ -291,7 +291,7 @@ def main(page: ft.Page):
               ],),)
         
     page.add(ft.Column(
-                alignment=ft.MainAxisAlignment.START,
+                alignment=ft.MainAxisAlignment.CENTER,
                 horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                 controls = [
                     ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200),
