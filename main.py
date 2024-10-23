@@ -3,13 +3,13 @@ import flet as ft
 from characters import CharacterRef, Characters
 from extra import Table
 import random
-    
+
+def ChooseCharacter():
+      PJ = random.choice(Characters) #Personaje a adivinar
+      return PJ
+
 def main(page: ft.Page):
-    
-    def ChooseCharacter():
-          PJ = random.choice(Characters) #Personaje a adivinar
-          return PJ
-    PJ = ChooseCharacter()
+    PJ = ""
     print("PJ: ", PJ["Nombre"])
     lv = ft.ListView()
     Tries = 6
@@ -279,8 +279,10 @@ def main(page: ft.Page):
     )
     
     def PLAY(e):
-              page.controls.clear()
-              page.add(ft.Row(
+            nonlocal PJ      
+            page.controls.clear()
+            PJ = ChooseCharacter()
+            page.add(ft.Row(
                 alignment=ft.MainAxisAlignment.CENTER,
                 controls = [ft.Column(
                 alignment=ft.MainAxisAlignment.START,
