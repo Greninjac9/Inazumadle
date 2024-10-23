@@ -280,6 +280,8 @@ def main(page: ft.Page):
     
     def PLAY(e):
             nonlocal PJ      
+            page.overlay.append(ft.Audio(src=("assets\\audio\\sfx\\OK.mp3"), autoplay=True))
+            page.update()
             page.controls.clear()
             PJ = ChooseCharacter()
             page.add(ft.Row(
@@ -290,14 +292,17 @@ def main(page: ft.Page):
                 controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200), Searchbar, Table],)
               ],),)
         
-    page.add(ft.Column(
-                alignment=ft.MainAxisAlignment.CENTER,
+    page.add(
+          ft.Column(
+                alignment=ft.MainAxisAlignment.START,
                 horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-                controls = [
-                    ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200),
-                    ft.FilledButton(text="Play", on_click=PLAY)
-                ]
-            )
+                controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200),]
+                  ),
+          ft.Row(
+                alignment=ft.MainAxisAlignment.CENTER,
+                vertical_alignment=ft.CrossAxisAlignment.CENTER,
+                controls = [ft.FilledButton(text="Jugar", on_click=PLAY)]
+                )
         )
 
 ft.app(main)
