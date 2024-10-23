@@ -3,11 +3,13 @@ import flet as ft
 from characters import CharacterRef, Characters
 from extra import Table
 import random
-import time
     
 def main(page: ft.Page):
     #VARIABLES
-    PJ = random.choice(Characters) #Personaje a adivinar
+    def ChooseCharacter():
+        PJ = random.choice(Characters) #Personaje a adivinar
+        return PJ
+    PJ = ChooseCharacter()
     print("PJ: ", PJ["Nombre"])
     lv = ft.ListView()
     Tries = 6
@@ -23,14 +25,13 @@ def main(page: ft.Page):
     #################
     ### FUNCIONES ###
     #################
-    
+
     ### FUNCIONES SEARCHBAR ###
     def handle_click(e):
         nonlocal FirstOpen
         page.overlay.append(ft.Audio(src=("assets\\audio\\sfx\\OK.mp3"), autoplay=True))
         page.update()
         Searchbar.close_view("")
-        time.sleep(0.15)
         Comprobar(e.control.data)
         FirstOpen = True
     def handle_change(e):
@@ -169,7 +170,6 @@ def main(page: ft.Page):
         )
         page.add(Row)
         page.update()
-        time.sleep(0.5)
 
         if STATE == "" and Tries == 0:
             STATE = "DEFEAT"
@@ -287,19 +287,17 @@ def main(page: ft.Page):
         on_change=handle_change,
     )
 
-    # AÑADIR LOGO DE INAZUMADLE + SEARCHBAR AL INICIO + TABLA DE REFERENCIA:
-    page.add(
-        ft.Row(
+    def PLAY(e):
+        page.controls.clear()
+        page.add(ft.Row(
             alignment=ft.MainAxisAlignment.CENTER,
-            controls = [
-            ft.Column(
+            controls = [ft.Column(
             alignment=ft.MainAxisAlignment.START,
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-            controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200), Searchbar,
-                        Table],)
-        ],
-    ),
-    )
-    page.update()
+            controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200), Searchbar, Table],)
+        ],),)
+
+    # AÑADIR LOGO DE INAZUMADLE + SEARCHBAR AL INICIO + TABLA DE REFERENCIA:
+    page.add(ft.FilledButton(text="Play", on_click=PLAY))
 
 ft.app(main)
