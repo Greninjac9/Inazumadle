@@ -1,7 +1,7 @@
 ### IMPORTS ###
 import flet as ft
 from characters import CharacterRef, Characters
-from extra import Table
+from extra import Table, PLAY
 import random
     
 def main(page: ft.Page):
