@@ -266,16 +266,16 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
 
     { "Nombre": "JOHN-BLOOM", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
     
     { "Nombre": "JORDAN-GREENWAY_(JANUS)", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
       
     { "Nombre": "JEAN-PIERRE-LAPAN", "Curso": "1º", "Elemento": "Montaña", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
       
     { "Nombre": "JEAN-PIERRE-LAPAN_(CS)", "Curso": "1º", "Elemento": "Montaña", "Posición": "PR",
-      "Género": "M", "Invocador": "EG_ARM", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "CHRONO-STORM" },
+      "Género": "M", "Invocador": "EG_ARM", "Dorsal": "20", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "CHRONO-STORM" },
 
     { "Nombre": "JIM-WRAITH", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
