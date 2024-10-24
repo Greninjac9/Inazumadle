@@ -13,12 +13,12 @@ def main(page: ft.Page):
     PJ = ""
     Voiceline = ""
     lv = ft.ListView()
-    Tries = 0
     FirstOpen = True
+    Tries = 0
     
     page.title = "INAZUMADLE"
     page.bgcolor = ft.colors.TRANSPARENT
-    page.decoration = ft.BoxDecoration(image=ft.DecorationImage(src=("assets\\images\\WEB\\InazumadleBG.png"), fit = ft.ImageFit.COVER))
+    page.decoration = ft.BoxDecoration(image=ft.DecorationImage(src=("assets\\images\\WEB\\MainMenu.png"), fit = ft.ImageFit.COVER))
     page.window.resizable = False
     page.window.width = 1000
     page.window.height = 1080
@@ -70,7 +70,7 @@ def main(page: ft.Page):
                         if Char[Elementos[k]] == PJ[Elementos[k]]:
                             DorsalValue = ""
                             COLORS.append(ft.colors.GREEN)
-                        elif Char[Elementos[k]] == "" or PJ[Elementos[k]] == "":
+                        elif Char[Elementos[k]] == "-" or PJ[Elementos[k]] == "-":
                             DorsalValue = ""
                             COLORS.append(ft.colors.RED)
                         elif int(Char[Elementos[k]]) < int(PJ[Elementos[k]]):
@@ -325,13 +325,17 @@ def main(page: ft.Page):
         on_change=handle_change,
     )
 
+    # GAMEMODES:
+
     def PLAY(e):
             nonlocal PJ      
             nonlocal Voiceline
+            nonlocal Tries
+            Tries = 0
             page.overlay.append(ft.Audio(src=("assets\\audio\\sfx\\OK.mp3"), autoplay=True))
             page.update()
             page.controls.clear()
-            page.update()
+            page.decoration = ft.BoxDecoration(image=ft.DecorationImage(src=("assets\\images\\WEB\\AllStarsGameMode.png"), fit = ft.ImageFit.COVER))
             PJ = ChooseCharacter()
             Voiceline = ("assets\\audio\\voicelines\\" + PJ["Nombre"] + ".mp3")
             page.add(ft.Row(
@@ -341,17 +345,23 @@ def main(page: ft.Page):
                 horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                 controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200), Searchbar, Table],)
               ],),)
-        
-    page.add(
-          ft.Row(
+            page.update()
+    
+    # MENU SCREEN
+    page.add(ft.Row(
+        [
+            ft.Column(
+                [
+                    ft.Container(content=ft.Row(alignment=ft.MainAxisAlignment.CENTER, controls=[ft.Text("Jugar", size=30, weight=ft.FontWeight.BOLD, color=ft.colors.BLACK)]),
+                                 on_click=PLAY, width=800, height=50, ink=True, bgcolor=ft.colors.AMBER, border_radius=15)
+                ],
                 alignment=ft.MainAxisAlignment.CENTER,
-                controls=[ft.Column(
-                            alignment=ft.MainAxisAlignment.CENTER,
-                            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-                            tight=True,
-                            controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 900, height = 300),
-                                        ft.Container(content=ft.Text("Jugar"), on_click=PLAY, width=800, height=50, ink=True)],
-                  ),])
-        )
+                horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+            )
+        ],
+        expand=True,
+        alignment=ft.MainAxisAlignment.CENTER,
+        vertical_alignment=ft.CrossAxisAlignment.CENTER,
+    ))
 
 ft.app(main)
