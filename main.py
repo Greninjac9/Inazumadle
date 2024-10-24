@@ -6,13 +6,14 @@ import random
 
 def ChooseCharacter():
       PJ = random.choice(Characters) #Personaje a adivinar
+      print(PJ)
       return PJ
 
 def main(page: ft.Page):
     PJ = ""
     Voiceline = ""
     lv = ft.ListView()
-    Tries = 6
+    Tries = 0
     FirstOpen = True
     
     page.title = "INAZUMADLE"
@@ -44,14 +45,14 @@ def main(page: ft.Page):
             lv.controls.append(ft.ListTile(title=ft.Text(f"{i}"), on_click=handle_click, data=i))
         Searchbar.update()
 
-    def GetVoiceline():
+    def GetVoiceline(e):
         page.overlay.append(ft.Audio(src=("assets\\audio\\voicelines\\" + PJ["Nombre"] + ".mp3"), autoplay=True))
         page.update()
 
     ### FUNCION PRINCIPAL ###
     def Comprobar(e):
         nonlocal Tries
-        Tries -= 1
+        Tries += 1
         STATE = ""
         COLORS = []
 
@@ -195,31 +196,36 @@ def main(page: ft.Page):
         )                    
         page.add(Row)
         page.update()
+        
+        def PLAY_AGAIN(e):
+            page.close(dlg_modal)
+            PLAY(e)
 
-        if STATE == "" and Tries == 0:
+        if STATE == "" and Tries == 6:
             STATE = "DEFEAT"
         if STATE != "":
             dlg_modal = ft.AlertDialog(
                 modal = True,
                 content = ft.Column(
-            alignment=ft.MainAxisAlignment.CENTER,
-            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-            controls = [
-                ft.Audio(src=("assets\\audio\\sfx\\" + STATE + ".mp3"), autoplay=True),
-                ft.Container(
+                    alignment=ft.MainAxisAlignment.CENTER,
+                    horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+                    controls = [
+                        ft.Audio(src=("assets\\audio\\sfx\\" + STATE + ".mp3"), autoplay=True),
+                        ft.Container(
                         content=ft.Image(
                             src=("assets\\images\\SPRITES\\" + PJ["Nombre"] + ".png"),
                             fit = ft.ImageFit.FIT_WIDTH),
                         border = ft.border.all(5, COLORS[0]),
+                        ink=True,
                         height = 140, width = 140,
                         bgcolor=COLORS[0], border_radius = 10,
                         on_click=GetVoiceline,
                     ),
-                ft.Text(CharacterRef[Characters.index(PJ)], size=30, weight=ft.FontWeight.BOLD),
-                ft.Row(
-            alignment=ft.MainAxisAlignment.CENTER,
-            spacing = 15,
-            controls=[
+                        ft.Text(CharacterRef[Characters.index(PJ)], size=30, weight=ft.FontWeight.BOLD),
+                        ft.Row(
+                            alignment=ft.MainAxisAlignment.CENTER,
+                            spacing = 15,
+                            controls=[
                 ft.Container(
                     content=ft.Image(
                         src = ("assets\\images\\MISCELANEO\\" + PJ["Curso"] + ".png"),
@@ -306,7 +312,11 @@ def main(page: ft.Page):
                     margin = ft.margin.symmetric(10)
                 ),
                 ],
-        ),],),)
+                            ),
+                        ft.Image(src=("assets\\images\\WEB\\TRY" + str(Tries) + ".png")),
+                        ft.Text("Has necesitado " + str(Tries) + " intentos"),
+                        ft.FilledButton(text="Volver a jugar", on_click=PLAY_AGAIN),
+        ],),)
             page.open(dlg_modal)
 
     Searchbar = ft.SearchBar(
@@ -314,13 +324,14 @@ def main(page: ft.Page):
         controls = [lv,],
         on_change=handle_change,
     )
-    
+
     def PLAY(e):
             nonlocal PJ      
             nonlocal Voiceline
             page.overlay.append(ft.Audio(src=("assets\\audio\\sfx\\OK.mp3"), autoplay=True))
             page.update()
             page.controls.clear()
+            page.update()
             PJ = ChooseCharacter()
             Voiceline = ("assets\\audio\\voicelines\\" + PJ["Nombre"] + ".mp3")
             page.add(ft.Row(
@@ -335,9 +346,11 @@ def main(page: ft.Page):
           ft.Row(
                 alignment=ft.MainAxisAlignment.CENTER,
                 controls=[ft.Column(
-                alignment=ft.MainAxisAlignment.START,
-                horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-                controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200),ft.FilledButton(text="Jugar", on_click=PLAY)],
+                            alignment=ft.MainAxisAlignment.CENTER,
+                            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
+                            tight=True,
+                            controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 900, height = 300),
+                                        ft.Container(controls=[ft.Text("Jugar")], on_click=PLAY, width=800, height=50, ink=True)],
                   ),])
         )
 
