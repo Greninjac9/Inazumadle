@@ -350,7 +350,7 @@ def main(page: ft.Page):
                             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                             tight=True,
                             controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 900, height = 300),
-                                        ft.Container(controls=[ft.Text("Jugar")], on_click=PLAY, width=800, height=50, ink=True)],
+                                        ft.Container(content=ft.Text("Jugar"), on_click=PLAY, width=800, height=50, ink=True)],
                   ),])
         )
 
