@@ -333,9 +333,9 @@ def main(page: ft.Page):
             nonlocal Tries
             Tries = 0
             page.overlay.append(ft.Audio(src=("assets\\audio\\sfx\\OK.mp3"), autoplay=True))
-            page.update()
             page.controls.clear()
             page.decoration = ft.BoxDecoration(image=ft.DecorationImage(src=("assets\\images\\WEB\\AllStarsGameMode.png"), fit = ft.ImageFit.COVER))
+            page.update()
             PJ = ChooseCharacter()
             Voiceline = ("assets\\audio\\voicelines\\" + PJ["Nombre"] + ".mp3")
             page.add(ft.Row(
