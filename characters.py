@@ -221,6 +221,9 @@ Characters = [
     { "Nombre": "GOLDIE-LEMMON_(CS)", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "F", "Invocador": "EG_ARM", "Dorsal": "78", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "CHRONO-STORM" }, 
 
+    { "Nombre": "GORDON-STAR_GALILEO", "Curso": "Por_Definir", "Elemento": "Bosque", "Posición": "PR",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "Por_definir", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" }, 
+
     { "Nombre": "GUS-MARTIN", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
     "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
 
@@ -558,7 +561,7 @@ CharacterRef = [
     'Falco Flashman', 'Fei Rune', 'Fei Rune (Chrono Stones)', 'Flora', 'Frank Foreman',
     ### G ###
     'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Gazelle', 
-    'Goldie Lemmon (Chrono Stones)', 'Gus Martin', 'Gus Martin (Adulto)',
+    'Goldie Lemmon (Chrono Stones)', 'Galileo', 'Gus Martin', 'Gus Martin (Adulto)',
     ### H ###
     'Harrold Houdini (Resistencia)', 'Hector Helio', 'Hera', 'Hermes', 'Hephestus', 'Herman Waldon', 'Hotel', 'Hugh', 
     'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 
