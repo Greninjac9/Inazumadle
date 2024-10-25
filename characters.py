@@ -125,7 +125,7 @@ Characters = [
       "Género": "F", "Invocador": "Totem", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
 
     { "Nombre": "CONNOR-SHUTTLE_CORAL", "Curso": "Por_Definir", "Elemento": "Aire", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "Por_Definir", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "ALIEN", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
     
     { "Nombre": "CLAUDE-BEACONS", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "KOR", "Debut": "FFI", "EQUIPO": "DRAGONES-DE-FUEGO" },
@@ -222,13 +222,13 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "KOR", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
 
     { "Nombre": "JIM-LANDING_GIGS", "Curso": "Por_Definir", "Elemento": "Fuego", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Nacionalidad": "KOR", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Nacionalidad": "ALIEN", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
       
     { "Nombre": "GOLDIE-LEMMON_(CS)", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "F", "Invocador": "EG_ARM", "Dorsal": "78", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "CHRONO-STORM" }, 
 
     { "Nombre": "GORDON-STAR_GALILEO", "Curso": "Por_Definir", "Elemento": "Bosque", "Posición": "PR",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "Por_definir", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" }, 
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "ALIEN", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" }, 
 
     { "Nombre": "GUS-MARTIN", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
     "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
