@@ -1,13 +1,7 @@
 ### IMPORTS ###
 import flet as ft
 from characters import CharacterRef, Characters
-from extra import Table
-import random
-
-def ChooseCharacter():
-      PJ = random.choice(Characters) #Personaje a adivinar
-      print(PJ)
-      return PJ
+from extra import Table, ChooseCharacter
 
 def main(page: ft.Page):
     PJ = ""
@@ -345,7 +339,6 @@ def main(page: ft.Page):
                 horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                 controls = [ft.Image(src = ("assets\\images\\WEB\\Inazumadle.png"), width = 600, height = 200), Searchbar, Table],)
               ],),)
-            page.update()
     
     # MENU SCREEN
     page.add(ft.Row(
