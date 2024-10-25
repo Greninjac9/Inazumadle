@@ -170,8 +170,8 @@ Characters = [
     { "Nombre": "DESTIN-BILLOWS", "Curso": "1º", "Elemento": "Bosque", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF_VR", "EQUIPO": "SOUTH-CIRRUS" },
 
-    { "Nombre": "DANNY-WOOD_DIONYSUS", "Curso": "1º", "Elemento": "Bosque", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "FF_VR", "EQUIPO": "ZEUS" },
+    { "Nombre": "DANNY-WOOD_DIONYSUS", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
     
     { "Nombre": "DAVE-QUAGMIRE_(DVALIN)", "Curso": "3º", "Elemento": "Fuego", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
