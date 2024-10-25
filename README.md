@@ -30,4 +30,4 @@ _El listado está incompleto._
 
 _(Todos los personajes e iconos pertenecen a Level 5, a excepción de algunos pocos iconos hechos por nosotros mismos para el uso en Inazumadle)_
 
-_Proyecto PTD. Curso 2024-2025. 2n BACH_
+_Proyecto PTD II. Curso 2024-2025. 2n BACH_
