@@ -1,4 +1,11 @@
 import flet as ft
+from characters import Characters
+import random
+
+def ChooseCharacter():
+      PJ = random.choice(Characters) #Personaje a adivinar
+      print(PJ)
+      return PJ
 
 Table = ft.Row(
           alignment=ft.MainAxisAlignment.CENTER,
