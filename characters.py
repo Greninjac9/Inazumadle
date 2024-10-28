@@ -123,6 +123,9 @@ Characters = [
     
     { "Nombre": "CERISE-BLOSSOM", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
       "Género": "F", "Invocador": "Totem", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
+
+    { "Nombre": "CHARLES-RIVERBOAT_CHARON", "Curso": "2º", "Elemento": "Fuego", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
     
     { "Nombre": "CLAUDE-BEACONS", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "KOR", "Debut": "FFI", "EQUIPO": "DRAGONES-DE-FUEGO" },
@@ -559,7 +562,7 @@ CharacterRef = [
     'Briar Bloomhurst', 'Bryce Whitingale', 'Buddy Fury', 'Bunny Cottontail', 'Byron Love', 
     ### C ###
     'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Redux)', 'Celia Hills', 
-    'Cerise Blossom', 'Claude Beacons', 'Coral', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
+    'Cerise Blossom', 'Charon', 'Claude Beacons', 'Coral', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
     ### D ###
     'Daniel Hatch', 'Darren Lachance', 'Dave Quagmire', 'David Samford', 'David Samford (Inazuma Japón)', 
     'David Samford (Legendario)', 'David Samford (Redux)', 'Davy Jones', 'Demetrius', 'Derek Swing', 
