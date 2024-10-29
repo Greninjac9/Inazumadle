@@ -345,6 +345,9 @@ Characters = [
       
     { "Nombre": "MARK-EVANS_(LEGENDARIO)", "Curso": "ADULTO", "Elemento": "Montaña", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
+
+    { "Nombre": "MURDOCK_MARVIN", "Curso": "3º", "Elemento": "Fuego", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "KIRKWOOD" },
       
     { "Nombre": "MAXWELL-CARSON", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
@@ -493,6 +496,9 @@ Characters = [
 
     { "Nombre": "THOMAS-FELDT_EMPERADORES-OSCUROS", "Curso": "3º", "Elemento": "Bosque", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
+
+    { "Nombre": "MURDOCK_THOMAS", "Curso": "3º", "Elemento": "Aire", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "KIRKWOOD" },
       
     { "Nombre": "CLAUDE-BEACONS_(TORCH)", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "KOR", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
@@ -502,8 +508,11 @@ Characters = [
       
     { "Nombre": "TRINA-VERDURE", "Curso": "1º", "Elemento": "Bosque", "Posición": "DF",
       "Género": "F", "Invocador": "Totem", "Dorsal": "2", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
-      
-    { "Nombre": "TYLER-MURDOCK", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
+
+    { "Nombre": "MURDOCK_TYLER", "Curso": "3º", "Elemento": "Montaña", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "KIRKWOOD" },
+
+    { "Nombre": "MURDOCK_TYLER_NEO-JAPON", "Curso": "3º", "Elemento": "Montaña", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "14", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
       
     ### U ###
@@ -591,7 +600,7 @@ CharacterRef = [
     'Lucian Dark', 
     ### M ###
     'Mark Evans', 'Mark Evans (II)', 'Mark Evans (Adulto)', 'Mark Evans (Arions)', 'Mark Evans (Legendario)', 
-    'Max', 'Mechamark', 'Michael Ballzack', 'Mike', 'Mister D', 
+    'Marvin Murdock', 'Max', 'Mechamark', 'Michael Ballzack', 'Mike', 'Mister D', 
     ### N ###
     'Nathan Swift', 'Nelly Raimon', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
     ### O ###
@@ -608,8 +617,8 @@ CharacterRef = [
     'Shun', 'Silvia Woods', 'Sol Daystar (Chrono Stones)', 
     'Sor (Chrono Stones)', 'Steve Grim', 'Subaru Honda', 'Sue Sparrow', 'Sue',
     ### T ###
-    'Terry Archibald', 'Tezcat', 'Timmy', 'Tod Ironside', 'Thomas Feldt', 'Thomas Feldt (Emperadores)',
-    'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 
+    'Terry Archibald', 'Tezcat', 'Timmy', 'Tod Ironside', 'Thomas Feldt', 'Thomas Feldt (Emperadores)', 'Thomas Murdock',
+    'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 'Tyler Murdock (Neo Japón)', 
     ### V ###
     'Victor Blade', 'Victor Blade (Chrono Stones)', 'Vladimir Blade', 
     ### W ###
