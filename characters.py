@@ -18,11 +18,14 @@ Characters = [
     { "Nombre": "ALAN-MASTER_(NEO)", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
 
-    { "Nombre": "AQUILINA SCHILLER", "Curso": "ADULTO", "Elemento": "Bosque", "Posición": "DT",
+    { "Nombre": "AQUILINA-SCHILLER", "Curso": "ADULTO", "Elemento": "Bosque", "Posición": "DT",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
 
     { "Nombre": "LANE-WAR_ARES", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "4", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
+
+    { "Nombre": "ARGIE-BARGIE", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "4", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ROYAL-ACADEMY_REDUX" },
     
     { "Nombre": "ARTIE-MISHMAN_ARTEMIS", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
@@ -464,6 +467,9 @@ Characters = [
       
     { "Nombre": "SUBARU-HONDA", "Curso": "3º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
+
+     { "Nombre": "SUE-SPARROW", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
+      "Género": "F", "Invocador": "EG-N", "Dorsal": "8", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ROYAL-ACADEMY_REDUX" },
       
     { "Nombre": "SUZETTE-HARTLAND", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
@@ -550,7 +556,7 @@ Characters = [
 CharacterRef = [
     ### A ###
     'Adé Kébé', 'Aiden Froste', 'Aitor Cazador', 'Alan Master', 'Alan Master (Neo Japón)', 'Aquilina Schiller',
-    'Ares', 'Artemis', 'Austin Hobbes', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Apollo', 'Archer Hawkins', 
+    'Ares', 'Argie Bargie', 'Artemis', 'Austin Hobbes', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Apollo', 'Archer Hawkins', 
     'Arion Sherwind', 'Arion Sherwind (Arions)', 'Arion Sherwind (Chrono Stones)', 
     'Astero Black', 'Athena', 'Axel Blaze', 
     ### B ### 
@@ -600,7 +606,7 @@ CharacterRef = [
     'Shawn Froste (Adulto)', 'Shawn Froste (Aiden)', 
     'Shawn Froste (DF)', 'Shawn Froste (Legendario)', 'Shawn Froste (Orion)', 
     'Shun', 'Silvia Woods', 'Sol Daystar (Chrono Stones)', 
-    'Sor (Chrono Stones)', 'Steve Grim', 'Subaru Honda', 'Sue', 
+    'Sor (Chrono Stones)', 'Steve Grim', 'Subaru Honda', 'Sue Sparrow', 'Sue',
     ### T ###
     'Terry Archibald', 'Tezcat', 'Timmy', 'Tod Ironside', 'Thomas Feldt', 'Thomas Feldt (Emperadores)',
     'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 
