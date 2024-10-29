@@ -490,6 +490,12 @@ Characters = [
       
     { "Nombre": "TOD-IRONSIDE", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
+
+    { "Nombre": "THOMAS-FELDT", "Curso": "3º", "Elemento": "Bosque", "Posición": "PR",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "BRAIN" },
+
+    { "Nombre": "THOMAS-FELDT_EMPERADORES-OSCUROS", "Curso": "3º", "Elemento": "Bosque", "Posición": "PR",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
       
     { "Nombre": "CLAUDE-BEACONS_(TORCH)", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "KOR", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
@@ -605,7 +611,8 @@ CharacterRef = [
     'Shun', 'Silvia Woods', 'Sol Daystar (Chrono Stones)', 
     'Sor (Chrono Stones)', 'Steve Grim', 'Subaru Honda', 'Sue', 
     ### T ###
-    'Terry Archibald', 'Tezcat', 'Timmy', 'Tod Ironside', 'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 
+    'Terry Archibald', 'Tezcat', 'Timmy', 'Tod Ironside', 'Thomas Feldt', 'Thomas Feldt (Emperadores)',
+    'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 
     ### V ###
     'Victor Blade', 'Victor Blade (Chrono Stones)', 'Vladimir Blade', 
     ### W ###
