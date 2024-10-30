@@ -330,6 +330,8 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "16",   "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
        
     ### M ###
+    { "Nombre": "MALCOMN-NIGHT", "Curso": "2º", "Elemento": "Fuego", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "KIRKWOOD" },
     
     { "Nombre": "MARK-EVANS", "Curso": "2º", "Elemento": "Montaña", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
@@ -368,6 +370,9 @@ Characters = [
     
     { "Nombre": "NATHAN-SWIFT", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
+    
+    { "Nombre": "NEIL-TURNER", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "BRAIN" },
       
     { "Nombre": "NELLY-RAIMON", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "EQUIPO-FEMENINO" },
@@ -599,10 +604,11 @@ CharacterRef = [
     ### L ###
     'Lucian Dark', 
     ### M ###
-    'Mark Evans', 'Mark Evans (II)', 'Mark Evans (Adulto)', 'Mark Evans (Arions)', 'Mark Evans (Legendario)', 
+    'Malcomn Night', 'Mark Evans', 'Mark Evans (II)', 'Mark Evans (Adulto)', 'Mark Evans (Arions)', 
+    'Mark Evans (Legendario)', 
     'Marvin Murdock', 'Max', 'Mechamark', 'Michael Ballzack', 'Mike', 'Mister D', 
     ### N ###
-    'Nathan Swift', 'Nelly Raimon', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
+    'Nathan Swift', 'Neil Turner', 'Nelly Raimon', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
     ### O ###
     ### P ###
     'Paolo Bianchi', 'Percival Travis', 'Perseo', 'Peter Drent', 'Poseidón',
