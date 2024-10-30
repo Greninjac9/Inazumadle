@@ -131,7 +131,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "KOR", "Debut": "FFI", "EQUIPO": "DRAGONES-DE-FUEGO" },
     
     { "Nombre": "CRONUS-FOURSEASONS", "Curso": "2º", "Elemento": "Fuego", "Posición": "MD",
-      "Género": "M", "Invocador": "EG", "Dorsal": "9", "EQUIPO": "MONTE-OLIMPO" },
+      "Género": "M", "Invocador": "EG", "Dorsal": "9", "Nacionalidad": "JAP", "EQUIPO": "MONTE-OLIMPO" },
     
     { "Nombre": "CRONUS-FOURSEASONS_(RESISTENCIA)", "Curso": "2º", "Elemento": "Fuego", "Posición": "MD",
       "Género": "M", "Invocador": "EG", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },
