@@ -335,6 +335,9 @@ Characters = [
     
     { "Nombre": "MALCOMN-NIGHT", "Curso": "2º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "KIRKWOOD" },
+
+    { "Nombre": "MALCOMN-NIGHT_EMPERADORES-OSCUROS", "Curso": "2º", "Elemento": "Fuego", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
     
     { "Nombre": "MARK-EVANS", "Curso": "2º", "Elemento": "Montaña", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
@@ -442,7 +445,13 @@ Characters = [
       
     { "Nombre": "SCOTT-BANYAN", "Curso": "1º", "Elemento": "Bosque", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
-      
+
+    { "Nombre": "SHADOW-CIMMERIAN", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "21", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON" },
+
+    { "Nombre": "SHADOW-CIMMERIAN_EMPERADORES-OSCUROS", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
+    
     { "Nombre": "SHAWN-FROSTE", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "INAZUMA-JAPON" },
       
@@ -607,7 +616,7 @@ CharacterRef = [
     ### L ###
     'Lucian Dark', 
     ### M ###
-    'Maddie Moonlight', 'Malcomn Night', 'Mark Evans', 'Mark Evans (II)', 'Mark Evans (Adulto)', 
+    'Maddie Moonlight', 'Malcomn Night','Malcomn Night (Emperadores)', 'Mark Evans', 'Mark Evans (II)', 'Mark Evans (Adulto)', 
     'Mark Evans (Arions)', 'Mark Evans (Legendario)', 
     'Marvin Murdock', 'Max', 'Mechamark', 'Michael Ballzack', 'Mike', 'Mister D', 
     ### N ###
@@ -620,7 +629,8 @@ CharacterRef = [
     ### R ###
     'Ray Dark', 'Riccardo Di Rigo', 'Riccardo Di Rigo (Chrono Stones)', 'Ryoma Nishiki', 'Ryoma Nishiki (Chrono Stones)', 
     ### S ###
-    'Sam Kincaid', 'Samguk Han', 'Seymour Hillman', 'Scotty', 'Shawn Froste (Unido)', 
+    'Sam Kincaid', 'Samguk Han', 'Seymour Hillman', 'Scotty', 
+    'Shadow Cimmerian', 'Shadow Cimmerian (Emperadores)', 'Shawn Froste (Unido)', 
     'Shawn Froste (Adulto)', 'Shawn Froste (Aiden)', 
     'Shawn Froste (DF)', 'Shawn Froste (Legendario)', 'Shawn Froste (Orion)', 
     'Shun', 'Silvia Woods', 'Sol Daystar (Chrono Stones)', 
