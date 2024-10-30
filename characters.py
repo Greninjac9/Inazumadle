@@ -330,6 +330,9 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "16",   "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
        
     ### M ###
+    { "Nombre": "MADDIE-MOONLIGHT", "Curso": "NINO", "Elemento": "Bosque", "Posición": "DL",
+      "Género": "F", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "KFC" },
+    
     { "Nombre": "MALCOMN-NIGHT", "Curso": "2º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "KIRKWOOD" },
     
@@ -604,8 +607,8 @@ CharacterRef = [
     ### L ###
     'Lucian Dark', 
     ### M ###
-    'Malcomn Night', 'Mark Evans', 'Mark Evans (II)', 'Mark Evans (Adulto)', 'Mark Evans (Arions)', 
-    'Mark Evans (Legendario)', 
+    'Maddie Moonlight', 'Malcomn Night', 'Mark Evans', 'Mark Evans (II)', 'Mark Evans (Adulto)', 
+    'Mark Evans (Arions)', 'Mark Evans (Legendario)', 
     'Marvin Murdock', 'Max', 'Mechamark', 'Michael Ballzack', 'Mike', 'Mister D', 
     ### N ###
     'Nathan Swift', 'Neil Turner', 'Nelly Raimon', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
