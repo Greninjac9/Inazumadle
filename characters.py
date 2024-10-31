@@ -78,7 +78,7 @@ Characters = [
       "Género": "M", "Invocador": "EG", "Dorsal": "10",  "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },
     
     { "Nombre": "BELLATRIX", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
-      "Género": "F", "Invocador": "EG-N", "Dorsal": "10",  "Nacionalidad": "Por_Definir", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS (GENESIS)" },
+      "Género": "F", "Invocador": "EG-N", "Dorsal": "10",  "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
     
     { "Nombre": "BETA", "Curso": "Por_Definir", "Elemento": "Aire", "Posición": "DL",
       "Género": "F", "Invocador": "EG_ARM", "Dorsal": "10",  "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_2.0" },
@@ -327,7 +327,10 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
       
     { "Nombre": "KEVIN-DRAGONFLY_(ARES)", "Curso": "3º", "Elemento": "Bosque", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "19",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ALPINO_(ARES)" },  
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "19",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ALPINO_(ARES)" }, 
+
+    { "Nombre": "KRYPTO", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
+      "Género": "F", "Invocador": "EG-N", "Dorsal": "7",  "Nacionalidad": "Por_Definir", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
 
     ### L ###
 
@@ -367,6 +370,12 @@ Characters = [
       
     { "Nombre": "MARK-EVANS_(MECHAMARK)", "Curso": "Por_Definir", "Elemento": "Montaña", "Posición": "PR",
       "Género": "M", "Invocador": "EG", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_(EL-DORADO-02)" },
+
+    { "Nombre": "MERCURY", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
+      "Género": "F", "Invocador": "EG-N", "Dorsal": "9",  "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
+
+    { "Nombre": "METRON", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "10",  "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
       
     { "Nombre": "MICHAEL-BALLZACK", "Curso": "2º", "Elemento": "Montaña", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
@@ -387,6 +396,9 @@ Characters = [
       
     { "Nombre": "NELLY-RAIMON", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "EQUIPO-FEMENINO" },
+
+    { "Nombre": "NERO", "Curso": "2º", "Elemento": "Aire", "Posición": "PR",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "1",  "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
       
     { "Nombre": "NIGEL-AUGUST_(NEPPTEN)", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
@@ -584,6 +596,9 @@ Characters = [
       
     { "Nombre": "ZANARK-AVALONIC_(CS)", "Curso": "Por_Definir", "Elemento": "Montaña", "Posición": "DL",
       "Género": "M", "Invocador": "EG_ARM", "Dorsal": "99", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "CHRONO-STORM" },
+
+    { "Nombre": "ZELL", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "11",  "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
       
     { "Nombre": "ZIPPY-LERNER", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "Totem", "Dorsal": "4", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN"}     
@@ -622,15 +637,15 @@ CharacterRef = [
     'Jude Sharp', 'Joseph King', 'Joseph King (Neo Japón)', 
     'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
     ### K ###
-    'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)',
+    'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)', 'Krypto',
     ### L ###
     'Lucian Dark', 
     ### M ###
     'Maddie Moonlight', 'Malcomn Night','Malcomn Night (Emperadores)', 'Mark Evans', 'Mark Evans (II)', 'Mark Evans (Adulto)', 
     'Mark Evans (Arions)', 'Mark Evans (Legendario)', 
-    'Marvin Murdock', 'Max', 'Mechamark', 'Michael Ballzack', 'Mike', 'Mister D', 
+    'Marvin Murdock', 'Max', 'Mechamark', 'Mercury', 'Metron', 'Michael Ballzack', 'Mike', 'Mister D', 
     ### N ###
-    'Nathan Swift', 'Neil Turner', 'Nelly Raimon', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
+    'Nathan Swift', 'Neil Turner', 'Nelly Raimon', 'Nero', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
     ### O ###
     ### P ###
     'Pandora', 'Paolo Bianchi', 'Percival Travis', 'Perseo', 'Peter Drent', 'Poseidón',
@@ -657,5 +672,5 @@ CharacterRef = [
     'Xavier Foster', 'Xavier Schiller', 'Xavier Schiller (Ares)', 'Xene', 
     ### Y ###
     ### Z ###
-    'Zack Avalon', 'Zanark Avalonic (Chrono Stones)', 'Zippy Lerner'
+    'Zack Avalon', 'Zanark Avalonic (Chrono Stones)', 'Zell', 'Zippy Lerner'
 ]
