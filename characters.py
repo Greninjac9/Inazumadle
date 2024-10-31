@@ -429,6 +429,9 @@ Characters = [
       
     { "Nombre": "RICCARDO-DI-RIGO_(CS)", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG_ARM", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "CHRONO-STORM" },
+
+    { "Nombre": "RIHM", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
+      "Género": "F", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
       
     { "Nombre": "RYOMA-NISHIKI", "Curso": "2º", "Elemento": "Montaña", "Posición": "MD",
       "Género": "M", "Invocador": "EG", "Dorsal": "14", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
@@ -631,7 +634,8 @@ CharacterRef = [
     ### Q ###
     'Quentin Cinquedea (Resistencia)',
     ### R ###
-    'Ray Dark', 'Riccardo Di Rigo', 'Riccardo Di Rigo (Chrono Stones)', 'Ryoma Nishiki', 'Ryoma Nishiki (Chrono Stones)', 
+    'Ray Dark', 'Riccardo Di Rigo', 'Riccardo Di Rigo (Chrono Stones)', 
+    'Rihm', 'Ryoma Nishiki', 'Ryoma Nishiki (Chrono Stones)', 
     ### S ###
     'Sam Kincaid', 'Samguk Han', 'Seymour Hillman', 'Scotty', 
     'Shadow Cimmerian', 'Shadow Cimmerian (Emperadores)', 'Shawn Froste (Unido)', 
