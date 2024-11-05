@@ -345,7 +345,10 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
       
     { "Nombre": "KEVIN-DRAGONFLY_(ARES)", "Curso": "3º", "Elemento": "Bosque", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "19",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ALPINO_(ARES)" }, 
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "19",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ALPINO_(ARES)" },
+
+    { "Nombre": "KEVIN-DRAGONFLY_EMPERADORES", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "11",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
 
     { "Nombre": "KRYPTO", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "7",  "Nacionalidad": "Por_Definir", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
@@ -385,6 +388,9 @@ Characters = [
       
     { "Nombre": "MAXWELL-CARSON", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
+
+    { "Nombre": "MAXWELL-CARSON_EMPERADORES", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
       
     { "Nombre": "MARK-EVANS_(MECHAMARK)", "Curso": "Por_Definir", "Elemento": "Montaña", "Posición": "PR",
       "Género": "M", "Invocador": "EG", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_(EL-DORADO-02)" },
@@ -408,6 +414,9 @@ Characters = [
     
     { "Nombre": "NATHAN-SWIFT", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
+
+    { "Nombre": "NATHAN-SWIFT_EMPERADORES", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
     
     { "Nombre": "NEIL-TURNER", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "BRAIN" },
@@ -667,15 +676,15 @@ CharacterRef = [
     'Jude Sharp', 'Joseph King', 'Joseph King (Neo Japón)', 
     'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
     ### K ###
-    'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)', 'Krypto',
+    'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)', 'Kevin Dragonfly (Emperadores)', 'Krypto',
     ### L ###
     'Lucian Dark', 
     ### M ###
     'Maddie Moonlight', 'Malcomn Night','Malcomn Night (Emperadores)', 'Mark Evans', 'Mark Evans (II)', 'Mark Evans (Adulto)', 
     'Mark Evans (Arions)', 'Mark Evans (Legendario)', 
-    'Marvin Murdock', 'Max', 'Mechamark', 'Mercury', 'Metron', 'Michael Ballzack', 'Mike', 'Mister D', 
+    'Marvin Murdock', 'Max', 'Max (Emperadores', 'Mechamark', 'Mercury', 'Metron', 'Michael Ballzack', 'Mike', 'Mister D', 
     ### N ###
-    'Nathan Swift', 'Neil Turner', 'Nelly Raimon', 'Nero', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
+    'Nathan Swift', 'Nathan Swift (Emperadores)',  'Neil Turner', 'Nelly Raimon', 'Nero', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
     ### O ###
     ### P ###
     'Pandora', 'Paolo Bianchi', 'Percival Travis', 'Perseo', 'Peter Drent', 'Poseidón',
