@@ -476,6 +476,9 @@ Characters = [
     
     { "Nombre": "SAM-KINCAID", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "8", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
+
+    { "Nombre": "SAM-KINCAID_EMPERADORES", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "8", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
       
     { "Nombre": "SAMGUK-HAN", "Curso": "3º", "Elemento": "Fuego", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
@@ -547,6 +550,9 @@ Characters = [
 
     { "Nombre": "TIM-SAUNDERS", "Curso": "1º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
+
+    { "Nombre": "TIM-SAUNDERS_EMPERADORES", "Curso": "1º", "Elemento": "Bosque", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
       
     { "Nombre": "TOD-IRONSIDE", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
@@ -679,14 +685,14 @@ CharacterRef = [
     'Ray Dark', 'Riccardo Di Rigo', 'Riccardo Di Rigo (Chrono Stones)', 
     'Rihm', 'Ryoma Nishiki', 'Ryoma Nishiki (Chrono Stones)', 
     ### S ###
-    'Sam Kincaid', 'Samguk Han', 'Seymour Hillman', 'Scotty', 
+    'Sam Kincaid', 'Sam Kincaid (Emperadores)', 'Samguk Han', 'Seymour Hillman', 'Scotty', 
     'Shadow Cimmerian', 'Shadow Cimmerian (Emperadores)', 'Shawn Froste (Unido)', 
     'Shawn Froste (Adulto)', 'Shawn Froste (Aiden)', 
     'Shawn Froste (DF)', 'Shawn Froste (Legendario)', 'Shawn Froste (Orion)', 
     'Shun', 'Silvia Woods', 'Sol Daystar (Chrono Stones)', 
     'Sor (Chrono Stones)', 'Steve Grim', 'Steve Grim (Emperadores)', 'Subaru Honda', 'Sue Sparrow', 'Sue',
     ### T ###
-    'Terry Archibald', 'Tezcat', 'Timmy', 'Tod Ironside', 'Tod Ironside (Emperadores)',
+    'Terry Archibald', 'Tezcat', 'Timmy', 'Timmy (Emperadores)', 'Tod Ironside', 'Tod Ironside (Emperadores)',
     'Thomas Feldt', 'Thomas Feldt (Emperadores)', 'Thomas Murdock',
     'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 'Tyler Murdock (Neo Japón)', 
     ### V ###
