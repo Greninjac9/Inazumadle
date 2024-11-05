@@ -312,6 +312,9 @@ Characters = [
     { "Nombre": "JIM-WRAITH", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "4",  "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
 
+    { "Nombre": "JIM-WRAITH_EMPERADORES", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "4",  "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
+
     { "Nombre": "JUDE-SHARP_(ROYAL)", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10",  "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
     
@@ -521,6 +524,9 @@ Characters = [
       
     { "Nombre": "STEVE-GRIM", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
+
+    { "Nombre": "STEVE-GRIM_EMPERADORES", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
       
     { "Nombre": "SUBARU-HONDA", "Curso": "3º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
@@ -544,6 +550,9 @@ Characters = [
       
     { "Nombre": "TOD-IRONSIDE", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
+
+    { "Nombre": "TOD-IRONSIDE_EMPERADORES", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
 
     { "Nombre": "THOMAS-FELDT", "Curso": "3º", "Elemento": "Bosque", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "BRAIN" },
@@ -648,7 +657,7 @@ CharacterRef = [
     'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 
     ### J ###
     'Jack Wallside', 'John Bloom', 'Janus', 'Jean-Pierre Lapan', 
-    'Jean-Pierre Lapan (Chrono Stones)', 'Jim Wraith', 'Jude Sharp (Royal Academy)', 
+    'Jean-Pierre Lapan (Chrono Stones)', 'Jim Wraith', 'Jim Wraith (Emperadores)', 'Jude Sharp (Royal Academy)', 
     'Jude Sharp', 'Joseph King', 'Joseph King (Neo Japón)', 
     'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
     ### K ###
@@ -675,9 +684,10 @@ CharacterRef = [
     'Shawn Froste (Adulto)', 'Shawn Froste (Aiden)', 
     'Shawn Froste (DF)', 'Shawn Froste (Legendario)', 'Shawn Froste (Orion)', 
     'Shun', 'Silvia Woods', 'Sol Daystar (Chrono Stones)', 
-    'Sor (Chrono Stones)', 'Steve Grim', 'Subaru Honda', 'Sue Sparrow', 'Sue',
+    'Sor (Chrono Stones)', 'Steve Grim', 'Steve Grim (Emperadores)', 'Subaru Honda', 'Sue Sparrow', 'Sue',
     ### T ###
-    'Terry Archibald', 'Tezcat', 'Timmy', 'Tod Ironside', 'Thomas Feldt', 'Thomas Feldt (Emperadores)', 'Thomas Murdock',
+    'Terry Archibald', 'Tezcat', 'Timmy', 'Tod Ironside', 'Tod Ironside (Emperadores)',
+    'Thomas Feldt', 'Thomas Feldt (Emperadores)', 'Thomas Murdock',
     'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 'Tyler Murdock (Neo Japón)', 
     ### V ###
     'Victor Blade', 'Victor Blade (Chrono Stones)', 'Vladimir Blade', 
