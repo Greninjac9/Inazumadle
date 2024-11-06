@@ -153,6 +153,9 @@ Characters = [
     
     { "Nombre": "DARREN-LACHANCE", "Curso": "1º", "Elemento": "Bosque", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
+
+    { "Nombre": "DARREN-LACHANCE_INAZUMA-JAPON", "Curso": "1º", "Elemento": "Bosque", "Posición": "PR",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "20", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "INAZUMA-JAPON" },
       
     { "Nombre": "DAVE-QUAGMIRE", "Curso": "3º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "NEO-JAPON" },
@@ -379,6 +382,9 @@ Characters = [
       
     { "Nombre": "MARK-EVANS_(II)", "Curso": "2º", "Elemento": "Montaña", "Posición": "DF_LB",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "15", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON_II" },
+
+    { "Nombre": "MARK-EVANS_INAZUMA-JAPON", "Curso": "2º", "Elemento": "Montaña", "Posición": "PR",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON" },
       
     { "Nombre": "MARK-EVANS_(ADULTO)", "Curso": "ADULTO", "Elemento": "Montaña", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON_(GO)" },
@@ -672,7 +678,7 @@ CharacterRef = [
     'Cadence Soundtown', 'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Redux)', 'Celia Hills', 
     'Cerise Blossom', 'Claude Beacons', 'Clear', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
     ### D ###
-    'Daniel Hatch', 'Darren Lachance', 'Dave Quagmire', 'David Samford', 'David Samford (Inazuma Japón)', 
+    'Daniel Hatch', 'Darren LaChance', 'Darren LaChance (Inazuma Japón)', 'Dave Quagmire', 'David Samford', 'David Samford (Inazuma Japón)', 
     'David Samford (Legendario)', 'David Samford (Redux)', 'Davy Jones', 'Demetrius', 'Derek Swing', 
     'Destin Billows','Diam', 'Dionysus','Dvalin',
     ### E ###
@@ -696,8 +702,8 @@ CharacterRef = [
     ### L ###
     'Lucian Dark', 
     ### M ###
-    'Maddie Moonlight', 'Malcomn Night','Malcomn Night (Emperadores)', 'Mark Evans', 'Mark Evans (II)', 'Mark Evans (Adulto)', 
-    'Mark Evans (Arions)', 'Mark Evans (Legendario)', 
+    'Maddie Moonlight', 'Malcomn Night','Malcomn Night (Emperadores)', 'Mark Evans', 'Mark Evans (II)', 
+    'Mark Evans (Inazuma Japón)', 'Mark Evans (Adulto)', 'Mark Evans (Arions)', 'Mark Evans (Legendario)', 
     'Marvin Murdock', 'Max', 'Max (Emperadores', 'Mechamark', 'Mercury', 'Metron', 'Michael Ballzack', 'Mike', 'Mister D', 
     ### N ###
     'Nathan Swift', 'Nathan Swift (Emperadores)', 'Nathan Swift (Inazuma Japón)',
