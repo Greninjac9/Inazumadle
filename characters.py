@@ -353,6 +353,9 @@ Characters = [
     { "Nombre": "KEVIN-DRAGONFLY_EMPERADORES", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
 
+    { "Nombre": "KEVIN-DRAGONFLY_INAZUMA-JAPON", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "17",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON" },
+
     { "Nombre": "KRYPTO", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "7",  "Nacionalidad": "Por_Definir", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
 
@@ -446,7 +449,10 @@ Characters = [
     
     { "Nombre": "PAOLO-BIANCHI", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
-      
+
+    { "Nombre": "PAUL-PEABODY", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "8", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
+    
     { "Nombre": "PERCIVAL-TRAVIS", "Curso": "ADULTO", "Elemento": "Bosque", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "INAZUMA-JAPON" },
       
@@ -682,7 +688,8 @@ CharacterRef = [
     'Jude Sharp', 'Joseph King', 'Joseph King (Neo Japón)', 
     'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
     ### K ###
-    'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)', 'Kevin Dragonfly (Emperadores)', 'Krypto',
+    'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)', 'Kevin Dragonfly (Emperadores)', 
+    'Kevin Dragonfly (Inazuma Japón)', 'Krypto',
     ### L ###
     'Lucian Dark', 
     ### M ###
@@ -693,7 +700,7 @@ CharacterRef = [
     'Nathan Swift', 'Nathan Swift (Emperadores)',  'Neil Turner', 'Nelly Raimon', 'Nero', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
     ### O ###
     ### P ###
-    'Pandora', 'Paolo Bianchi', 'Percival Travis', 'Perseo', 'Peter Drent', 'Poseidón',
+    'Pandora', 'Paolo Bianchi', 'Paul Peabody', 'Percival Travis', 'Perseo', 'Peter Drent', 'Poseidón',
     ### Q ###
     'Quentin Cinquedea (Resistencia)',
     ### R ###
