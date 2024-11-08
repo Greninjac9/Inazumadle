@@ -91,9 +91,6 @@ Characters = [
     
     { "Nombre": "BOBBY-SHEARER", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "13",  "Nacionalidad": "EEUU", "Debut": "FF", "EQUIPO": "RAIMON" },
-
-    { "Nombre": "BOBBY-SHEARER_II", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "13",  "Nacionalidad": "EEUU", "Debut": "FF", "EQUIPO": "RAIMON_II" },
     
     { "Nombre": "BOBBY-SHEARER_(UNICORN)", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "EEUU", "Debut": "FF", "EQUIPO": "UNICORN" },
@@ -672,7 +669,7 @@ CharacterRef = [
     'Astero Black', 'Athena', 'Axel Blaze', 
     ### B ### 
     'Bai Long', 'Bai Long (Chrono Stones)', 'Bai Long (Resistencia)', 'Baller', 'Bellatrix', 'Beta', 
-    'Ben Simmons', 'Bobby Shearer', 'Bobby Shearer (II)', 'Bobby Shearer (Unicorn)', 'Bomber',
+    'Ben Simmons', 'Bobby Shearer', 'Bobby Shearer (Unicorn)', 'Bomber',
     'Briar Bloomhurst', 'Bryce Whitingale', 'Buddy Fury', 'Bunny Cottontail', 'Byron Love', 
     ### C ###
     'Cadence Soundtown', 'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Redux)', 'Celia Hills', 
