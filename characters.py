@@ -513,10 +513,10 @@ Characters = [
     { "Nombre": "SCOTT-BANYAN", "Curso": "1º", "Elemento": "Bosque", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
 
-    { "Nombre": "SHADOW-CIMMERIAN", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
+    { "Nombre": "SHADOW-CIMMERIAN_RAIMON", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "21", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON" },
 
-    { "Nombre": "SHADOW-CIMMERIAN_EMPERADORES-OSCUROS", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
+    { "Nombre": "SHADOW-CIMMERIAN", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
     
     { "Nombre": "SHAWN-FROSTE", "Curso": "2º", "Elemento": "Aire", "Posición": "DF_LB",
