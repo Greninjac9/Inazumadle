@@ -23,6 +23,7 @@ Las características comprobables son:
 |  | ![???](/assets/images/MISCELANEO/Por_Definir.png) | |<img src="/assets/images/MISCELANEO/DF_LB.png" width="28"> Líbero |||| <img src="/assets/images/MISCELANEO/COS.png" width="25"> Costaleño |<img src="/assets/images/MISCELANEO/GCG.png" width="40"> Gran Celesta Galaxy||
 ||||||||![???](/assets/images/MISCELANEO/Por_Definir.png)|<img src="/assets/images/MISCELANEO/FF_ARES.png" width="40"> Fútbol Frontier (Ares)||
 |||||||||<img src="/assets/images/MISCELANEO/FFI_ORION.png" width="40"> Fútbol Frontier Internacional (Orión)||
+|||||||||<img src="/assets/images/MISCELANEO/FF_VR.png" width="40"> Fútbol Frontier (Victory Road)||
 
 ### LISTADO DE PERSONAJES
 [**Listado**](https://docs.google.com/spreadsheets/d/1Jmw9_HEDXiTBQyGbmJTQZdj3Ica8gQEIcfYQo_dYhbM/edit?usp=sharing)
