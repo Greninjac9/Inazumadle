@@ -192,6 +192,9 @@ def main(page: ft.Page):
         page.update()
         
         def PLAY_AGAIN(e):
+            if STATE == "VICTORY":
+                page.overlay.remove(Confetti)
+                page.update()
             page.close(dlg_modal)
             PLAY(e)
 
@@ -312,6 +315,10 @@ def main(page: ft.Page):
                         ft.FilledButton(text="Volver a jugar", on_click=PLAY_AGAIN),
         ],),)
             page.open(dlg_modal)
+            if STATE == "VICTORY":
+                Confetti = ft.Container(content=ft.Image(src=("assets\\images\\WEB\\CONFETI2.gif"), fit = ft.ImageFit.FIT_HEIGHT), height=1080, width=1920)
+                page.overlay.append(Confetti)
+            page.update()
 
     Searchbar = ft.SearchBar(
         view_elevation=4,
@@ -322,16 +329,14 @@ def main(page: ft.Page):
     # GAMEMODES:
 
     def PLAY(e):
-            nonlocal PJ      
-            nonlocal Voiceline
+            nonlocal PJ    
             nonlocal Tries
             Tries = 0
-            page.overlay.append(ft.Audio(src=("assets\\audio\\sfx\\OK.mp3"), autoplay=True))
             page.controls.clear()
+            page.overlay.append(ft.Audio(src=("assets\\audio\\sfx\\OK.mp3"), autoplay=True))
             page.decoration = ft.BoxDecoration(image=ft.DecorationImage(src=("assets\\images\\WEB\\AllStarsGameMode.png"), fit = ft.ImageFit.COVER))
             page.update()
             PJ = ChooseCharacter()
-            Voiceline = ("assets\\audio\\voicelines\\" + PJ["Nombre"] + ".mp3")
             page.add(ft.Row(
                 alignment=ft.MainAxisAlignment.CENTER,
                 controls = [ft.Column(
