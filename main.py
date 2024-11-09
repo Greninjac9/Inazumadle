@@ -316,7 +316,7 @@ def main(page: ft.Page):
         ],),)
             page.open(dlg_modal)
             if STATE == "VICTORY":
-                Confetti = ft.Container(content=ft.Image(src=("assets\\images\\WEB\\CONFETI2.gif"), fit = ft.ImageFit.FIT_HEIGHT), height=1080, width=1920)
+                Confetti = ft.Container(content=ft.Image(src=("assets\\images\\WEB\\CONFETTI.gif"), fit = ft.ImageFit.FIT_HEIGHT), height=1080, width=1920)
                 page.overlay.append(Confetti)
             page.update()
 
