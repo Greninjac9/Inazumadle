@@ -186,6 +186,9 @@ Characters = [
     
     { "Nombre": "DANNY-WOOD_DIONYSUS", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
+
+    { "Nombre": "DROLL", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
     
     { "Nombre": "DAVE-QUAGMIRE_(DVALIN)", "Curso": "3º", "Elemento": "Fuego", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
@@ -263,7 +266,10 @@ Characters = [
 
     { "Nombre": "HARROLD-HOUDINI_(RESISTENCIA)", "Curso": "3º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG", "Dorsal": "3", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },
-      
+
+    { "Nombre": "HEAT", "Curso": "2º", "Elemento": "Fuego", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
+    
     { "Nombre": "HECTOR-HELIO", "Curso": "2º", "Elemento": "Fuego", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
 
@@ -487,6 +493,9 @@ Characters = [
     { "Nombre": "RICCARDO-DI-RIGO_(CS)", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG_ARM", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "CHRONO-STORM" },
 
+    { "Nombre": "RHINE", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
+      "Género": "F", "Invocador": "EG-N", "Dorsal": "8", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
+    
     { "Nombre": "RIHM", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
       
@@ -677,7 +686,7 @@ CharacterRef = [
     ### D ###
     'Daniel Hatch', 'Darren LaChance', 'Darren LaChance (Inazuma Japón)', 'Dave Quagmire', 'David Samford', 'David Samford (Inazuma Japón)', 
     'David Samford (Legendario)', 'David Samford (Redux)', 'Davy Jones', 'Demetrius', 'Derek Swing', 
-    'Destin Billows','Diam', 'Dionysus','Dvalin',
+    'Destin Billows','Diam', 'Dionysus','Droll', 'Dvalin',
     ### E ###
     'Elliot Ember (Orion)', 'Erik Eagle', 'Erik Eagle (Unicorn)', 'Eugene Peabody', 
     ### F ###
@@ -686,7 +695,7 @@ CharacterRef = [
     'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Ganymede', 'Gazelle', 'Gocker', 'Godric Wyles', 
     'Goldie Lemmon (Chrono Stones)', 'Galileo', 'Gus Martin', 'Gus Martin (Adulto)', 'Grent',
     ### H ###
-    'Harrold Houdini (Resistencia)', 'Hector Helio', 'Hera', 'Hermes', 'Hephestus', 'Herman Waldon', 'Hotel', 'Hugh', 
+    'Harrold Houdini (Resistencia)', 'Heat', 'Hector Helio', 'Hera', 'Hermes', 'Hephestus', 'Herman Waldon', 'Hotel', 'Hugh', 
     'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 
     ### J ###
     'Jack Wallside', 'John Bloom', 'Janus', 'Jean-Pierre Lapan', 
@@ -711,7 +720,7 @@ CharacterRef = [
     ### Q ###
     'Quentin Cinquedea (Resistencia)',
     ### R ###
-    'Ray Dark', 'Riccardo Di Rigo', 'Riccardo Di Rigo (Chrono Stones)', 
+    'Ray Dark', 'Riccardo Di Rigo', 'Riccardo Di Rigo (Chrono Stones)', 'Rhine',
     'Rihm', 'Ryoma Nishiki', 'Ryoma Nishiki (Chrono Stones)', 
     ### S ###
     'Sam Kincaid', 'Sam Kincaid (Emperadores)', 'Samguk Han', 'Seymour Hillman', 'Scotty', 
