@@ -26,9 +26,15 @@ Characters = [
 
     { "Nombre": "ARGIE-BARGIE", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "4", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ROYAL-ACADEMY_REDUX" },
+
+    { "Nombre": "ARK", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "8", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
     
     { "Nombre": "ARTIE-MISHMAN_ARTEMIS", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
+
+    { "Nombre": "ASTRAM-SCHILLER", "Curso": "ADULTO", "Elemento": "Bosque", "Posición": "DT",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
     
     { "Nombre": "AUSTIN-HOBBES", "Curso": "NINO", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "INAZUMA-JAPON" },
@@ -241,6 +247,9 @@ Characters = [
     { "Nombre": "BRYCE-WITHINGALE_(GAZELLE)", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "KOR", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
 
+    { "Nombre": "GELE", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
+    
     { "Nombre": "GOCKER", "Curso": "2º", "Elemento": "Montaña", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
 
@@ -267,6 +276,9 @@ Characters = [
     { "Nombre": "HARROLD-HOUDINI_(RESISTENCIA)", "Curso": "3º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG", "Dorsal": "3", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },
 
+    { "Nombre": "HAUSER", "Curso": "2º", "Elemento": "Montaña", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
+    
     { "Nombre": "HEAT", "Curso": "2º", "Elemento": "Fuego", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
     
@@ -361,6 +373,15 @@ Characters = [
 
     { "Nombre": "KEVIN-DRAGONFLY_INAZUMA-JAPON", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "17",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON" },
+
+    { "Nombre": "KIBURN", "Curso": "2º", "Elemento": "Fuego", "Posición": "DF",
+      "Género": "F", "Invocador": "EG-N", "Dorsal": "3", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
+
+    { "Nombre": "KIWILL", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
+      "Género": "f", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
+
+    { "Nombre": "KORMER", "Curso": "2º", "Elemento": "Fuego", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
 
     { "Nombre": "KRYPTO", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "7",  "Nacionalidad": "Por_Definir", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
@@ -640,6 +661,9 @@ Characters = [
     { "Nombre": "WILLIAM-GLASS", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "12", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
 
+    { "Nombre": "WITTZ", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
+
     ### X ###
     
     { "Nombre": "XAVIER-FOSTER", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
@@ -667,13 +691,16 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11",  "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
       
     { "Nombre": "ZIPPY-LERNER", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
-      "Género": "M", "Invocador": "Totem", "Dorsal": "4", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN"}     
+      "Género": "M", "Invocador": "Totem", "Dorsal": "4", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN"}  
+
+    { "Nombre": "ZOHEN", "Curso": "2º", "Elemento": "Montaña", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "4", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
 ]
 
 CharacterRef = [
     ### A ###
     'Adé Kébé', 'Aiden Froste', 'Aitor Cazador', 'Alan Master', 'Alan Master (Neo Japón)', 'Aquilina Schiller',
-    'Ares', 'Argie Bargie', 'Artemis', 'Austin Hobbes', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Apollo', 'Archer Hawkins', 
+    'Ares', 'Argie Bargie', 'Ark', 'Artemis', 'Astram Schiller', 'Austin Hobbes', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Apollo', 'Archer Hawkins', 
     'Arion Sherwind', 'Arion Sherwind (Arions)', 'Arion Sherwind (Chrono Stones)', 
     'Astero Black', 'Athena', 'Axel Blaze', 
     ### B ### 
@@ -692,10 +719,11 @@ CharacterRef = [
     ### F ###
     'Falco Flashman', 'Fei Rune', 'Fei Rune (Chrono Stones)', 'Flora', 'Frank Foreman',
     ### G ###
-    'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Ganymede', 'Gazelle', 'Gocker', 'Godric Wyles', 
+    'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Ganymede', 'Gazelle', 'Gele', 'Gocker', 'Godric Wyles', 
     'Goldie Lemmon (Chrono Stones)', 'Galileo', 'Gus Martin', 'Gus Martin (Adulto)', 'Grent',
     ### H ###
-    'Harrold Houdini (Resistencia)', 'Heat', 'Hector Helio', 'Hera', 'Hermes', 'Hephestus', 'Herman Waldon', 'Hotel', 'Hugh', 
+    'Harrold Houdini (Resistencia)', 'Hauser', 'Heat', 'Hector Helio', 'Hera', 'Hermes', 
+    'Hephestus', 'Herman Waldon', 'Hotel', 'Hugh', 
     'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 
     ### J ###
     'Jack Wallside', 'John Bloom', 'Janus', 'Jean-Pierre Lapan', 
@@ -704,7 +732,7 @@ CharacterRef = [
     'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
     ### K ###
     'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)', 'Kevin Dragonfly (Emperadores)', 
-    'Kevin Dragonfly (Inazuma Japón)', 'Krypto',
+    'Kevin Dragonfly (Inazuma Japón)', 'Kiburn', 'Kiwill', 'Kormer', 'Krypto',
     ### L ###
     'Lucian Dark', 
     ### M ###
@@ -736,10 +764,10 @@ CharacterRef = [
     ### V ###
     'Victor Blade', 'Victor Blade (Chrono Stones)', 'Vladimir Blade', 
     ### W ###
-    'Wanli Changcheng', 'William Glass',
+    'Wanli Changcheng', 'William Glass', 'Wittz',
     ### X ###
     'Xavier Foster', 'Xavier Schiller', 'Xavier Schiller (Ares)', 'Xene', 
     ### Y ###
     ### Z ###
-    'Zack Avalon', 'Zanark Avalonic (Chrono Stones)', 'Zell', 'Zippy Lerner'
+    'Zack Avalon', 'Zanark Avalonic (Chrono Stones)', 'Zell', 'Zippy Lerner', 'Zohen'
 ]
