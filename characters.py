@@ -140,9 +140,12 @@ Characters = [
     
     { "Nombre": "CERISE-BLOSSOM", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
       "Género": "F", "Invocador": "Totem", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
+
+    { "Nombre": "CHANGSU-CHOI", "Curso": "3º", "Elemento": "Fuego", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "KOR", "Debut": "FFI", "EQUIPO": "DRAGONES-DE-FUEGO" },
     
     { "Nombre": "CLAUDE-BEACONS", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "KOR", "Debut": "FFI", "EQUIPO": "DRAGONES-DE-FUEGO" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "KOR", "Debut": "ALIUS", "EQUIPO": "DRAGONES-DE-FUEGO" },
 
     { "Nombre": "CLEAR", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "5",  "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
@@ -727,7 +730,7 @@ CharacterRef = [
     'Briar Bloomhurst', 'Bryce Whitingale', 'Buddy Fury', 'Bunny Cottontail', 'Byron Love', 
     ### C ###
     'Cadence Soundtown', 'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Redux)', 'Celia Hills', 
-    'Cerise Blossom', 'Claude Beacons', 'Clear', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
+    'Cerise Blossom', 'Changsu Choi', 'Claude Beacons', 'Clear', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
     ### D ###
     'Daniel Hatch', 'Darren LaChance', 'Darren LaChance (Inazuma Japón)', 'Dave Quagmire', 'David Samford', 'David Samford (Inazuma Japón)', 
     'David Samford (Legendario)', 'David Samford (Redux)', 'Davy Jones', 'Demetrius', 'Derek Swing', 
