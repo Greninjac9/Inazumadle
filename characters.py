@@ -72,6 +72,9 @@ Characters = [
     { "Nombre": "AXEL-BLAZE", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10",  "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
 
+    { "Nombre": "AXEL-BLAZE_INAZUMA", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "10",  "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON" },
+
     ### B ###
     
     { "Nombre": "BAI-LONG", "Curso": "1º", "Elemento": "Aire", "Posición": "DL",
@@ -311,12 +314,18 @@ Characters = [
       
     { "Nombre": "HURLEY-KANE", "Curso": "3º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "4", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
+
+    { "Nombre": "HURLEY-KANE_INAZUMA", "Curso": "3º", "Elemento": "Aire", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "4", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "INAZUMA-JAPON" },
       
     ### I ### 
     ### J ###
     
     { "Nombre": "JACK-WALLSIDE", "Curso": "1º", "Elemento": "Montaña", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
+
+    { "Nombre": "JACK-WALLSIDE_INAZUMA", "Curso": "1º", "Elemento": "Montaña", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON" },
 
     { "Nombre": "JOHN-BLOOM", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
@@ -341,6 +350,9 @@ Characters = [
     
     { "Nombre": "JUDE-SHARP", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "14",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
+    
+    { "Nombre": "JUDE-SHARP_INAZUMA", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "14",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON" },
 
     { "Nombre": "JOSEPH-KING", "Curso": "2º", "Elemento": "Fuego", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
@@ -543,6 +555,9 @@ Characters = [
     { "Nombre": "SCOTT-BANYAN", "Curso": "1º", "Elemento": "Bosque", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
 
+    { "Nombre": "SCOTT-BANYAN_INAZUMA", "Curso": "1º", "Elemento": "Bosque", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "INAZUMA-JAPON" },
+
     { "Nombre": "SHADOW-CIMMERIAN_RAIMON", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "21", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON" },
 
@@ -616,6 +631,9 @@ Characters = [
 
     { "Nombre": "TOD-IRONSIDE_EMPERADORES", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
+
+    { "Nombre": "TOD-IRONSIDE_INAZUMA", "Curso": "1º", "Elemento": "Fuego", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON" },
 
     { "Nombre": "THOMAS-FELDT", "Curso": "3º", "Elemento": "Bosque", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "BRAIN" },
@@ -702,7 +720,7 @@ CharacterRef = [
     'Adé Kébé', 'Aiden Froste', 'Aitor Cazador', 'Alan Master', 'Alan Master (Neo Japón)', 'Aquilina Schiller',
     'Ares', 'Argie Bargie', 'Ark', 'Artemis', 'Astram Schiller', 'Austin Hobbes', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Apollo', 'Archer Hawkins', 
     'Arion Sherwind', 'Arion Sherwind (Arions)', 'Arion Sherwind (Chrono Stones)', 
-    'Astero Black', 'Athena', 'Axel Blaze', 
+    'Astero Black', 'Athena', 'Axel Blaze', 'Axel Blaze (Inazuma Japón)',
     ### B ### 
     'Bai Long', 'Bai Long (Chrono Stones)', 'Bai Long (Resistencia)', 'Baller', 'Bellatrix', 'Beta', 
     'Ben Simmons', 'Bobby Shearer', 'Bobby Shearer (Unicorn)', 'Bomber',
@@ -724,11 +742,11 @@ CharacterRef = [
     ### H ###
     'Harrold Houdini (Resistencia)', 'Hauser', 'Heat', 'Hector Helio', 'Hera', 'Hermes', 
     'Hephestus', 'Herman Waldon', 'Hotel', 'Hugh', 
-    'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 
+    'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 'Hurley Kane (Inazuma Japón)',
     ### J ###
-    'Jack Wallside', 'John Bloom', 'Janus', 'Jean-Pierre Lapan', 
+    'Jack Wallside', 'Jack Wallside (Inazuma Japón)', 'John Bloom', 'Janus', 'Jean-Pierre Lapan', 
     'Jean-Pierre Lapan (Chrono Stones)', 'Jim Wraith', 'Jim Wraith (Emperadores)', 'Jude Sharp (Royal Academy)', 
-    'Jude Sharp', 'Joseph King', 'Joseph King (Neo Japón)', 
+    'Jude Sharp', 'Jude Sharp (Inazuma Japon)', 'Joseph King', 'Joseph King (Neo Japón)', 
     'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
     ### K ###
     'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)', 'Kevin Dragonfly (Emperadores)', 
@@ -751,14 +769,14 @@ CharacterRef = [
     'Ray Dark', 'Riccardo Di Rigo', 'Riccardo Di Rigo (Chrono Stones)', 'Rhine',
     'Rihm', 'Ryoma Nishiki', 'Ryoma Nishiki (Chrono Stones)', 
     ### S ###
-    'Sam Kincaid', 'Sam Kincaid (Emperadores)', 'Samguk Han', 'Seymour Hillman', 'Scotty', 
+    'Sam Kincaid', 'Sam Kincaid (Emperadores)', 'Samguk Han', 'Seymour Hillman', 'Scotty', 'Scotty (Inazuma Japón)',
     'Shadow Cimmerian', 'Shadow Cimmerian (Emperadores)', 'Shawn Froste (Unido)', 
     'Shawn Froste (Adulto)', 'Shawn Froste (Aiden)', 
     'Shawn Froste (DF)', 'Shawn Froste (Legendario)', 'Shawn Froste (Orion)', 
     'Shun', 'Silvia Woods', 'Sol Daystar (Chrono Stones)', 
     'Sor (Chrono Stones)', 'Steve Grim', 'Steve Grim (Emperadores)', 'Subaru Honda', 'Sue Sparrow', 'Sue',
     ### T ###
-    'Terry Archibald', 'Tezcat', 'Thor Stoutberg', 'Timmy', 'Timmy (Emperadores)', 'Tod Ironside', 'Tod Ironside (Emperadores)',
+    'Terry Archibald', 'Tezcat', 'Thor Stoutberg', 'Timmy', 'Timmy (Emperadores)', 'Tod Ironside', 'Tod Ironside (Emperadores)', 'Tod Ironside (Inazuma Japón)',
     'Thomas Feldt', 'Thomas Feldt (Emperadores)', 'Thomas Murdock',
     'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 'Tyler Murdock (Neo Japón)', 
     ### V ###
