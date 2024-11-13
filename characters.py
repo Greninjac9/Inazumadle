@@ -626,6 +626,9 @@ Characters = [
     { "Nombre": "TEZCAT", "Curso": "1º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "EQUIPO-ZERO" },
 
+    { "Nombre": "THIAGO-TORRES", "Curso": "3º", "Elemento": "Montaña", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "ARG", "Debut": "FFI", "EQUIPO": "LOS-EMPERADORES" },
+    
     { "Nombre": "THOR-STOUTBERG", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "12", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "INAZUMA-JAPON" },
 
@@ -789,7 +792,7 @@ CharacterRef = [
     'Shun', 'Silvia Woods', 'Sol Daystar (Chrono Stones)', 
     'Sor (Chrono Stones)', 'Steve Grim', 'Steve Grim (Emperadores)', 'Subaru Honda', 'Sue Sparrow', 'Sue',
     ### T ###
-    'Terry Archibald', 'Tezcat', 'Thor Stoutberg', 'Timmy', 'Timmy (Emperadores)', 'Tod Ironside', 'Tod Ironside (Emperadores)', 'Tod Ironside (Inazuma Japón)',
+    'Terry Archibald', 'Tezcat', 'Thiago Torres', 'Thor Stoutberg', 'Timmy', 'Timmy (Emperadores)', 'Tod Ironside', 'Tod Ironside (Emperadores)', 'Tod Ironside (Inazuma Japón)',
     'Thomas Feldt', 'Thomas Feldt (Emperadores)', 'Thomas Murdock',
     'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 'Tyler Murdock (Neo Japón)', 
     ### V ###
