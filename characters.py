@@ -179,7 +179,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "NEO-JAPON" },
 
     { "Nombre": "DAVID-EVANS", "Curso": "ADULTO", "Elemento": "Montaña", "Posición": "DT",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "LITTLE-GIANTS" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
     
     { "Nombre": "DAVID-SAMFORD", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
