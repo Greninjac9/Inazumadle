@@ -25,9 +25,9 @@ Las características comprobables son:
 ||||||||<img src="/assets/images/MISCELANEO/ARG.png" width="25"> Argentino|<img src="/assets/images/MISCELANEO/FFI_ORION.png" width="40"> Fútbol Frontier Internacional (Orión)||
 ||||||||<img src="/assets/images/MISCELANEO/ENG.png" width="25"> Inglés|<img src="/assets/images/MISCELANEO/FF_VR.png" width="40"> Fútbol Frontier (Victory Road)||
 
-En caso de ponerse una casilla en rojo, significa que dicha característica no es la misma que el personaje a adivinar. En caso de verde, sí que será coincidente. 
+En caso de ponerse una casilla en $${\color{red}rojo}$$, significa que dicha característica no es la misma que el personaje a adivinar. En caso de $${\color{lightgreen}verde}$$, sí que será coincidente. 
 
-Si sale en amarillo, dependerá de la característica; para dorsales, implica que se encuentra en un rango de 3 dorsales; para personajes, implica que se trata de una versión alternativa del mismo personaje; para la posición, LB y DF se marcan como similares (se marcan en amarillo); en caso de equipo, implica que es una variante del equipo; en caso de debut, implica una variante del torneo.
+Si sale en $${\color{yellow}amarillo}$$, dependerá de la característica; para dorsales, implica que se encuentra en un rango de 3 dorsales; para personajes, implica que se trata de una versión alternativa del mismo personaje; para la posición, LB y DF se marcan como similares (se marcan en amarillo); en caso de equipo, implica que es una variante del equipo; en caso de debut, implica una variante del torneo.
 
 Adicionalmente, la casilla de dorsales muestra si el dorsal es un número superior o inferior.
 
