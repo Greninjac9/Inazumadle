@@ -347,9 +347,6 @@ Characters = [
 
     { "Nombre": "JACK-WALLSIDE_INAZUMA", "Curso": "1º", "Elemento": "Montaña", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON" },
-
-    { "Nombre": "JOHN-BLOOM", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
     
     { "Nombre": "JORDAN-GREENWAY_(JANUS)", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
@@ -365,6 +362,12 @@ Characters = [
 
     { "Nombre": "JIM-WRAITH_EMPERADORES", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "4",  "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
+
+    { "Nombre": "JOHN-BLOOM", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
+
+    { "Nombre": "JONAS-DEMETRIUS", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "15", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
 
     { "Nombre": "JUDE-SHARP_(ROYAL)", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10",  "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
@@ -786,8 +789,8 @@ CharacterRef = [
     'Hephestus', 'Herman Waldon', 'Hotel', 'Hugh', 
     'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 'Hurley Kane (Inazuma Japón)',
     ### J ###
-    'Jack Wallside', 'Jack Wallside (Inazuma Japón)', 'John Bloom', 'Janus', 'Jean-Pierre Lapan', 
-    'Jean-Pierre Lapan (Chrono Stones)', 'Jim Wraith', 'Jim Wraith (Emperadores)', 'Jude Sharp (Royal Academy)', 
+    'Jack Wallside', 'Jack Wallside (Inazuma Japón)', 'Janus', 'Jean-Pierre Lapan', 
+    'Jean-Pierre Lapan (Chrono Stones)', 'Jim Wraith', 'Jim Wraith (Emperadores)','John Bloom', 'Jonas', 'Jude Sharp (Royal Academy)', 
     'Jude Sharp', 'Jude Sharp (Inazuma Japon)', 'Joseph King', 'Joseph King (Neo Japón)', 
     'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
     ### K ###
