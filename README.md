@@ -21,7 +21,7 @@ Las características comprobables son:
 |  | ![Adulto](/assets/images/MISCELANEO/ADULTO.png) | ![Aire](/assets/images/MISCELANEO/Aire.png) | ![Portero](/assets/images/MISCELANEO/PR.png) Portero|  | ![Tótem](/assets/images/MISCELANEO/Totem.png) Tótem ||![KOR](/assets/images/MISCELANEO/KOR.png) Coreano|<img src="/assets/images/MISCELANEO/CI.png" width="40"> Camino Imperial||
 |  | ![Niño](/assets/images/MISCELANEO/NINO.png) || ![Entrenador](/assets/images/MISCELANEO/DT.png) Entrenador|  |  ||![ITA](/assets/images/MISCELANEO/ITA.png) Italiano|<img src="/assets/images/MISCELANEO/CS.png" width="40"> Guerra Ragnarok ||
 |  | ![???](/assets/images/MISCELANEO/Por_Definir.png) | |<img src="/assets/images/MISCELANEO/DF_LB.png" width="28"> Líbero |||| <img src="/assets/images/MISCELANEO/COS.png" width="25"> Costaleño |<img src="/assets/images/MISCELANEO/GCG.png" width="40"> Gran Celesta Galaxy||
-||||||||<img src="/assets/images/MISCELANEO/ES.png" width="25"> Español|<img src="/assets/images/MISCELANEO/ES.png" width="40"> Fútbol Frontier (Ares)||
+||||||||<img src="/assets/images/MISCELANEO/ES.png" width="25"> Español|<img src="/assets/images/MISCELANEO/FF_ARES.png" width="40"> Fútbol Frontier (Ares)||
 ||||||||<img src="/assets/images/MISCELANEO/ARG.png" width="25"> Argentino|<img src="/assets/images/MISCELANEO/FFI_ORION.png" width="40"> Fútbol Frontier Internacional (Orión)||
 ||||||||<img src="/assets/images/MISCELANEO/ENG.png" width="25"> Inglés|<img src="/assets/images/MISCELANEO/FF_VR.png" width="40"> Fútbol Frontier (Victory Road)||
 
