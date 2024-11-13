@@ -711,6 +711,9 @@ Characters = [
     { "Nombre": "WITTZ", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
 
+    { "Nombre": "WITTZ_NEO", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "NEO-JAPON" },
+
     ### X ###
     
     { "Nombre": "XAVIER-FOSTER", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
@@ -816,7 +819,7 @@ CharacterRef = [
     ### V ###
     'Victor Blade', 'Victor Blade (Chrono Stones)', 'Victor García', 'Vladimir Blade', 
     ### W ###
-    'Wanli Changcheng', 'William Glass', 'Wittz',
+    'Wanli Changcheng', 'William Glass', 'Wittz', 'Wittz (Neo Japón)',
     ### X ###
     'Xavier Foster', 'Xavier Schiller', 'Xavier Schiller (Ares)', 'Xene', 
     ### Y ###
