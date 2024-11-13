@@ -152,6 +152,9 @@ Characters = [
 
     { "Nombre": "CLEAR", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "5",  "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
+
+    { "Nombre": "CLOAK", "Curso": "2º", "Elemento": "Fuego", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "7",  "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
     
     { "Nombre": "CRONUS-FOURSEASONS", "Curso": "2º", "Elemento": "Fuego", "Posición": "MD",
       "Género": "M", "Invocador": "EG", "Dorsal": "9", "Nacionalidad": "JAP", "EQUIPO": "MONTE-OLIMPO" },
@@ -486,6 +489,9 @@ Characters = [
     
     { "Nombre": "NEIL-TURNER", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "BRAIN" },
+
+    { "Nombre": "NEIL-TURNER_NEO", "Curso": "2º", "Elemento": "Fuego", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
       
     { "Nombre": "NELLY-RAIMON", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "EQUIPO-FEMENINO" },
@@ -751,7 +757,7 @@ CharacterRef = [
     'Briar Bloomhurst', 'Bryce Whitingale', 'Buddy Fury', 'Bunny Cottontail', 'Byron Love', 
     ### C ###
     'Cadence Soundtown', 'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Redux)', 'Celia Hills', 
-    'Cerise Blossom', 'Changsu Choi', 'Claude Beacons', 'Clear', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
+    'Cerise Blossom', 'Changsu Choi', 'Claude Beacons', 'Clear', 'Cloak', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
     ### D ###
     'Daniel Hatch', 'Daniel Hatch (Neo Japón)', 'Darren LaChance', 'Darren LaChance (Inazuma Japón)', 'Dave Quagmire', 
     'David Evans', 'David Samford', 'David Samford (Inazuma Japón)', 
@@ -784,7 +790,7 @@ CharacterRef = [
     'Marvin Murdock', 'Max', 'Max (Emperadores', 'Mechamark', 'Mercury', 'Metron', 'Michael Ballzack', 'Mike', 'Mister D', 
     ### N ###
     'Nathan Swift', 'Nathan Swift (Emperadores)', 'Nathan Swift (Inazuma Japón)',
-    'Neil Turner', 'Nelly Raimon', 'Nero', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
+    'Neil Turner', 'Neil Turner (Neo Japón)', 'Nelly Raimon', 'Nero', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
     ### O ###
     ### P ###
     'Pandora', 'Paolo Bianchi', 'Paul Peabody', 'Percival Travis', 'Perseo', 'Peter Drent', 'Poseidón',
