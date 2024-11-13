@@ -552,7 +552,7 @@ Characters = [
     ### R ###
     
     { "Nombre": "RAY-DARK", "Curso": "ADULTO", "Elemento": "Montaña", "Posición": "DT",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY_REDUX" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
       
     { "Nombre": "RICCARDO-DI-RIGO", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
