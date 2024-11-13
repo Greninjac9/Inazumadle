@@ -305,7 +305,10 @@ Characters = [
     
     { "Nombre": "HECTOR-HELIO", "Curso": "2º", "Elemento": "Fuego", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
-
+    
+    { "Nombre": "HENRY-HOUSE", "Curso": "3º", "Elemento": "Fuego", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "13", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
+    
     { "Nombre": "HENRY-HOUSE_HERA", "Curso": "3º", "Elemento": "Fuego", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
 
@@ -779,7 +782,7 @@ CharacterRef = [
     'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Ganymede', 'Gazelle', 'Gele', 'Gocker', 'Godric Wyles', 
     'Goldie Lemmon (Chrono Stones)', 'Galileo', 'Gus Martin', 'Gus Martin (Adulto)', 'Grent',
     ### H ###
-    'Harrold Houdini (Resistencia)', 'Hauser', 'Heat', 'Hector Helio', 'Hera', 'Hermes', 
+    'Harrold Houdini (Resistencia)', 'Hauser', 'Heat', 'Hector Helio', 'Henry House', 'Hera', 'Hermes', 
     'Hephestus', 'Herman Waldon', 'Hotel', 'Hugh', 
     'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 'Hurley Kane (Inazuma Japón)',
     ### J ###
