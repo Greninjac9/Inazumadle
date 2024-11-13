@@ -757,7 +757,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11",  "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "NEO-JAPON" },
       
     { "Nombre": "ZIPPY-LERNER", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
-      "Género": "M", "Invocador": "Totem", "Dorsal": "4", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN"}  
+      "Género": "M", "Invocador": "Totem", "Dorsal": "4", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN"},  
 
     { "Nombre": "ZOHEN", "Curso": "2º", "Elemento": "Montaña", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "4", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
