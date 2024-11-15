@@ -217,6 +217,9 @@ Characters = [
     { "Nombre": "DAVE-QUAGMIRE_(DVALIN)", "Curso": "3º", "Elemento": "Fuego", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
 
+    { "Nombre": "DYLAN-KEATS", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "EEUU", "Debut": "FFI", "EQUIPO": "UNICORN" },
+
     ### E ###
 
     { "Nombre": "EDGAR-PARTINUS", "Curso": "3º", "Elemento": "Bosque", "Posición": "DL",
@@ -786,7 +789,7 @@ CharacterRef = [
     'Daniel Hatch', 'Daniel Hatch (Neo Japón)', 'Darren LaChance', 'Darren LaChance (Inazuma Japón)', 'Dave Quagmire', 
     'David Evans', 'David Samford', 'David Samford (Inazuma Japón)', 
     'David Samford (Legendario)', 'David Samford (Redux)', 'Davy Jones', 'Demetrius', 'Derek Swing', 
-    'Destin Billows','Diam', 'Dionysus','Droll', 'Dvalin',
+    'Destin Billows','Diam', 'Dionysus','Droll', 'Dvalin', 'Dylan Keats',
     ### E ###
     'Edgar Partinus', 'Elliot Ember (Orion)', 'Erik Eagle', 'Erik Eagle (Unicorn)', 'Ethan Whitering', 'Eugene Peabody', 
     ### F ###
