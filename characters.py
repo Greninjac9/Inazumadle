@@ -285,6 +285,9 @@ Characters = [
 
     { "Nombre": "GIACOMO-YANI", "Curso": "2º", "Elemento": "Montaña", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "8", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
+
+    { "Nombre": "GIANLUCA-ZANARDI", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "16", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
     
     { "Nombre": "GIGI-BLASI", "Curso": "3º", "Elemento": "Aire", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
@@ -347,6 +350,9 @@ Characters = [
     
     { "Nombre": "HERMAN-WALDON", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
+
+    { "Nombre": "HIDETOSHI-NAKATA", "Curso": "3º", "Elemento": "Montaña", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
       
     { "Nombre": "HOTEL", "Curso": "Por_Definir", "Elemento": "Montaña", "Posición": "PR",
       "Género": "M", "Invocador": "EG", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_1.0" },
@@ -837,11 +843,11 @@ CharacterRef = [
     'Falco Flashman', 'Fei Rune', 'Fei Rune (Chrono Stones)', 'Flora', 'Frank Foreman',
     ### G ###
     'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 
-    'Giacomo Yani', 'Gigi Blasi', 'Ganymede', 'Gazelle', 'Gele', 'Gocker', 'Godric Wyles', 
+    'Giacomo Yani', 'Gianluca Zanardi', 'Gigi Blasi', 'Ganymede', 'Gazelle', 'Gele', 'Gocker', 'Godric Wyles', 
     'Goldie Lemmon (Chrono Stones)', 'Galileo', 'Gus Martin', 'Gus Martin (Adulto)', 'Grent',
     ### H ###
     'Harrold Houdini (Resistencia)', 'Hauser', 'Heat', 'Hector Helio', 'Henry House', 'Hera', 'Hermes', 
-    'Hephestus', 'Herman Waldon', 'Hotel', 'Hugh', 
+    'Hephestus', 'Herman Waldon', 'Hidetoshi Nakata', 'Hotel', 'Hugh', 
     'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 'Hurley Kane (Inazuma Japón)',
     ### J ###
     'Jack Wallside', 'Jack Wallside (Inazuma Japón)', 'Janus', 'Jean-Pierre Lapan', 
