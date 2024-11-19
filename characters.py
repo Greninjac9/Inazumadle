@@ -274,6 +274,9 @@ Characters = [
     { "Nombre": "GAMMA", "Curso": "Por_Definir", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG_ARM", "Dorsal": "10", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
 
+    { "Nombre": "GIACOMO-YANI", "Curso": "2º", "Elemento": "Montaña", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "8", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
+    
     { "Nombre": "GIGI-BLASI", "Curso": "3º", "Elemento": "Aire", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
 
@@ -815,7 +818,8 @@ CharacterRef = [
     ### F ###
     'Falco Flashman', 'Fei Rune', 'Fei Rune (Chrono Stones)', 'Flora', 'Frank Foreman',
     ### G ###
-    'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Gigi Blasi', 'Ganymede', 'Gazelle', 'Gele', 'Gocker', 'Godric Wyles', 
+    'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 
+    'Giacomo Yani', 'Gigi Blasi', 'Ganymede', 'Gazelle', 'Gele', 'Gocker', 'Godric Wyles', 
     'Goldie Lemmon (Chrono Stones)', 'Galileo', 'Gus Martin', 'Gus Martin (Adulto)', 'Grent',
     ### H ###
     'Harrold Houdini (Resistencia)', 'Hauser', 'Heat', 'Hector Helio', 'Henry House', 'Hera', 'Hermes', 
