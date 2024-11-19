@@ -449,7 +449,10 @@ Characters = [
 
     { "Nombre": "MALCOMN-NIGHT_EMPERADORES-OSCUROS", "Curso": "2º", "Elemento": "Fuego", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
-    
+
+    { "Nombre": "MARCO-MASERATI", "Curso": "2º", "Elemento": "Montaña", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
+      
     { "Nombre": "MARK-EVANS", "Curso": "2º", "Elemento": "Montaña", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
       
@@ -826,7 +829,7 @@ CharacterRef = [
     ### L ###
     'Lucian Dark', 
     ### M ###
-    'Maddie Moonlight', 'Malcomn Night','Malcomn Night (Emperadores)', 'Mark Evans', 'Mark Evans (II)', 
+    'Maddie Moonlight', 'Malcomn Night','Malcomn Night (Emperadores)', 'Marco Maserati', 'Mark Evans', 'Mark Evans (II)', 
     'Mark Evans (Inazuma Japón)', 'Mark Evans (Adulto)', 'Mark Evans (Arions)', 'Mark Evans (Legendario)', 'Mark Hillvalley', 'Mark Krueger',
     'Marvin Murdock', 'Max', 'Max (Emperadores', 'Mechamark', 'Mercury', 'Metron', 'Michael Ballzack', 'Mike', 'Mister D', 
     ### N ###
