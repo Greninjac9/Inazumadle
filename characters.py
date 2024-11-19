@@ -18,6 +18,9 @@ Characters = [
     { "Nombre": "ALAN-MASTER_(NEO)", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
 
+    { "Nombre": "ANTON-GRAZIUSO", "Curso": "3º", "Elemento": "Fuego", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "4", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
+
     { "Nombre": "AQUILINA-SCHILLER", "Curso": "ADULTO", "Elemento": "Bosque", "Posición": "DT",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
 
@@ -785,7 +788,7 @@ Characters = [
 
 CharacterRef = [
     ### A ###
-    'Adé Kébé', 'Aiden Froste', 'Aitor Cazador', 'Alan Master', 'Alan Master (Neo Japón)', 'Aquilina Schiller',
+    'Adé Kébé', 'Aiden Froste', 'Aitor Cazador', 'Alan Master', 'Alan Master (Neo Japón)', 'Anton Graziuso', 'Aquilina Schiller',
     'Ares', 'Argie Bargie', 'Argie Bargie (Neo Japón)', 'Ark', 'Artemis', 'Astram Schiller', 'Austin Hobbes', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Apollo', 'Archer Hawkins', 
     'Arion Sherwind', 'Arion Sherwind (Arions)', 'Arion Sherwind (Chrono Stones)', 
     'Astero Black', 'Athena', 'Axel Blaze', 'Axel Blaze (Inazuma Japón)',
