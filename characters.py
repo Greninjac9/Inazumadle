@@ -531,6 +531,11 @@ Characters = [
       "Género": "M", "Invocador": "EG", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },    
 
     ### O ###
+
+    { "Nombre": "OTTO-NOBILI", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },    
+
+    
     ### P ###
     { "Nombre": "PANDORA", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
@@ -825,6 +830,7 @@ CharacterRef = [
     'Nathan Swift', 'Nathan Swift (Emperadores)', 'Nathan Swift (Inazuma Japón)',
     'Neil Turner', 'Neil Turner (Neo Japón)', 'Nelly Raimon', 'Nero', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
     ### O ###
+    'Otto Nobili', 
     ### P ###
     'Pandora', 'Paolo Bianchi', 'Paul Peabody', 'Percival Travis', 'Perseo', 'Peter Drent', 'Poseidón',
     ### Q ###
