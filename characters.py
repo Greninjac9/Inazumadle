@@ -533,6 +533,9 @@ Characters = [
     { "Nombre": "NELLY-RAIMON", "Curso": "2º", "Elemento": "Fuego", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
 
+    { "Nombre": "NELLY-RAIMON_(LITTLE-GIANTS)", "Curso": "2º", "Elemento": "Fuego", "Posición": "MG",
+      "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "THE-LITTLE-GIANTS" },
+
     { "Nombre": "NERO", "Curso": "2º", "Elemento": "Aire", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1",  "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
       
