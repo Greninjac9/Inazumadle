@@ -143,6 +143,9 @@ Characters = [
     
     { "Nombre": "CALEB-STONEWALL_(REDUX)", "Curso": "2º", "Elemento": "Fuego", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ROYAL-ACADEMY_REDUX" },
+
+    { "Nombre": "CAMELIA-TRAVIS", "Curso": "2º", "Elemento": "Bosque", "Posición": "MG",
+      "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "INAZUMA-JAPON" },
     
     { "Nombre": "CELIA-HILLS", "Curso": "1º", "Elemento": "Aire", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
@@ -814,7 +817,7 @@ CharacterRef = [
     'Ben Simmons', 'Bobby Shearer', 'Bobby Shearer (Unicorn)', 'Bomber',
     'Briar Bloomhurst', 'Bryce Whitingale', 'Buddy Fury', 'Bunny Cottontail', 'Byron Love', 
     ### C ###
-    'Cadence Soundtown', 'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Redux)', 'Celia Hills', 
+    'Cadence Soundtown', 'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Redux)', 'Camelia Travis', 'Celia Hills', 
     'Cerise Blossom', 'Changsu Choi', 'Claude Beacons', 'Clear', 'Cloak', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
     ### D ###
     'Daniel Hatch', 'Daniel Hatch (Neo Japón)', 'Dante Diavolo', 'Darren LaChance', 'Darren LaChance (Inazuma Japón)', 'Dave Quagmire', 
