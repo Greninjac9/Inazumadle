@@ -718,6 +718,9 @@ Characters = [
 
     { "Nombre": "VICTOR-GARCIA", "Curso": "3º", "Elemento": "Montaña", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "ES", "Debut": "FFI", "EQUIPO": "LOS-ROJOS" },
+
+    { "Nombre": "VENTO-GAILLANO", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
       
     { "Nombre": "VLADIMIR-BLADE", "Curso": "ADULTO", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG_ARM", "Dorsal": "10", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "LOS-ARIONS" },
@@ -842,7 +845,7 @@ CharacterRef = [
     'Thomas Feldt', 'Thomas Feldt (Emperadores)', 'Thomas Murdock',
     'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 'Tyler Murdock (Neo Japón)', 
     ### V ###
-    'Victor Blade', 'Victor Blade (Chrono Stones)', 'Victor García', 'Vladimir Blade', 
+    'Victor Blade', 'Victor Blade (Chrono Stones)', 'Victor García', 'Vento Gaillano', 'Vladimir Blade', 
     ### W ###
     'Wanli Changcheng', 'William Glass', 'Wittz', 'Wittz (Neo Japón)',
     ### X ###
