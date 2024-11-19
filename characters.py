@@ -174,6 +174,9 @@ Characters = [
 
     { "Nombre": "DANIEL-HATCH_NEO", "Curso": "2º", "Elemento": "Bosque", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
+
+    { "Nombre": "DANTE-DIAVOLO", "Curso": "3º", "Elemento": "Fuego", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
     
     { "Nombre": "DARREN-LACHANCE", "Curso": "1º", "Elemento": "Bosque", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
@@ -809,7 +812,7 @@ CharacterRef = [
     'Cadence Soundtown', 'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Redux)', 'Celia Hills', 
     'Cerise Blossom', 'Changsu Choi', 'Claude Beacons', 'Clear', 'Cloak', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
     ### D ###
-    'Daniel Hatch', 'Daniel Hatch (Neo Japón)', 'Darren LaChance', 'Darren LaChance (Inazuma Japón)', 'Dave Quagmire', 
+    'Daniel Hatch', 'Daniel Hatch (Neo Japón)', 'Dante Diavolo', 'Darren LaChance', 'Darren LaChance (Inazuma Japón)', 'Dave Quagmire', 
     'David Evans', 'David Samford', 'David Samford (Inazuma Japón)', 
     'David Samford (Legendario)', 'David Samford (Redux)', 'Davy Jones', 'Demetrius', 'Derek Swing', 
     'Destin Billows','Diam', 'Dionysus','Droll', 'Dvalin', 'Dylan Keats',
