@@ -144,7 +144,7 @@ Characters = [
     { "Nombre": "CALEB-STONEWALL_(REDUX)", "Curso": "2º", "Elemento": "Fuego", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ROYAL-ACADEMY_REDUX" },
     
-    { "Nombre": "CELIA-HILLS", "Curso": "1º", "Elemento": "Aire", "Posición": "MD",
+    { "Nombre": "CELIA-HILLS", "Curso": "1º", "Elemento": "Aire", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "EQUIPO-FEMENINO" },
     
     { "Nombre": "CERISE-BLOSSOM", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
@@ -530,7 +530,7 @@ Characters = [
     { "Nombre": "NEIL-TURNER_NEO", "Curso": "2º", "Elemento": "Fuego", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
       
-    { "Nombre": "NELLY-RAIMON", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
+    { "Nombre": "NELLY-RAIMON", "Curso": "2º", "Elemento": "Fuego", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "EQUIPO-FEMENINO" },
 
     { "Nombre": "NERO", "Curso": "2º", "Elemento": "Aire", "Posición": "PR",
@@ -650,7 +650,7 @@ Characters = [
     { "Nombre": "SHUNSUKE-AOYAMA", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "12", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
       
-    { "Nombre": "SILVIA-WOODS", "Curso": "2º", "Elemento": "Montaña", "Posición": "PR",
+    { "Nombre": "SILVIA-WOODS", "Curso": "2º", "Elemento": "Montaña", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "EQUIPO-FEMENINO" },
       
     { "Nombre": "SOL-DAYSTAR_(CS)", "Curso": "1º", "Elemento": "Fuego", "Posición": "MD",
