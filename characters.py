@@ -411,6 +411,9 @@ Characters = [
     { "Nombre": "JUDE-SHARP_INAZUMA", "Curso": "2º", "Elemento": "Bosque", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "14",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON" },
 
+    { "Nombre": "JUDE-SHARP_ADULTO", "Curso": "ADULTO", "Elemento": "Bosque", "Posición": "DT",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY_GO" },
+
     { "Nombre": "JOSEPH-KING", "Curso": "2º", "Elemento": "Fuego", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
       
@@ -852,7 +855,7 @@ CharacterRef = [
     ### J ###
     'Jack Wallside', 'Jack Wallside (Inazuma Japón)', 'Janus', 'Jean-Pierre Lapan', 
     'Jean-Pierre Lapan (Chrono Stones)', 'Jim Wraith', 'Jim Wraith (Emperadores)','John Bloom', 'Jonas', 'Jude Sharp (Royal Academy)', 
-    'Jude Sharp', 'Jude Sharp (Inazuma Japon)', 'Joseph King', 'Joseph King (Neo Japón)', 
+    'Jude Sharp', 'Jude Sharp (Inazuma Japon)', 'Jude Sharp (Adulto)', 'Joseph King', 'Joseph King (Neo Japón)', 
     'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
     ### K ###
     'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)', 'Kevin Dragonfly (Emperadores)', 
