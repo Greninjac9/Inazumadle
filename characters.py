@@ -149,6 +149,9 @@ Characters = [
     
     { "Nombre": "CELIA-HILLS", "Curso": "1º", "Elemento": "Aire", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
+
+    { "Nombre": "CELIA-HILLS_ADULTA", "Curso": "ADULTO", "Elemento": "Aire", "Posición": "MG",
+      "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON_GO" },
     
     { "Nombre": "CERISE-BLOSSOM", "Curso": "2º", "Elemento": "Aire", "Posición": "MD",
       "Género": "F", "Invocador": "Totem", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
@@ -417,6 +420,9 @@ Characters = [
     { "Nombre": "JUDE-SHARP_ADULTO", "Curso": "ADULTO", "Elemento": "Bosque", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY_GO" },
 
+    { "Nombre": "JUDE-SHARP_RAIMON-GO", "Curso": "ADULTO", "Elemento": "Bosque", "Posición": "DT",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON_GO" },
+
     { "Nombre": "JOSEPH-KING", "Curso": "2º", "Elemento": "Fuego", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1",   "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
       
@@ -584,6 +590,9 @@ Characters = [
     
     { "Nombre": "PERCIVAL-TRAVIS", "Curso": "ADULTO", "Elemento": "Bosque", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "INAZUMA-JAPON" },
+
+    { "Nombre": "PERCIVAL-TRAVIS_GO", "Curso": "ADULTO", "Elemento": "Bosque", "Posición": "DT",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "RAIMON_GO" },
       
     { "Nombre": "PERCY-HURST_(PERSEO)", "Curso": "2º", "Elemento": "Fuego", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "ZEUS_(ARES)" },
@@ -835,7 +844,7 @@ CharacterRef = [
     'Ben Simmons', 'Bobby Shearer', 'Bobby Shearer (Unicorn)', 'Bomber',
     'Briar Bloomhurst', 'Bryce Whitingale', 'Buddy Fury', 'Bunny Cottontail', 'Byron Love', 
     ### C ###
-    'Cadence Soundtown', 'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Redux)', 'Camelia Travis', 'Celia Hills', 
+    'Cadence Soundtown', 'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Redux)', 'Camelia Travis', 'Celia Hills', 'Celia Hills (Adulta)', 
     'Cerise Blossom', 'Changsu Choi', 'Claude Beacons', 'Clear', 'Cloak', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
     ### D ###
     'Daniel Hatch', 'Daniel Hatch (Neo Japón)', 'Daniele Santini', 'Dante Diavolo', 
@@ -858,7 +867,7 @@ CharacterRef = [
     ### J ###
     'Jack Wallside', 'Jack Wallside (Inazuma Japón)', 'Janus', 'Jean-Pierre Lapan', 
     'Jean-Pierre Lapan (Chrono Stones)', 'Jim Wraith', 'Jim Wraith (Emperadores)','John Bloom', 'Jonas', 'Jude Sharp (Royal Academy)', 
-    'Jude Sharp', 'Jude Sharp (Inazuma Japon)', 'Jude Sharp (Adulto)', 'Joseph King', 'Joseph King (Neo Japón)', 
+    'Jude Sharp', 'Jude Sharp (Inazuma Japon)', 'Jude Sharp (Adulto)', 'Jude Sharp (Raimon GO)', 'Joseph King', 'Joseph King (Neo Japón)', 
     'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
     ### K ###
     'Keenan Sharpe', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)', 'Kevin Dragonfly (Emperadores)', 
@@ -875,7 +884,7 @@ CharacterRef = [
     ### O ###
     'Otto Nobili', 
     ### P ###
-    'Pandora', 'Paolo Bianchi', 'Paul Peabody', 'Percival Travis', 'Perseo', 'Peter Drent', 'Poseidón',
+    'Pandora', 'Paolo Bianchi', 'Paul Peabody', 'Percival Travis', 'Percival Travis (GO)', 'Perseo', 'Peter Drent', 'Poseidón',
     ### Q ###
     'Quentin Cinquedea (Resistencia)',
     ### R ###
