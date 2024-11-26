@@ -42,6 +42,9 @@ Characters = [
     { "Nombre": "ARTIE-MISHMAN_ARTEMIS", "Curso": "2º", "Elemento": "AIRE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
 
+    { "Nombre": "ASTAROTH", "Curso": "POR-DEF", "Elemento": "FUEGO", "Posición": "PR",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+    
     { "Nombre": "ASTRAM-SCHILLER", "Curso": "ADULTO", "Elemento": "BOSQUE", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
     
@@ -229,12 +232,18 @@ Characters = [
     { "Nombre": "DESTIN-BILLOWS", "Curso": "1º", "Elemento": "BOSQUE", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF_VR", "EQUIPO": "SOUTH-CIRRUS" },
 
+    { "Nombre": "DESTRA", "Curso": "POR-DEF", "Elemento": "MONTAÑA", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+    
     { "Nombre": "DIAM", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
     
     { "Nombre": "DANNY-WOOD_DIONYSUS", "Curso": "1º", "Elemento": "AIRE", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
 
+    { "Nombre": "DRAGO-HILL", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
+    
     { "Nombre": "DROLL", "Curso": "2º", "Elemento": "AIRE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
     
@@ -294,6 +303,9 @@ Characters = [
 
     { "Nombre": "GARETH-FLARE", "Curso": "2º", "Elemento": "FUEGO", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
+
+    { "Nombre": "GAIEL", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "8", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
     
     { "Nombre": "GIACOMO-YANI", "Curso": "2º", "Elemento": "MONTAÑA", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "8", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
@@ -344,6 +356,9 @@ Characters = [
     
     { "Nombre": "ETHAN-WHITERING_HEAT", "Curso": "2º", "Elemento": "FUEGO", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
+
+    { "Nombre": "HEBIMOS", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
     
     { "Nombre": "HECTOR-HELIO", "Curso": "2º", "Elemento": "FUEGO", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
@@ -453,6 +468,9 @@ Characters = [
       
     ### K ###
 
+    { "Nombre": "KEENAN-DIFORTUNE", "Curso": "1º", "Elemento": "BOSQUE", "Posición": "PR",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "12", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
+    
     { "Nombre": "KEENAN-SHARPE", "Curso": "1º", "Elemento": "MONTAÑA", "Posición": "DF",
       "Género": "M", "Invocador": "Totem", "Dorsal": "3",   "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
 
@@ -485,6 +503,9 @@ Characters = [
 
     ### L ###
 
+    { "Nombre": "LEPHIEL", "Curso": "POR-DEF", "Elemento": "MONTAÑA", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+    
     { "Nombre": "LUCIAN-DARK", "Curso": "1º", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "16",   "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
        
@@ -499,6 +520,9 @@ Characters = [
     { "Nombre": "MALCOMN-NIGHT_EMPERADORES-OSCUROS", "Curso": "2º", "Elemento": "FUEGO", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
 
+    { "Nombre": "MALPHAS", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+    
     { "Nombre": "MARCO-MASERATI", "Curso": "2º", "Elemento": "MONTAÑA", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
       
@@ -579,6 +603,9 @@ Characters = [
     { "Nombre": "NELLY-RAIMON_(LITTLE-GIANTS)", "Curso": "2º", "Elemento": "FUEGO", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "THE-LITTLE-GIANTS" },
 
+    { "Nombre": "NENEL", "Curso": "POR-DEF", "Elemento": "FUEGO", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "4", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+
     { "Nombre": "NERO", "Curso": "2º", "Elemento": "AIRE", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1",  "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
       
@@ -635,7 +662,7 @@ Characters = [
     
     { "Nombre": "RAY-DARK", "Curso": "ADULTO", "Elemento": "MONTAÑA", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
-      
+    
     { "Nombre": "RICCARDO-DI-RIGO", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "MD",
       "Género": "M", "Invocador": "EG", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
       
@@ -647,7 +674,10 @@ Characters = [
     
     { "Nombre": "RIHM", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
-      
+
+    { "Nombre": "RUBÚ", "Curso": "POR-DEF", "Elemento": "MONTAÑA", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+    
     { "Nombre": "RYOMA-NISHIKI", "Curso": "2º", "Elemento": "MONTAÑA", "Posición": "MD",
       "Género": "M", "Invocador": "EG", "Dorsal": "14", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
       
@@ -664,7 +694,10 @@ Characters = [
       
     { "Nombre": "SAMGUK-HAN", "Curso": "3º", "Elemento": "FUEGO", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
-      
+
+    { "Nombre": "SAEL", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+    
     { "Nombre": "SEYMOUR-HILLMAN", "Curso": "ADULTO", "Elemento": "MONTAÑA", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
       
@@ -805,7 +838,10 @@ Characters = [
 
     { "Nombre": "WALTER-MOUNTAIN", "Curso": "1º", "Elemento": "MONTAÑA", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
-      
+
+    { "Nombre": "WENEL", "Curso": "POR-DEF", "Elemento": "FUEGO", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+    
     { "Nombre": "WILLIAM-GLASS", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "12", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
 
@@ -844,6 +880,9 @@ Characters = [
     { "Nombre": "ZANARK-AVALONIC_(CS)", "Curso": "POR-DEF", "Elemento": "MONTAÑA", "Posición": "DL",
       "Género": "M", "Invocador": "EG_ARM", "Dorsal": "99", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "CHRONO-STORM" },
 
+    { "Nombre": "ZANOS", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+    
     { "Nombre": "ZELL", "Curso": "2º", "Elemento": "AIRE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11",  "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
 
@@ -866,7 +905,7 @@ Characters = [
 CharacterRef = [
     ### A ###
     'Adé Kébé', 'Aiden Froste', 'Aitor Cazador', 'Alan Master', 'Alan Master (Neo Japón)', 'Angelo Gabrini', 'Anton Graziuso', 'Aquilina Schiller',
-    'Ares', 'Argie Bargie', 'Argie Bargie (Neo Japón)', 'Ark', 'Artemis', 'Astram Schiller', 'Austin Hobbes', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Apollo', 'Archer Hawkins', 
+    'Ares', 'Argie Bargie', 'Argie Bargie (Neo Japón)', 'Ark', 'Artemis', 'Astaroth', 'Astram Schiller', 'Austin Hobbes', 'Alex Zabel', 'Alfa', 'Aphrodite', 'Apollo', 'Archer Hawkins', 
     'Arion Sherwind', 'Arion Sherwind (Arions)', 'Arion Sherwind (Chrono Stones)', 
     'Astero Black', 'Athena', 'Axel Blaze', 'Axel Blaze (Inazuma Japón)',
     ### B ### 
@@ -881,17 +920,17 @@ CharacterRef = [
     'Darren LaChance', 'Darren LaChance (Inazuma Japón)', 'Dave Quagmire', 
     'David Evans', 'David Evans (GO)', 'David Samford', 'David Samford (Adulto)', 'David Samford (Inazuma Japón)', 
     'David Samford (Legendario)', 'David Samford (Redux)', 'Davy Jones', 'Demetrius', 'Derek Swing', 
-    'Destin Billows','Diam', 'Dionysus','Droll', 'Dvalin', 'Dylan Keats',
+    'Destin Billows', 'Destra', 'Diam', 'Dionysus', 'Drago Hill', 'Droll', 'Dvalin', 'Dylan Keats',
     ### E ###
     'Edgar Partinus', 'Elliot Ember (Orion)', 'Erik Eagle', 'Erik Eagle (Unicorn)', 'Ethan Whitering', 'Eugene Peabody', 
     ### F ###
     'Falco Flashman', 'Fei Rune', 'Fei Rune (Chrono Stones)', 'Flora', 'Frank Foreman',
     ### G ###
-    'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Gareth Flare',
+    'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Gareth Flare', 'Gaiel',
     'Giacomo Yani', 'Gianluca Zanardi', 'Gigi Blasi', 'Ganymede', 'Gazelle', 'Gele', 'Gocker', 'Godric Wyles', 
     'Goldie Lemmon (Chrono Stones)', 'Galileo', 'Gus Martin', 'Gus Martin (Adulto)', 'Grent',
     ### H ###
-    'Harrold Houdini (Resistencia)', 'Hauser', 'Heat', 'Hector Helio', 'Henry House', 'Hera', 'Hermes', 
+    'Harrold Houdini (Resistencia)', 'Hauser', 'Heat', 'Hebimos', 'Hector Helio', 'Henry House', 'Hera', 'Hermes', 
     'Hephestus', 'Herman Waldon', 'Hidetoshi Nakata', 'Hotel', 'Hugh', 
     'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 'Hurley Kane (Inazuma Japón)',
     ### I ###
@@ -902,28 +941,28 @@ CharacterRef = [
     'Jude Sharp', 'Jude Sharp (Inazuma Japon)', 'Jude Sharp (Adulto)', 'Jude Sharp (Raimon GO)', 'Joseph King', 'Joseph King (Neo Japón)', 
     'Joseph King (Redux)', 'Jordan Greenway', 'Julieta', 
     ### K ###
-    'Keenan Sharpe', 'Keith Ryan', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)', 'Kevin Dragonfly (Emperadores)', 
+    'Keenan DiFortune', 'Keenan Sharpe', 'Keith Ryan', 'Kevin Dragonfly', 'Kevin Dragonfly (Ares)', 'Kevin Dragonfly (Emperadores)', 
     'Kevin Dragonfly (Inazuma Japón)', 'Kiburn', 'Kiwill', 'Kormer', 'Krypto',
     ### L ###
-    'Lucian Dark', 
+    'Lephiel', 'Lucian Dark', 
     ### M ###
-    'Maddie Moonlight', 'Malcomn Night','Malcomn Night (Emperadores)', 'Marco Maserati', 'Mark Evans', 'Mark Evans (II)', 
+    'Maddie Moonlight', 'Malcomn Night','Malcomn Night (Emperadores)', 'Malphas', 'Marco Maserati', 'Mark Evans', 'Mark Evans (II)', 
     'Mark Evans (Inazuma Japón)', 'Mark Evans (Adulto)', 'Mark Evans (Arions)', 'Mark Evans (Legendario)', 'Mark Hillvalley', 'Mark Krueger',
     'Marvin Murdock', 'Max', 'Max (Emperadores)', 'Maximino Cruz', 'Mechamark', 'Mercury', 'Metron', 'Michael Ballzack', 'Mike', 'Mister D', 
     ### N ###
     'Nathan Swift', 'Nathan Swift (Emperadores)', 'Nathan Swift (Inazuma Japón)',
-    'Neil Turner', 'Neil Turner (Neo Japón)', 'Nelly Raimon', 'Nero', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
+    'Neil Turner', 'Neil Turner (Neo Japón)', 'Nelly Raimon', 'Nenel', 'Nero', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)',
     ### O ###
     'Otto Nobili', 
     ### P ###
-    'Pandora', 'Paolo Bianchi', 'Paul Peabody', 'Percival Travis', 'Percival Travis (GO)', 'Perseo', 'Peter Drent', 'Poseidón',
+    'Pandora', 'Paolo Bianchi', 'Paul Peabody', 'Percival Travis', 'Percival Travis (GO)', 'Perseo', 'Peter Drent', 'Poseidón', 'Preston Princeton',
     ### Q ###
     'Quentin Cinquedea (Resistencia)', 'Quint Hampton',
     ### R ###
     'Raffaele Generani', 'Ray Dark', 'Riccardo Di Rigo', 'Riccardo Di Rigo (Chrono Stones)', 'Rhine',
-    'Rihm', 'Ryoma Nishiki', 'Ryoma Nishiki (Chrono Stones)', 
+    'Rubú', 'Rihm', 'Ryoma Nishiki', 'Ryoma Nishiki (Chrono Stones)', 
     ### S ###
-    'Sam Kincaid', 'Sam Kincaid (Emperadores)', 'Samguk Han', 'Seymour Hillman', 'Scotty', 'Scotty (Inazuma Japón)',
+    'Sam Kincaid', 'Sam Kincaid (Emperadores)', 'Samguk Han', 'Sael', 'Seymour Hillman', 'Scotty', 'Scotty (Inazuma Japón)',
     'Shadow Cimmerian', 'Shadow Cimmerian (Emperadores)', 'Shawn Froste (Unido)', 
     'Shawn Froste (Adulto)', 'Shawn Froste (Aiden)', 
     'Shawn Froste (DF)', 'Shawn Froste (Legendario)', 'Shawn Froste (Orion)', 
@@ -937,11 +976,11 @@ CharacterRef = [
     ### V ###
     'Victor Blade', 'Victor Blade (Chrono Stones)', 'Victor García', 'Vento Gaillano', 'Vladimir Blade', 
     ### W ###
-    'Wanli Changcheng', 'Walter Mountain', 'William Glass', 'William Glass (Inazuma Japón)', 'Wittz', 'Wittz (Neo Japón)',
+    'Wanli Changcheng', 'Walter Mountain', 'Wenel', 'William Glass', 'William Glass (Inazuma Japón)', 'Wittz', 'Wittz (Neo Japón)',
     ### X ###
     'Xavier Foster', 'Xavier Schiller', 'Xavier Schiller (Ares)', 'Xene', 
     ### Y ###
     'Yasir Haddad',
     ### Z ###
-    'Zack Avalon', 'Zanark Avalonic (Chrono Stones)', 'Zell', 'Zell (Neo Japón)','Zephyr Vitesse', 'Zippy Lerner', 'Zohen', 'Zohen (Neo Japón)',
+    'Zack Avalon', 'Zanark Avalonic (Chrono Stones)', 'Zanos', 'Zell', 'Zell (Neo Japón)','Zephyr Vitesse', 'Zippy Lerner', 'Zohen', 'Zohen (Neo Japón)',
 ]
