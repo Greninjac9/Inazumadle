@@ -198,6 +198,9 @@ Characters = [
 
     { "Nombre": "DAVID-EVANS", "Curso": "ADULTO", "Elemento": "Montaña", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
+
+    { "Nombre": "DAVID-EVANS_GO", "Curso": "ADULTO", "Elemento": "Montaña", "Posición": "DT",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "RAIMON_GO" },
     
     { "Nombre": "DAVID-SAMFORD", "Curso": "2º", "Elemento": "Bosque", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
@@ -823,6 +826,9 @@ Characters = [
     { "Nombre": "ZELL_NEO", "Curso": "2º", "Elemento": "Aire", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11",  "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "NEO-JAPON" },
       
+    { "Nombre": "ZEPHYR-VITESSE", "Curso": "2º", "Elemento": "Aire", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Nacionalidad": "CON", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
+    
     { "Nombre": "ZIPPY-LERNER", "Curso": "1º", "Elemento": "Aire", "Posición": "DF",
       "Género": "M", "Invocador": "Totem", "Dorsal": "4", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN"},  
 
@@ -849,7 +855,7 @@ CharacterRef = [
     ### D ###
     'Daniel Hatch', 'Daniel Hatch (Neo Japón)', 'Daniele Santini', 'Dante Diavolo', 
     'Darren LaChance', 'Darren LaChance (Inazuma Japón)', 'Dave Quagmire', 
-    'David Evans', 'David Samford', 'David Samford (Adulto)', 'David Samford (Inazuma Japón)', 
+    'David Evans', 'David Evans (GO)', 'David Samford', 'David Samford (Adulto)', 'David Samford (Inazuma Japón)', 
     'David Samford (Legendario)', 'David Samford (Redux)', 'Davy Jones', 'Demetrius', 'Derek Swing', 
     'Destin Billows','Diam', 'Dionysus','Droll', 'Dvalin', 'Dylan Keats',
     ### E ###
@@ -910,5 +916,5 @@ CharacterRef = [
     'Xavier Foster', 'Xavier Schiller', 'Xavier Schiller (Ares)', 'Xene', 
     ### Y ###
     ### Z ###
-    'Zack Avalon', 'Zanark Avalonic (Chrono Stones)', 'Zell', 'Zell (Neo Japón)', 'Zippy Lerner', 'Zohen', 'Zohen (Neo Japón)',
+    'Zack Avalon', 'Zanark Avalonic (Chrono Stones)', 'Zell', 'Zell (Neo Japón)','Zephyr Vitesse', 'Zippy Lerner', 'Zohen', 'Zohen (Neo Japón)',
 ]
