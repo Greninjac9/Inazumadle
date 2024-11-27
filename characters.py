@@ -135,6 +135,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "KOR", "Debut": "FF", "EQUIPO": "DRAGONES-DE-FUEGO" },
 
     ### C ###
+    
     { "Nombre": "CADENCE-SOUNDTOWN", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "MARY-TIMES" },
     
@@ -178,6 +179,7 @@ Characters = [
       "Género": "M", "Invocador": "EG", "Dorsal": "5", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },
     
     ### D ###
+    
     { "Nombre": "DANIEL-HATCH", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
 
@@ -640,6 +642,7 @@ Characters = [
 
     
     ### P ###
+    
     { "Nombre": "PADRE-DE-SOR", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "POR-DEF", "Debut": "CS", "EQUIPO": "RAIMON_GO" },
     
@@ -680,7 +683,9 @@ Characters = [
 
     { "Nombre": "QUINT-HAMPTOM", "Curso": "2º", "Elemento": "AIRE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
+    
     ### R ###
+    
     { "Nombre": "RAFFAELE-GENERANI", "Curso": "2º", "Elemento": "MONTAÑA", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
     
@@ -795,6 +800,7 @@ Characters = [
       "Género": "F", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "RAIMON_II" },
       
     ### T ###
+    
     { "Nombre": "TALISMAN", "Curso": "1º", "Elemento": "BOSQUE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
     
@@ -850,6 +856,8 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "14", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
       
     ### U ###
+
+    
     ### V ###
 
     { "Nombre": "VICTOR-BLADE", "Curso": "1º", "Elemento": "FUEGO", "Posición": "DL",
@@ -908,6 +916,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
       
     ### Y ###
+    
      { "Nombre": "YASIR-HADDAD", "Curso": "1º", "Elemento": "BOSQUE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
     
