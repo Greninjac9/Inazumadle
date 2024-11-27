@@ -331,7 +331,10 @@ Characters = [
     { "Nombre": "GODRIC-WYLES", "Curso": "ADULTO", "Elemento": "BOSQUE", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
 
-    { "Nombre": "GOLDIE-LEMMON_(CS)", "Curso": "1º", "Elemento": "FUEGO", "Posición": "DF",
+    { "Nombre": "GOLDIE-LEMMON", "Curso": "1º", "Elemento": "FUEGO", "Posición": "LB",
+      "Género": "F", "Invocador": "EG", "Dorsal": "78", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "RAIMON_(GO)" }, 
+    
+    { "Nombre": "GOLDIE-LEMMON_(CS)", "Curso": "1º", "Elemento": "FUEGO", "Posición": "LB",
       "Género": "F", "Invocador": "EG_ARM", "Dorsal": "78", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "CHRONO-STORM" }, 
 
     { "Nombre": "GORDON-STAR_GALILEO", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "PR",
@@ -754,7 +757,10 @@ Characters = [
       
     { "Nombre": "SOL-DAYSTAR_(CS)", "Curso": "1º", "Elemento": "FUEGO", "Posición": "MD",
       "Género": "M", "Invocador": "EG_ARM", "Dorsal": "18", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "CHRONO-STORM" },
-      
+
+    { "Nombre": "SOR", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DF",
+      "Género": "M", "Invocador": "EG", "Dorsal": "21", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "RAIMON_(GO)" },
+    
     { "Nombre": "SOR_(CS)", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DF",
       "Género": "M", "Invocador": "EG_ARM", "Dorsal": "21", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "CHRONO-STORM" },
       
@@ -943,7 +949,7 @@ CharacterRef = [
     ### G ###
     'Gabriel García', 'Gabriel García (Chrono Stones)', 'Gamma', 'Gareth Flare', 'Gaiel',
     'Giacomo Yani', 'Gianluca Zanardi', 'Gigi Blasi', 'Ganymede', 'Gazelle', 'Gele', 'Gocker', 'Godric Wyles', 
-    'Goldie Lemmon (Chrono Stones)', 'Galileo', 'Gus Martin', 'Gus Martin (Adulto)', 'Grent',
+    'Goldie Lemmon', 'Goldie Lemmon (Chrono Stones)', 'Galileo', 'Gus Martin', 'Gus Martin (Adulto)', 'Grent',
     ### H ###
     'Harrold Houdini (Resistencia)', 'Hauser', 'Heat', 'Hebimos', 'Hector Helio', 'Henry House', 'Hera', 'Hermes', 
     'Hephestus', 'Herman Waldon', 'Hidetoshi Nakata', 'Hotel', 'Hugh', 
@@ -983,7 +989,7 @@ CharacterRef = [
     'Shawn Froste (Adulto)', 'Shawn Froste (Aiden)', 
     'Shawn Froste (DF)', 'Shawn Froste (Legendario)', 'Shawn Froste (Orion)', 
     'Shun', 'Silvia Woods', 'Skie Blue', 'Sol Daystar (Chrono Stones)', 
-    'Sor (Chrono Stones)', 'Steve Grim', 'Steve Grim (Emperadores)', 'Subaru Honda', 'Sue Sparrow', 'Sue',
+    'Sor', 'Sor (Chrono Stones)', 'Steve Grim', 'Steve Grim (Emperadores)', 'Subaru Honda', 'Sue Sparrow', 'Sue',
     ### T ###
     'Talisman', 'Terry Archibald', 'Tezcat', 'Thiago Torres', 'Thor Stoutberg', 'Timmy', 'Timmy (Emperadores)', 
     'Tod Ironside', 'Tod Ironside (Emperadores)', 'Tod Ironside (Inazuma Japón)',
