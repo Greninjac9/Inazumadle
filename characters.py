@@ -154,7 +154,7 @@ Characters = [
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
 
     { "Nombre": "CELIA-HILLS_ADULTA", "Curso": "ADULTO", "Elemento": "AIRE", "Posición": "MG",
-      "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON_GO" },
+      "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON_(GO)" },
     
     { "Nombre": "CERISE-BLOSSOM", "Curso": "2º", "Elemento": "AIRE", "Posición": "MD",
       "Género": "F", "Invocador": "Totem", "Dorsal": "7", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
@@ -203,7 +203,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
 
     { "Nombre": "DAVID-EVANS_GO", "Curso": "ADULTO", "Elemento": "MONTAÑA", "Posición": "DT",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "RAIMON_GO" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "RAIMON_(GO)" },
     
     { "Nombre": "DAVID-SAMFORD", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
