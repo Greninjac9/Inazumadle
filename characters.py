@@ -628,6 +628,9 @@ Characters = [
 
     
     ### P ###
+    { "Nombre": "PADRE-DE-SOR", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DT",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "POR-DEF", "Debut": "CS", "EQUIPO": "RAIMON_GO" },
+    
     { "Nombre": "PANDORA", "Curso": "2º", "Elemento": "AIRE", "Posición": "MD",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
     
@@ -967,7 +970,7 @@ CharacterRef = [
     ### O ###
     'Otto Nobili', 
     ### P ###
-    'Pandora', 'Paolo Bianchi', 'Paul Peabody', 'Percival Travis', 'Percival Travis (GO)', 'Perseo', 'Peter Drent', 
+    'Padre de Sor', 'Pandora', 'Paolo Bianchi', 'Paul Peabody', 'Percival Travis', 'Percival Travis (GO)', 'Perseo', 'Peter Drent', 
     'Phil A. Minion', 'Poseidón', 'Preston Princeton',
     ### Q ###
     'Quentin Cinquedea (Resistencia)', 'Quint Hampton',
