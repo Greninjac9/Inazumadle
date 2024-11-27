@@ -646,6 +646,9 @@ Characters = [
     { "Nombre": "PETER-DRENT", "Curso": "2º", "Elemento": "MONTAÑA", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
 
+    { "Nombre": "PHIL-A-MINION", "Curso": "ADULTO", "Elemento": "FUEGO", "Posición": "DF",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ZOOLAN-TEAM" },
+
     { "Nombre": "PAUL-SIDDON_POSEIDON", "Curso": "3º", "Elemento": "MONTAÑA", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
       
@@ -955,7 +958,8 @@ CharacterRef = [
     ### O ###
     'Otto Nobili', 
     ### P ###
-    'Pandora', 'Paolo Bianchi', 'Paul Peabody', 'Percival Travis', 'Percival Travis (GO)', 'Perseo', 'Peter Drent', 'Poseidón', 'Preston Princeton',
+    'Pandora', 'Paolo Bianchi', 'Paul Peabody', 'Percival Travis', 'Percival Travis (GO)', 'Perseo', 'Peter Drent', 
+    'Phil A. Minion', 'Poseidón', 'Preston Princeton',
     ### Q ###
     'Quentin Cinquedea (Resistencia)', 'Quint Hampton',
     ### R ###
