@@ -199,6 +199,9 @@ Characters = [
     { "Nombre": "DAVE-QUAGMIRE", "Curso": "3º", "Elemento": "FUEGO", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "NEO-JAPON" },
 
+    { "Nombre": "DAVE-QUAGMIRE_(ADULTO)", "Curso": "ADULTO", "Elemento": "FUEGO", "Posición": "DT",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "MONTE-OLIMPO" },
+
     { "Nombre": "DAVID-EVANS", "Curso": "ADULTO", "Elemento": "MONTAÑA", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
 
@@ -953,7 +956,7 @@ CharacterRef = [
     'Cerise Blossom', 'Changsu Choi', 'Claude Beacons', 'Clear', 'Cloak', 'Cronus Fourseasons', 'Cronus Fourseasons (Resistencia)',
     ### D ###
     'Daniel Hatch', 'Daniel Hatch (Neo Japón)', 'Daniele Santini', 'Dante Diavolo', 
-    'Darren LaChance', 'Darren LaChance (Inazuma Japón)', 'Dave Quagmire', 
+    'Darren LaChance', 'Darren LaChance (Inazuma Japón)', 'Dave Quagmire', 'Dave Quagmire (Adulto)', 
     'David Evans', 'David Evans (GO)', 'David Samford', 'David Samford (Adulto)', 'David Samford (Inazuma Japón)', 
     'David Samford (Legendario)', 'David Samford (Redux)', 'Davy Jones', 'Demetrius', 'Derek Swing', 
     'Destin Billows', 'Destra', 'Diam', 'Dionysus', 'Drago Hill', 'Droll', 'Dvalin', 'Dylan Keats',
