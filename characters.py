@@ -930,6 +930,9 @@ Characters = [
 
     { "Nombre": "ZANOS", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+
+    { "Nombre": "ZAPHOD-RIKER", "Curso": "1º", "Elemento": "AIRE", "Posición": "MD",
+      "Género": "M", "Invocador": "EG", "Dorsal": "6", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "VIA-LACTEA" },
     
     { "Nombre": "ZELL", "Curso": "2º", "Elemento": "AIRE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11",  "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
@@ -982,7 +985,7 @@ CharacterRef = [
     'Hephestus', 'Herman Waldon', 'Hidetoshi Nakata', 'Hotel', 'Hugh', 
     'Hunter Foster', 'Hunter Foster (Orion)', 'Hurley Kane', 'Hurley Kane (Inazuma Japón)',
     ### I ###
-    'Ian Ferrum', 'Iggie Loo', 
+    'Ian Ferrum', 'Iggie Loo', 'Infinity Beyond',
     ### J ###
     'Jack Wallside', 'Jack Wallside (Inazuma Japón)', 'Jade Greene', 'Janus', 'Jean-Pierre Lapan', 
     'Jean-Pierre Lapan (Chrono Stones)', 'Jim Wraith', 'Jim Wraith (Emperadores)', 'Jimi Gaines', 'John Bloom', 'Jonas', 'Jude Sharp (Royal Academy)', 
@@ -1032,5 +1035,6 @@ CharacterRef = [
     ### Y ###
     'Yasir Haddad',
     ### Z ###
-    'Zack Avalon', 'Zanark Avalonic (Chrono Stones)', 'Zanos', 'Zell', 'Zell (Neo Japón)','Zephyr Vitesse', 'Zippy Lerner', 'Zohen', 'Zohen (Neo Japón)',
+    'Zack Avalon', 'Zanark Avalonic (Chrono Stones)', 'Zanos', 'Zaphod Riker', 'Zell', 'Zell (Neo Japón)','Zephyr Vitesse', 
+    'Zippy Lerner', 'Zohen', 'Zohen (Neo Japón)',
 ]
