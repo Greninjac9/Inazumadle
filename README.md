@@ -35,6 +35,6 @@ Adicionalmente, la casilla de dorsales muestra si el dorsal es un número superi
 [**Listado**](https://docs.google.com/spreadsheets/d/1Jmw9_HEDXiTBQyGbmJTQZdj3Ica8gQEIcfYQo_dYhbM/edit?usp=sharing)
 _El listado está incompleto._
 
-_(Todos los personajes e iconos pertenecen a Level 5, a excepción de algunos pocos iconos hechos por nosotros mismos para el uso en Inazumadle)_
+
 
 _Proyecto PTD II. Curso 2024-2025. 2n BACH_
