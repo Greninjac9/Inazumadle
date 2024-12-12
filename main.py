@@ -56,9 +56,9 @@ def main(page: ft.Page):
             if (Searchbar.value).capitalize() == i.capitalize() or e.capitalize() == i.capitalize():
                 Char = Characters[CharacterRef.index(i)]
                 # COMPRUEBA SI LOS ELEMENTOS COINCIDEN CON EL PERSONAJE POR ADIVINAR
-                for k in range(10):
+                for k in range(11):
                     Elementos = ["Nombre", "Curso", "Elemento", "Posición", "Género", 
-                                 "Invocador", "Dorsal", "Nacionalidad", "Debut", "EQUIPO"]
+                                 "Invocador", "Dorsal", "Capitán", "Nacionalidad", "Debut", "EQUIPO"]
                     # CAMBIA EL COLOR DEPENDIENDO DE SI ES IGUAL O NO
                     if Elementos[k] == "Dorsal":
                         if Char[Elementos[k]] == PJ[Elementos[k]]:
@@ -158,6 +158,15 @@ def main(page: ft.Page):
                     height = 80, width = 80,
                     bgcolor=COLORS[6], border_radius = 10,
                     margin = ft.margin.symmetric(4)
+                ),
+                ft.Container(
+                    content=ft.Image(
+                        src=("assets\\images\\MISCELANEO\\" + Char["Capitán"] + ".png"),
+                        fit = ft.ImageFit.FIT_WIDTH,),
+                    border = ft.border.all(5, COLORS[0]),
+                    height = 80, width = 80,
+                    bgcolor=COLORS[0], border_radius = 10,
+                    margin = ft.margin.symmetric(4),
                 ),
                 ft.Container(
                     content=ft.Image(
@@ -337,7 +346,8 @@ def main(page: ft.Page):
             page.decoration = ft.BoxDecoration(image=ft.DecorationImage(src=("assets\\images\\WEB\\AllStarsGameMode.png"), fit = ft.ImageFit.COVER))
             page.update()
             PJ = ChooseCharacter()
-            page.add(ft.Row(
+            page.add(
+                ft.Row(
                 alignment=ft.MainAxisAlignment.CENTER,
                 controls = [ft.Column(
                 alignment=ft.MainAxisAlignment.START,
@@ -351,7 +361,8 @@ def main(page: ft.Page):
             ft.Column(
                 [
                     ft.Container(content=ft.Row(alignment=ft.MainAxisAlignment.CENTER, controls=[ft.Text("Jugar", size=30, weight=ft.FontWeight.BOLD, color=ft.colors.BLACK)]),
-                                 on_click=PLAY, width=800, height=50, ink=True, bgcolor=ft.colors.AMBER, border_radius=15)
+                                 on_click=PLAY, width=800, height=50, ink=True, bgcolor=ft.colors.AMBER, border_radius=15),
+
                 ],
                 alignment=ft.MainAxisAlignment.CENTER,
                 horizontal_alignment=ft.CrossAxisAlignment.CENTER,
