@@ -326,7 +326,10 @@ Characters = [
       "Género": "M", "Invocador": "EG", "Dorsal": "9", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "GAR" },
       
     { "Nombre": "FLORA", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DL",
-      "Género": "F", "Invocador": "EG_ARM", "Dorsal": "12", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "POR-DEF", "EQUIPO": "DESESPERDIDOS" },
+      "Género": "F", "Invocador": "EG", "Dorsal": "12", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "CS", "EQUIPO": "DESESPERDIDOS" },
+
+    { "Nombre": "FLORA_ROSA-NEGRA", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DL",
+      "Género": "F", "Invocador": "EG_ARM", "Dorsal": "12", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "CS", "EQUIPO": "DESESPERDIDOS" },
       
     { "Nombre": "FRANK-FOREMAN", "Curso": "2º", "Elemento": "FUEGO", "Posición": "DF",
       "Género": "M", "Invocador": "Totem", "Dorsal": "5", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
@@ -513,7 +516,7 @@ Characters = [
     { "Nombre": "JINGO", "Curso": "NIÑO", "Elemento": "FUEGO", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "22", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "RAIMON_CS" }, 
   
-    { "Nombre": "JOHN-BLOOM", "Curso": "2º", "Elemento": "AIRE", "Posición": "MD",
+    { "Nombre": "JOHN-BLOOM", "Curso": "2º", "Elemento": "FUEGO", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
 
     { "Nombre": "JONAS-DEMETRIUS", "Curso": "2º", "Elemento": "FUEGO", "Posición": "DL",
@@ -1164,7 +1167,7 @@ CharacterRef = [
     ### E ###
     'Eco', 'Edgar Partinus', 'Elliot Ember (Orion)', 'Erik Eagle', 'Erik Eagle (Unicorn)', 'Ethan Whitering', 'Eugene Peabody', 
     ### F ###
-    'Falco Flashman', 'Fei Rune', 'Fei Rune (Chrono Storm)', 'Fei Rune (Gar)', 'Flora', 'Frank Foreman',
+    'Falco Flashman', 'Fei Rune', 'Fei Rune (Chrono Storm)', 'Fei Rune (Gar)', 'Flora', 'Flora (Rosa Negra)', 'Frank Foreman',
     ### G ###
     'Gabriel García', 'Gabriel García (Chrono Storm)', 'Gamma', 'Gamma (MIX Z)', 'Gandares Baran', 'Galileo', 'Gareth Flare', 'Gaiel',
     'Giacomo Yani', 'Gianluca Zanardi', 'Gigi Blasi', 'Ganymede', 'Gazelle', 'Gele', 'Ghiris', 'Gocker', 'Godric Wyles', 
