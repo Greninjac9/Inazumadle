@@ -24,6 +24,8 @@ Las características comprobables son:
 ||![Senior](/assets/images/MISCELANEO/ADULTO_SENIOR.png)||![MG](/assets/images/MISCELANEO/MG.png) Gerente||||<img src="/assets/images/MISCELANEO/ES.png" width="25"> Español|<img src="/assets/images/MISCELANEO/FF_ARES.png" width="40"> Fútbol Frontier (Ares)||
 ||||||||<img src="/assets/images/MISCELANEO/ARG.png" width="25"> Argentino|<img src="/assets/images/MISCELANEO/FFI_ORION.png" width="40"> Fútbol Frontier Internacional (Orión)||
 ||||||||<img src="/assets/images/MISCELANEO/ENG.png" width="25"> Inglés|<img src="/assets/images/MISCELANEO/FF_VR.png" width="40"> Fútbol Frontier (Victory Road)||
+||||||||<img src="/assets/images/MISCELANEO/CHN.png" width="25"> Chino|||
+||||||||<img src="/assets/images/MISCELANEO/FRA.png" width="25"> Francés|||
 
 En caso de ponerse una casilla en $${\color{red}rojo}$$, significa que dicha característica no es la misma que el personaje a adivinar. En caso de $${\color{lightgreen}verde}$$, sí que será coincidente. 
 
