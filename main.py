@@ -14,7 +14,7 @@ def main(page: ft.Page):
     page.bgcolor = ft.colors.TRANSPARENT
     page.decoration = ft.BoxDecoration(image=ft.DecorationImage(src=("assets\\images\\WEB\\MainMenu.png"), fit = ft.ImageFit.COVER))
     page.window.resizable = False
-    page.window.width = 1000
+    page.window.width = 1080
     page.window.height = 1080
 
     def handle_click(e):
@@ -163,36 +163,36 @@ def main(page: ft.Page):
                     content=ft.Image(
                         src=("assets\\images\\MISCELANEO\\" + Char["Capitán"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(5, COLORS[0]),
+                    border = ft.border.all(5, COLORS[7]),
                     height = 80, width = 80,
-                    bgcolor=COLORS[0], border_radius = 10,
+                    bgcolor=COLORS[7], border_radius = 10,
                     margin = ft.margin.symmetric(4),
                 ),
                 ft.Container(
                     content=ft.Image(
                         src=("assets\\images\\MISCELANEO\\" + Char["Nacionalidad"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(15, COLORS[7]),
-                    height = 80, width = 80,
-                    bgcolor=COLORS[7], border_radius = 10,
-                    margin = ft.margin.symmetric(4)
-                ),
-                ft.Container(
-                    content=ft.Image(
-                        src=("assets\\images\\MISCELANEO\\" + Char["Debut"] + ".png"),
-                        fit = ft.ImageFit.SCALE_DOWN,),
-                    border = ft.border.all(10, COLORS[8]),
+                    border = ft.border.all(15, COLORS[8]),
                     height = 80, width = 80,
                     bgcolor=COLORS[8], border_radius = 10,
                     margin = ft.margin.symmetric(4)
                 ),
                 ft.Container(
                     content=ft.Image(
-                        src=("assets\\images\\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
+                        src=("assets\\images\\MISCELANEO\\" + Char["Debut"] + ".png"),
                         fit = ft.ImageFit.SCALE_DOWN,),
-                    border = ft.border.all(5, COLORS[9]),
+                    border = ft.border.all(10, COLORS[9]),
                     height = 80, width = 80,
                     bgcolor=COLORS[9], border_radius = 10,
+                    margin = ft.margin.symmetric(4)
+                ),
+                ft.Container(
+                    content=ft.Image(
+                        src=("assets\\images\\EQUIPOS\\" + Char["EQUIPO"] + ".png"),
+                        fit = ft.ImageFit.SCALE_DOWN,),
+                    border = ft.border.all(5, COLORS[10]),
+                    height = 80, width = 80,
+                    bgcolor=COLORS[10], border_radius = 10,
                     margin = ft.margin.symmetric(4)
                 ),
             ],
