@@ -60,6 +60,13 @@ Table = ft.Row(
                   alignment=ft.alignment.center
               ),
               ft.Container(
+                  content=ft.Text("Capitanía", weight=ft.FontWeight.BOLD, color=ft.colors.BLACK),
+                  border = ft.border.all(5, ft.colors.GREY_300),
+                  height = 30, width = 80,
+                  bgcolor=ft.colors.GREY_300, border_radius = 10,
+                  alignment=ft.alignment.center
+              ),
+              ft.Container(
                   content=ft.Text("Nación", weight=ft.FontWeight.BOLD, color=ft.colors.BLACK),
                   border = ft.border.all(5, ft.colors.GREY_300),
                   height = 30, width = 80,
