@@ -163,7 +163,7 @@ def main(page: ft.Page):
                     content=ft.Image(
                         src=("assets\\images\\MISCELANEO\\" + Char["Capitán"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
-                    border = ft.border.all(5, COLORS[7]),
+                    border = ft.border.all(15, COLORS[7]),
                     height = 80, width = 80,
                     bgcolor=COLORS[7], border_radius = 10,
                     margin = ft.margin.symmetric(4),
