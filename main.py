@@ -295,6 +295,14 @@ def main(page: ft.Page):
                 ),
                 ft.Container(
                     content=ft.Image(
+                        src=("assets\\images\\MISCELANEO\\" + PJ["Capitán"] + ".png"),
+                        fit = ft.ImageFit.FIT_WIDTH,),
+                    border = ft.border.all(15, COLORS[0]), height = 70, width = 70, bgcolor=COLORS[0],
+                    border_radius = 10,
+                    margin = ft.margin.symmetric(10)
+                ),
+                ft.Container(
+                    content=ft.Image(
                         src=("assets\\images\\MISCELANEO\\" + PJ["Nacionalidad"] + ".png"),
                         fit = ft.ImageFit.FIT_WIDTH,),
                     border = ft.border.all(15, COLORS[0]), height = 70, width = 70, bgcolor=COLORS[0],
