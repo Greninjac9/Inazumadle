@@ -591,7 +591,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
 
     { "Nombre": "KRYPTO", "Curso": "2º", "Elemento": "AIRE", "Posición": "MD",
-      "Género": "F", "Invocador": "EG-N", "Dorsal": "7", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
+      "Género": "F", "Invocador": "EG-N", "Dorsal": "7", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
 
     ### L ###
 
