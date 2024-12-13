@@ -243,7 +243,7 @@ Characters = [
     { "Nombre": "DAVE-QUAGMIRE", "Curso": "3º", "Elemento": "FUEGO", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Capitán": "C","Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "NEO-JAPON" },
 
-    { "Nombre": "DAVE-QUAGMIRE_(ADULTO)", "Curso": "ADULTO", "Elemento": "FUEGO", "Posición": "DT",
+    { "Nombre": "DAVE-QUAGMIRE_ADULTO", "Curso": "ADULTO", "Elemento": "FUEGO", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "MONTE-OLIMPO" },
 
     { "Nombre": "DAVID-EVANS", "Curso": "ADULTO_SENIOR", "Elemento": "MONTAÑA", "Posición": "DT",
