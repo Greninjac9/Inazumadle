@@ -70,13 +70,13 @@ def main(page: ft.Page):
                         elif int(Char[Elementos[k]]) < int(PJ[Elementos[k]]):
                             DorsalValue = "MAYOR"
                             if int(Char[Elementos[k]]) >= int(PJ[Elementos[k]]) - 3:
-                                COLORS.append(ft.colors.AMBER)
+                                COLORS.append(ft.colors.ORANGE)
                             else:
                                 COLORS.append(ft.colors.RED)
                         else:
                             DorsalValue = "MENOR"
                             if int(Char[Elementos[k]]) <= int(PJ[Elementos[k]]) + 3:
-                                COLORS.append(ft.colors.AMBER)
+                                COLORS.append(ft.colors.ORANGE)
                             else:
                                 COLORS.append(ft.colors.RED)
                     else:
