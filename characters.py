@@ -641,7 +641,7 @@ Characters = [
       "Género": "M", "Invocador": "EG", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_1.0" },
 
     { "Nombre": "LIMA_ZANARK", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-ARM", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
+      "Género": "M", "Invocador": "EG", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
   
     { "Nombre": "LIU-BEI", "Curso": "ADULTO", "Elemento": "MONTAÑA", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "CHN", "Debut": "CS", "EQUIPO": "RAIMON_CS" }, 
@@ -891,10 +891,10 @@ Characters = [
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "ALIEN", "Debut": "GCG", "EQUIPO": "FALAM-MEDIUS" },
   
     { "Nombre": "ROMEO", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "PR",
-      "Género": "M", "Invocador": "EG-ARM", "Dorsal": "1", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
+      "Género": "M", "Invocador": "EG_ARM", "Dorsal": "1", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
   
     { "Nombre": "ROMEO_ZANARK", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "PR",
-      "Género": "M", "Invocador": "EG-ARM", "Dorsal": "1", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
+      "Género": "M", "Invocador": "EG_ARM", "Dorsal": "1", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
 
     { "Nombre": "RONDULA-FLEHL", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "MD",
       "Género": "F", "Invocador": "TOTEM", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "ALIEN", "Debut": "GCG", "EQUIPO": "FALAM-MEDIUS" },
@@ -1166,7 +1166,7 @@ Characters = [
       "Género": "M", "Invocador": "Totem", "Dorsal": "18", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "GCG", "EQUIPO": "EARTH-ELEVEN" },
 
     { "Nombre": "ZANARK-AVALONIC", "Curso": "POR-DEF", "Elemento": "MONTAÑA", "Posición": "DT",
-      "Género": "M", "Invocador": "EG-ARM", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
+      "Género": "M", "Invocador": "EG_ARM", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
 
     { "Nombre": "ZANARK-AVALONIC_CAO-CAO", "Curso": "POR-DEF", "Elemento": "MONTAÑA", "Posición": "DF",
       "Género": "M", "Invocador": "EG_ARM", "Dorsal": "10", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "ZANARK-DOMAIN" },
