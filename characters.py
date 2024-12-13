@@ -370,7 +370,7 @@ Characters = [
       "Género": "M", "Invocador": "EG_ARM", "Dorsal": "10", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
 
     { "Nombre": "GAMMA_ZANARK", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-ARM", "Dorsal": "10", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
+      "Género": "M", "Invocador": "EG_ARM", "Dorsal": "10", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_3.0" },
 
     { "Nombre": "GANDARES-BARAN", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "TOTEM", "Dorsal": "9", "Capitán": "C-N", "Nacionalidad": "ALIEN", "Debut": "GCG", "EQUIPO": "FALAM-MEDIUS" },
