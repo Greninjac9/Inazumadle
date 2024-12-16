@@ -346,7 +346,7 @@ Characters = [
     { "Nombre": "FEI-RUNE_(CS)", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "MD",
       "Género": "M", "Invocador": "EG_ARM", "Dorsal": "11", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "CHRONO-STORM" },
 
-    { "Nombre": "FEI-RUNE_(GAR)", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "DL",
+    { "Nombre": "FEI-RUNE_GAR", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG", "Dorsal": "9", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "GAR" },
       
     { "Nombre": "FLORA", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DL",
