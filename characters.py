@@ -705,11 +705,11 @@ Characters = [
     { "Nombre": "MAXWELL-CARSON_EMPERADORES", "Curso": "2º", "Elemento": "AIRE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
 
-    { "Nombre": "MAXIMINO-CRUZ", "Curso": "1º", "Elemento": "AIRE", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Capitán": "C-N", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
-
     { "Nombre": "MAXIM-MILLENNIUM", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG", "Dorsal": "10", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "PODEROSA-FE" },
+    
+    { "Nombre": "MAXIMINO-CRUZ", "Curso": "1º", "Elemento": "AIRE", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Capitán": "C-N", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
     
     { "Nombre": "MARK-EVANS_(MECHAMARK)", "Curso": "POR-DEF", "Elemento": "MONTAÑA", "Posición": "PR",
       "Género": "M", "Invocador": "EG", "Dorsal": "1", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_(EL-DORADO-02)" },
