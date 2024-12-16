@@ -705,7 +705,7 @@ Characters = [
     { "Nombre": "MAXWELL-CARSON_EMPERADORES", "Curso": "2º", "Elemento": "AIRE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
 
-    { "Nombre": "MAXIMINIO-CRUZ", "Curso": "1º", "Elemento": "AIRE", "Posición": "DL",
+    { "Nombre": "MAXIMINO-CRUZ", "Curso": "1º", "Elemento": "AIRE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Capitán": "C-N", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
 
     { "Nombre": "MAXIM-MILLENNIUM", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DL",
