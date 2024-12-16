@@ -433,7 +433,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
 
     { "Nombre": "GRISLEY-BEAR", "Curso": "3º", "Elemento": "FUEGO", "Posición": "DL",
-      "Género": "M", "Invocador": "EG", "Dorsal": "16", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "ALPINO_(GO)" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "16", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "ALPINO_(GO)" },
     
     ### H ###
 
