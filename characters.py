@@ -9,7 +9,7 @@ Characters = [
     { "Nombre": "AIDEN-FROSTE", "Curso": "2º", "Elemento": "FUEGO", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "ALPINO_(ARES)" },
 
-    { "Nombre": "AIMÉ-QUINTET", "Curso": "2º", "Elemento": "AIRE", "Posición": "DF",
+    { "Nombre": "AIME-QUINTET", "Curso": "2º", "Elemento": "AIRE", "Posición": "DF",
       "Género": "M", "Invocador": "EG", "Dorsal": "2", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },
   
     { "Nombre": "AITOR-CAZADOR", "Curso": "1º", "Elemento": "BOSQUE", "Posición": "DF",
