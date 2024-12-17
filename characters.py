@@ -511,10 +511,10 @@ Characters = [
     ### J ###
     
     { "Nombre": "JACK-WALLSIDE", "Curso": "1º", "Elemento": "MONTAÑA", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
 
     { "Nombre": "JACK-WALLSIDE_INAZUMA", "Curso": "1º", "Elemento": "MONTAÑA", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON" },
 
     { "Nombre": "JADE-GREENE", "Curso": "2º", "Elemento": "FUEGO", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
