@@ -582,7 +582,7 @@ Characters = [
     { "Nombre": "JUDE-SHARP_(ROYAL)", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ROYAL-ACADEMY" },
       
-    { "Nombre": "JULIETA", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "DL",
+    { "Nombre": "JULIETA", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DL",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "9", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_1.0" },
 
     { "Nombre": "JULIETA_ZANARK", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DL",
