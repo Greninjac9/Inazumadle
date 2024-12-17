@@ -715,7 +715,7 @@ Characters = [
       "Género": "M", "Invocador": "EG", "Dorsal": "1", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_(EL-DORADO-02)" },
 
     { "Nombre": "MEHR", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "MD",
-      "Género": "F", "Invocador": "EG", "Dorsal": "8", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "RAGNAH" },
+      "Género": "F", "Invocador": "EG", "Dorsal": "8", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "RAGNAH" },
 
     { "Nombre": "MERCURY", "Curso": "2º", "Elemento": "AIRE", "Posición": "DL",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "9", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(EPSILON)" },
