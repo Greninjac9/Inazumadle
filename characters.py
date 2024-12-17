@@ -122,7 +122,7 @@ Characters = [
     { "Nombre": "BAY-LAUREL", "Curso": "2º", "Elemento": "MONTAÑA", "Posición": "MD",
       "Género": "M", "Invocador": "EG", "Dorsal": "9", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "KIRKWOOD_GO" },
 
-    { "Nombre": "BAY-LAUREL_(RESISTENCIA)", "Curso": "2º", "Elemento": "MONTAÑA", "Posición": "MD",
+    { "Nombre": "BAY-LAUREL_RESISTENCIA", "Curso": "2º", "Elemento": "MONTAÑA", "Posición": "MD",
       "Género": "M", "Invocador": "EG", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },
     
     { "Nombre": "BELLATRIX", "Curso": "2º", "Elemento": "AIRE", "Posición": "MD",
