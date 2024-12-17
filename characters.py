@@ -52,7 +52,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ZEUS" },
 
     { "Nombre": "ASTAROTH", "Curso": "POR-DEF", "Elemento": "FUEGO", "Posición": "PR",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL-OSCURO" },
     
     { "Nombre": "ASTRAM-SCHILLER", "Curso": "ADULTO_SENIOR", "Elemento": "BOSQUE", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
@@ -280,7 +280,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_VR", "EQUIPO": "SOUTH-CIRRUS" },
 
     { "Nombre": "DESTRA", "Curso": "POR-DEF", "Elemento": "MONTAÑA", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Capitán": "C", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Capitán": "C", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL-OSCURO" },
     
     { "Nombre": "DIAM", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(TORMENTA-DE-GEMINIS)" },
@@ -382,7 +382,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Capitán": "C-N", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
 
     { "Nombre": "GAIEL", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "8", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "8", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL-OSCURO" },
     
     { "Nombre": "GIACOMO-YANI", "Curso": "2º", "Elemento": "MONTAÑA", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "8", "Capitán": "C-N", "Nacionalidad": "ITA", "Debut": "FFI", "EQUIPO": "ORFEO" },
@@ -447,7 +447,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
 
     { "Nombre": "HEBIMOS", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL-OSCURO" },
     
     { "Nombre": "HECTOR-HELIO", "Curso": "2º", "Elemento": "FUEGO", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Capitán": "C", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
@@ -635,7 +635,7 @@ Characters = [
       "Género": "M", "Invocador": "EG", "Dorsal": "10", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "KIRKWOOD_GO" },
   
     { "Nombre": "LEPHIEL", "Curso": "POR-DEF", "Elemento": "MONTAÑA", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL-OSCURO" },
 
     { "Nombre": "LIMA", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "MD",
       "Género": "M", "Invocador": "EG", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_1.0" },
@@ -664,7 +664,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "ACADEMIA-ALIUS_(EMPERADORES-OSCUROS)" },
 
     { "Nombre": "MALPHAS", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL-OSCURO" },
 
     { "Nombre": "MANEUVER-GIBUTSU", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "ALIEN", "Debut": "GCG", "EQUIPO": "FLOTA-IXAR" },
@@ -759,7 +759,7 @@ Characters = [
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "THE-LITTLE-GIANTS" },
 
     { "Nombre": "NENEL", "Curso": "POR-DEF", "Elemento": "FUEGO", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "4", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "4", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL-OSCURO" },
 
     { "Nombre": "NERO", "Curso": "2º", "Elemento": "AIRE", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1",  "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(GENESIS)" },
@@ -903,7 +903,7 @@ Characters = [
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
     
     { "Nombre": "RUBU", "Curso": "POR-DEF", "Elemento": "MONTAÑA", "Posición": "DF",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL-OSCURO" },
 
     { "Nombre": "RUGER-BARAN", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "TOTEM", "Dorsal": "8", "Capitán": "C-N", "Nacionalidad": "ALIEN", "Debut": "GCG", "EQUIPO": "FALAM-MEDIUS" },
@@ -929,7 +929,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "RAIMON_(GO)" },
 
     { "Nombre": "SAEL", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "DL",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Capitán": "C-2", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Capitán": "C-2", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL-OSCURO" },
     
     { "Nombre": "SEYMOUR-HILLMAN", "Curso": "ADULTO_SENIOR", "Elemento": "MONTAÑA", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
@@ -1121,7 +1121,7 @@ Characters = [
       "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Capitán": "C-N", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
 
     { "Nombre": "WENEL", "Curso": "POR-DEF", "Elemento": "FUEGO", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL_OSCURO" },
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "FFI", "EQUIPO": "ANGEL-OSCURO" },
     
     { "Nombre": "WILLIAM-GLASS", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "12", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
