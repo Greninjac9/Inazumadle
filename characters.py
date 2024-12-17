@@ -852,7 +852,7 @@ Characters = [
     { "Nombre": "QUENTIN-CINQUEDEA_(RESISTENCIA)", "Curso": "2º", "Elemento": "FUEGO", "Posición": "PR",
       "Género": "M", "Invocador": "EG", "Dorsal": "1", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "NEO-JAPON_(RESISTENCIA-DE-JAPON)" },    
 
-    { "Nombre": "QUINT-HAMPTOM", "Curso": "2º", "Elemento": "AIRE", "Posición": "MD",
+    { "Nombre": "QUINT-HAMPTON", "Curso": "2º", "Elemento": "AIRE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "COS", "Debut": "FFI", "EQUIPO": "THE-LITTLE-GIANTS" },
     
     ### R ###
