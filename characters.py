@@ -317,7 +317,7 @@ Characters = [
     { "Nombre": "EDGAR-PARTINUS", "Curso": "3º", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Capitán": "C", "Nacionalidad": "ENG", "Debut": "FFI", "EQUIPO": "KNIGHTS-OF-QUEEN" },
 
-    { "Nombre": "ELLIOT-EMBER_(ARES)", "Curso": "1º", "Elemento": "BOSQUE", "Posición": "DL",
+    { "Nombre": "ELLIOT-EMBER", "Curso": "1º", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "POLARIS" },
     
     { "Nombre": "ELLIOT-EMBER_(ORION)", "Curso": "1º", "Elemento": "BOSQUE", "Posición": "DL",
