@@ -1225,6 +1225,9 @@ Characters = [
     { "Nombre": "TOKICHIRO-KINOSHITA", "Curso": "ADULTO", "Elemento": "FUEGO", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "RAIMON_CS" }, 
 
+    { "Nombre": "TONI-LLUIS", "Curso": "ADULTO", "Elemento": "MONTAÑA", "Posición": "PR",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Capitán": "C-N", "Nacionalidad": "ES", "Debut": "CS", "EQUIPO": "LOS-ARIONS" }, 
+
     { "Nombre": "TREVOR-COOK", "Curso": "2º", "Elemento": "AIRE", "Posición": "LB",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "RAIMON_INAKUNI" }, 
 
@@ -1439,7 +1442,7 @@ CharacterRef = [
     ### T ###
     'Taian Inaba', 'Talisman', 'Tasuke', 'Terry Archibald', 'Tezcat', 'Thiago Torres', 'Thomas Feldt', 'Thomas Feldt (Emperadores)', 'Thomas Murdock', 'Thor Stoutberg', 
     'Timmy', 'Timmy (Emperadores)', 'Tod Ironside', 'Tod Ironside (Emperadores)', 'Tod Ironside (Inazuma Japón)', 'Tokichiro Kinoshita', 
-    'Trevor Cook', 'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 'Tyler Murdock (Neo Japón)', 
+    'Toni Lluis', 'Trevor Cook', 'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 'Tyler Murdock (Neo Japón)', 
     ### V ###
     'Valentin Eisner', 'Victor Blade', 'Victor Blade (Chrono Storm)', 'Víctor Blade (Earth Eleven)', 'Víctor Blade (Falam Medium)', 'Victor García', 'Vento Gaillano', 
     'Vladimir Blade', 
