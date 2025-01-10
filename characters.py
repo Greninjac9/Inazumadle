@@ -1414,9 +1414,11 @@ CharacterRef = [
     ### L ###
     'Langford Ash', 'Lephiel', 'Lima', 'Lima (MIX Z)', 'Liu Bei', 'Lucian Dark', 
     ### M ###
-    'Mac Robingo', 'Maddie Moonlight', 'Malcomn Night','Malcomn Night (Emperadores)', 'Malphas', 'Maneuver Gibutsu','Marco Maserati', 'Mark Evans', 'Mark Evans (II)', 
+    'Mac Robingo', 'Maddie Moonlight', 'Malcomn Night','Malcomn Night (Emperadores)', 'Malphas', 
+    'Maneuver Gibutsu','Marco Maserati', 'Mark Evans', 'Mark Evans (II)', 
     'Mark Evans (Inazuma Japón)', 'Mark Evans (Adulto)', 'Mark Evans (Arions)', 'Mark Evans (Ares)', 'Mark Evans (Legendario)', 'Mark Hillvalley', 'Mark Krueger',
-    'Marvin Murdock', 'Max', 'Max (Emperadores)', 'Maxim Millennium', 'Maxime Dassier', 'Maximino Cruz', 'Mechamark', 'Mehr', 'Mercury', 'Meteo Garnet', 'Metron', 'Michael Ballzack', 'Mickey Way'
+    'Marvin Murdock', 'Max', 'Max (Emperadores)', 'Maxim Millennium', 'Maxime Dassier', 'Maximino Cruz', 'Mechamark', 'Mehr', 'Mercury', 
+    'Meteo Garnet', 'Metron', 'Michael Ballzack', 'Mickey Way',
     'Mike', 'Mike (MIX Z)', 'Mister D', 
     ### N ###
     'Nathan Swift', 'Nathan Swift (Ares)', 'Nathan Swift (Emperadores)', 'Nathan Swift (Inazuma Japón)', 'Nathan Swift (Legendario)', 
