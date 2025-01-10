@@ -26,6 +26,7 @@ Las características comprobables son:
 |||||||||<img src="/assets/images/MISCELANEO/ENG.png" width="25"> Inglés|<img src="/assets/images/MISCELANEO/FF_VR.png" width="40"> Fútbol Frontier (Victory Road)||
 |||||||||<img src="/assets/images/MISCELANEO/CHN.png" width="25"> Chino|||
 |||||||||<img src="/assets/images/MISCELANEO/FRA.png" width="25"> Francés|||
+|||||||||<img src="/assets/images/MISCELANEO/RUS.png" width="25"> Ruso|||
 
 En caso de ponerse una casilla en $${\color{red}rojo}$$, significa que dicha característica no es la misma que el personaje a adivinar. En caso de $${\color{lightgreen}verde}$$, sí que será coincidente. 
 
