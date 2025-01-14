@@ -477,8 +477,11 @@ Characters = [
       "Género": "M", "Invocador": "EG", "Dorsal": "9", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "GAR" },
 
     { "Nombre": "FLORA", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DL",
-      "Género": "F", "Invocador": "EG_ARM", "Dorsal": "12", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "POR-DEF", "EQUIPO": "DESESPERDIDOS" },
+      "Género": "F", "Invocador": "EG", "Dorsal": "12", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "POR-DEF", "EQUIPO": "DESESPERDIDOS" },
 
+    { "Nombre": "FLORA_ROSA-NEGRA", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DL",
+      "Género": "F", "Invocador": "EG_ARM", "Dorsal": "12", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "POR-DEF", "EQUIPO": "DESESPERDIDOS" },
+  
     { "Nombre": "FOXTROT", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "PROTOCOLO-OMEGA_2.0" },
 
@@ -972,9 +975,6 @@ Characters = [
     { "Nombre": "NEIL-TURNER_NEO", "Curso": "2º", "Elemento": "FUEGO", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "NEO-JAPON" },
 
-    { "Nombre": "NINO-NANGO", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "MD",
-      "Género": "M", "Invocador": "EG-N", "Dorsal": "4", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "RAIMON_INAKUNI" }, 
-
     { "Nombre": "NELLY-RAIMON", "Curso": "2º", "Elemento": "FUEGO", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
 
@@ -992,6 +992,12 @@ Characters = [
 
     { "Nombre": "NIGEL-AUGUST_(NEPPTEN)", "Curso": "2º", "Elemento": "FUEGO", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "ACADEMIA-ALIUS_(CAOS)" },
+
+    { "Nombre": "NIKAS-HIMMELSTEIN", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DL",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "FF_VR", "EQUIPO": "NORTHBRIGHT" }, 
+  
+    { "Nombre": "NINO-NANGO", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "MD",
+      "Género": "M", "Invocador": "EG-N", "Dorsal": "4", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "RAIMON_INAKUNI" }, 
 
     { "Nombre": "NJORD-SNIO", "Curso": "2º", "Elemento": "AIRE", "Posición": "DL",
       "Género": "M", "Invocador": "EG", "Dorsal": "10", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CI", "EQUIPO": "ALPINO_(GO)" },
@@ -1292,6 +1298,9 @@ Characters = [
     { "Nombre": "SOR_(CS)", "Curso": "POR-DEF", "Elemento": "AIRE", "Posición": "DF",
       "Género": "M", "Invocador": "EG_ARM", "Dorsal": "21", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "CS", "EQUIPO": "CHRONO-STORM" },
 
+    { "Nombre": "STERNE", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "DL",
+      "Género": "M", "Invocador": "EG_ARM", "Dorsal": "13", "Capitán": "C-N", "Nacionalidad": "POR-DEF", "Debut": "POR-DEF", "EQUIPO": "DESESPERDIDOS" },
+  
     { "Nombre": "STEVE-GRIM", "Curso": "2º", "Elemento": "AIRE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RAIMON" },
 
@@ -1551,7 +1560,7 @@ CharacterRef = [
     ### E ###
     'Eco', 'Edgar Partinus', 'Elliot Ember (Ares)', 'Elliot Ember (Orión)', 'Erik Eagle', 'Erik Eagle (Unicorn)', "Escavan Malice", 'Ethan Whitering', 'Eugene Peabody', 
     ### F ###
-    'Falco Flashman', 'Fei Rune', 'Fei Rune (Chrono Storm)', 'Fei Rune (Gar)', 'Flora', 'Foxtrot', 'Frank Foreman',
+    'Falco Flashman', 'Fei Rune', 'Fei Rune (Chrono Storm)', 'Fei Rune (Gar)', 'Flora', "Flora (Rosa Negra)", 'Foxtrot', 'Frank Foreman',
     ### G ###
     'Gabriel García', 'Gabriel García (Chrono Storm)', 'Glacia Vessal', 'Gamma', 'Gamma (MIX Z)', 'Gandares Baran', 'Galileo', 'Gareth Flare', 'Gaiel',
     'Giacomo Yani', 'Gianluca Zanardi', 'Gigi Blasi', 'Ganymede', 'Gazelle', 'Gele', 'Ghiris', 'Gocker', 'Godric Wyles', 
@@ -1584,8 +1593,8 @@ CharacterRef = [
     'Mike', 'Mike (MIX Z)', 'Mister D', "Mystral Cailous",
     ### N ###
     'Nathan Swift', 'Nathan Swift (Ares)', 'Nathan Swift (Emperadores)', 'Nathan Swift (Inazuma Japón)', 'Nathan Swift (Legendario)', 'Nathan Swift (Orión)',
-    'Neil Turner', 'Neil Turner (Neo Japón)', 'Nino Nango', 'Nelly Raimon', 'Nelly Raimon (Little Giants)', 
-    'Nelly Raimon (Orión)', 'Nenel', 'Nero', 'Neppten', 'Njord Snio', 'Njord Snio (Resistencia)', 
+    'Neil Turner', 'Neil Turner (Neo Japón)', 'Nelly Raimon', 'Nelly Raimon (Little Giants)', 
+    'Nelly Raimon (Orión)', 'Nenel', 'Nero', 'Neppten', "Nikas Himmelstein", 'Nino Nango', 'Njord Snio', 'Njord Snio (Resistencia)', 
     'Noviembre', 'Noviembre (MIX Z)',
     ### O ###
     'Ogar Circes', "Oni Triumvir", 'Oscar', 'Oscar (MIX Z)', 'Otto Nobili', 'Ozrock Boldar',
@@ -1603,7 +1612,7 @@ CharacterRef = [
     'Shawn Froste (Adulto)', 'Shawn Froste (Aiden)', 
     'Shawn Froste (DF)', 'Shawn Froste (Legendario)', 'Shawn Froste (Orión)', 'Shishimaru', 'Shintaro Nakaoka',
     'Shun', 'Sierra', 'Sierra (MIX Z)', 'Silvia Woods', 'Silvia Woods (Ares)', 'Silvia Woods (Orión)', 'Simeon Ayp', 'Skie Blue', 'Skie Blue (Galaxy)', 'Soji Okita', 'Sol Daystar', 'Sol Daystar (Chrono Storm)', 'Sonny Wright', 'Sonny Wright (Orión)',
-    'Sor', 'Sor (Chrono Storm)', 'Steve Grim', 'Steve Grim (Emperadores)', 'Subaru Honda', 'Sue Sparrow', 'Sue',
+    'Sor', 'Sor (Chrono Storm)', "Sterne", 'Steve Grim', 'Steve Grim (Emperadores)', 'Subaru Honda', 'Sue Sparrow', 'Sue',
     ### T ###
     'Taian Inaba', 'Talisman', 'Tasuke', 'Terry Archibald', 'Tezcat', 'Thiago Torres', "Thierry Reyes", 'Thomas Feldt', 'Thomas Feldt (Emperadores)', 'Thomas Murdock', 'Thor Stoutberg', 
     'Timmy', 'Timmy (Emperadores)', 'Tod Ironside', 'Tod Ironside (Emperadores)', 'Tod Ironside (Inazuma Japón)', 'Tokichiro Kinoshita', 
