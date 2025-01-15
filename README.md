@@ -36,7 +36,6 @@ Adicionalmente, la casilla de dorsales muestra si el dorsal es un número superi
 
 ### LISTADO DE PERSONAJES
 [**Listado**](https://docs.google.com/spreadsheets/d/1Jmw9_HEDXiTBQyGbmJTQZdj3Ica8gQEIcfYQo_dYhbM/edit?usp=sharing)
-_El listado está incompleto._
 
 ### BUG REPORTS
 [**Formulario**](https://docs.google.com/forms/d/e/1FAIpQLScWQFz5b8eBM17Tw9HADJE5FkWuSD-aeuwGf6nsuY_6SMM_Dw/viewform?usp=sf_link)
