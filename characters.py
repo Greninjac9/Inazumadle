@@ -1544,7 +1544,7 @@ CharacterRef = [
     'Briar Bloomhurst', 'Bryce Whitingale', 'Buddy Fury', "Bump Trungus", 'Bunny Cottontail', 'Byron Love', 'Byron Love (Ares)', 'Byron Love (Orión)',
     ### C ###
     'Cade Shelby', 'Cadence Soundtown', 'Caleb Stonewall', 'Caleb Stonewall (Adulto)', 'Caleb Stonewall (Legendario)', 
-    'Caleb Stonewall (Orión),''Caleb Stonewall (Redux)', 'Caleb Stonewall (Resistencia)', 
+    'Caleb Stonewall (Orión)','Caleb Stonewall (Redux)', 'Caleb Stonewall (Resistencia)', 
     'Camelia Travis', 'Canon Evans', 'Catora Peiji', 'Cedric Freud', 'Celia Hills', 'Celia Hills (Adulta)', 
     'Cerise Blossom', 'César Montalbán', 'Changsu Choi', 'Charlie', 'Circulus', 
     'Clark Wonderbot','Claude Beacons', 'Clear', 'Cliff Parker', 'Cliff Parker (Orión)', 'Cloak', 
@@ -1618,7 +1618,7 @@ CharacterRef = [
     'Timmy', 'Timmy (Emperadores)', 'Tod Ironside', 'Tod Ironside (Emperadores)', 'Tod Ironside (Inazuma Japón)', 'Tokichiro Kinoshita', 
     'Toni Lluís', 'Trevor Cook', 'Trevor Cook (Orión)', 'Torch', 'Tori', 'Trina Verdure', 'Tyler Murdock', 'Tyler Murdock (Neo Japón)', 
     ### V ###
-    'Valentin Eisner', 'Valentin Eisner (Orión)' 'Victor Blade', 'Victor Blade (Chrono Storm)', 'Víctor Blade (Earth Eleven)', 'Víctor Blade (Falam Medium)', 'Victor García', 'Vento Gaillano', 
+    'Valentin Eisner', 'Valentin Eisner (Orión)', 'Victor Blade', 'Victor Blade (Chrono Storm)', 'Víctor Blade (Earth Eleven)', 'Víctor Blade (Falam Medium)', 'Victor García', 'Vento Gaillano', 
     'Vladimir','Vladimir Blade', 
     ### W ###
     'Wanli Changcheng', 'Walter Mountain', 'Wenel', 'William Glass', 'William Glass (Inazuma Japón)', 'William Toddsforth', 'Wittz', 'Wittz (Neo Japón)',
