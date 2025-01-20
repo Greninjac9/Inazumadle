@@ -209,6 +209,9 @@ def main(page: ft.Page):
 
         if STATE == "" and Tries == 6:
             STATE = "DEFEAT"
+            Colors = [ft.colors.RED]
+        elif STATE == "VICTORY":
+            Colors = [ft.colors.GREEN]
         if STATE != "":
             dlg_modal = ft.AlertDialog(
                 modal = True,
