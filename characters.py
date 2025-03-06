@@ -281,7 +281,7 @@ Characters = [
     { "Nombre": "CATORA-PEIJI", "Curso": "ADULTO", "POR-DEF": "AIRE", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "ALIEN", "Debut": "GCG", "EQUIPO": "BIG-BANG" },
 
-    { "Nombre": "CEDRIC-FREUD", "Curso": "1º", "Elemento": "BOSQUE", "Posición": "DF",
+    { "Nombre": "CEDRIC-FREUD", "Curso": "1º", "Elemento": "BOSQUE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_VR", "EQUIPO": "SOUTH-CIRRUS" },
   
     { "Nombre": "CELIA-HILLS", "Curso": "1º", "Elemento": "AIRE", "Posición": "MG",
