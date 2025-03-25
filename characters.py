@@ -145,7 +145,7 @@ Characters = [
     { "Nombre": "AXEL-BLAZE_LEGENDARIO", "Curso": "ADULTO", "Elemento": "FUEGO", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
 
-    { "Nombre": "AXEL-BLAZE_(ORION)", "Curso": "3º", "Elemento": "FUEGO", "Posición": "DL",
+    { "Nombre": "AXEL-BLAZE_ORION", "Curso": "3º", "Elemento": "FUEGO", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "17", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
 
     ### B ###
@@ -201,7 +201,7 @@ Characters = [
     { "Nombre": "BILLY-MILLER", "Curso": "1º", "Elemento": "FUEGO", "Posición": "DF_LB",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "RIBERA" },
 
-    { "Nombre": "BILLY-MILLER_(ORION)", "Curso": "1º", "Elemento": "FUEGO", "Posición": "DF_LB",
+    { "Nombre": "BILLY-MILLER_ORION", "Curso": "1º", "Elemento": "FUEGO", "Posición": "DF_LB",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
   
     { "Nombre": "BOBBY-SHEARER", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DF",
@@ -210,7 +210,7 @@ Characters = [
     { "Nombre": "BOBBY-SHEARER_(UNICORN)", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Capitán": "C-N", "Nacionalidad": "EEUU", "Debut": "FF", "EQUIPO": "UNICORN" },
 
-    { "Nombre": "BOBINE-APPLES_(ORION)", "Curso": "SENIOR", "Elemento": "AIRE", "Posición": "MG",
+    { "Nombre": "BOBINE-APPLES_ORION", "Curso": "SENIOR", "Elemento": "AIRE", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FFI_ORION", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
   
     { "Nombre": "BOMBER", "Curso": "2º", "Elemento": "FUEGO", "Posición": "DF",
@@ -243,7 +243,7 @@ Characters = [
     { "Nombre": "BYRON-LOVE_ARES", "Curso": "3º", "Elemento": "BOSQUE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "10", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "ZEUS_ARES" },
 
-    { "Nombre": "BYRON-LOVE_(ORION)", "Curso": "3º", "Elemento": "BOSQUE", "Posición": "DL",
+    { "Nombre": "BYRON-LOVE_ORION", "Curso": "3º", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "16", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
 
     ### C ###
@@ -263,7 +263,7 @@ Characters = [
     { "Nombre": "CALEB-STONEWALL_LEGENDARIO", "Curso": "ADULTO", "Elemento": "FUEGO", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "8", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
 
-    { "Nombre": "CALEB-STONEWALL_(ORION)", "Curso": "3º", "Elemento": "FUEGO", "Posición": "MD",
+    { "Nombre": "CALEB-STONEWALL_ORION", "Curso": "3º", "Elemento": "FUEGO", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "3", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
   
     { "Nombre": "CALEB-STONEWALL_(REDUX)", "Curso": "2º", "Elemento": "FUEGO", "Posición": "MD",
@@ -588,7 +588,7 @@ Characters = [
     { "Nombre": "HEATH-MOORE", "Curso": "2º", "Elemento": "FUEGO", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "PLENILUNIO" },
 
-    { "Nombre": "HEATH-MOORE_(ORION)", "Curso": "2º", "Elemento": "FUEGO", "Posición": "MD",
+    { "Nombre": "HEATH-MOORE_ORION", "Curso": "2º", "Elemento": "FUEGO", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "14", "Capitán": "C-2", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
 
     { "Nombre": "HEBIMOS", "Curso": "POR-DEF", "Elemento": "BOSQUE", "Posición": "DF",
@@ -742,7 +742,7 @@ Characters = [
     { "Nombre": "JUDE-SHARP_LEGENDARIO", "Curso": "ADULTO", "Elemento": "BOSQUE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "14", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
 
-    { "Nombre": "JUDE-SHARP_(ORION)", "Curso": "3º", "Elemento": "BOSQUE", "Posición": "MD",
+    { "Nombre": "JUDE-SHARP_ORION", "Curso": "3º", "Elemento": "BOSQUE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "5", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
   
     { "Nombre": "JUDE-SHARP_RAIMON-GO", "Curso": "ADULTO", "Elemento": "BOSQUE", "Posición": "DT",
@@ -836,7 +836,7 @@ Characters = [
     { "Nombre": "LIU-BEI", "Curso": "ADULTO", "Elemento": "MONTAÑA", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "CHN", "Debut": "CS", "EQUIPO": "RAIMON_CS" }, 
 
-    { "Nombre": "LUCAS-STAR_(ORION)", "Curso": "1º", "Elemento": "AIRE", "Posición": "MD",
+    { "Nombre": "LUCAS-STAR_ORION", "Curso": "1º", "Elemento": "AIRE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "13", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FFI_ORION", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
   
     { "Nombre": "LUCIAN-DARK", "Curso": "1º", "Elemento": "BOSQUE", "Posición": "DL",
@@ -889,7 +889,7 @@ Characters = [
     { "Nombre": "MARK-EVANS_(LEGENDARIO)", "Curso": "ADULTO", "Elemento": "MONTAÑA", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
 
-    { "Nombre": "MARK-EVANS_(ORION)", "Curso": "3º", "Elemento": "MONTAÑA", "Posición": "PR",
+    { "Nombre": "MARK-EVANS_ORION", "Curso": "3º", "Elemento": "MONTAÑA", "Posición": "PR",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "1", "Capitán": "C", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
 
     { "Nombre": "MARK-HILLVALLEY", "Curso": "2º", "Elemento": "MONTAÑA", "Posición": "DF",
@@ -966,7 +966,7 @@ Characters = [
     { "Nombre": "NATHAN-SWIFT_LEGENDARIO", "Curso": "ADULTO", "Elemento": "AIRE", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "2", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
 
-    { "Nombre": "NATHAN-SWIFT_(ORION)", "Curso": "3º", "Elemento": "AIRE", "Posición": "DF",
+    { "Nombre": "NATHAN-SWIFT_ORION", "Curso": "3º", "Elemento": "AIRE", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "6", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
   
     { "Nombre": "NEIL-TURNER", "Curso": "2º", "Elemento": "FUEGO", "Posición": "DL",
@@ -981,7 +981,7 @@ Characters = [
     { "Nombre": "NELLY-RAIMON_(LITTLE-GIANTS)", "Curso": "2º", "Elemento": "FUEGO", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "THE-LITTLE-GIANTS" },
 
-    { "Nombre": "NELLY-RAIMON_(ORION)", "Curso": "3º", "Elemento": "FUEGO", "Posición": "MG",
+    { "Nombre": "NELLY-RAIMON_ORION", "Curso": "3º", "Elemento": "FUEGO", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
   
     { "Nombre": "NENEL", "Curso": "POR-DEF", "Elemento": "FUEGO", "Posición": "DF",
@@ -1058,7 +1058,7 @@ Characters = [
     { "Nombre": "PERCIVAL-TRAVIS_GO", "Curso": "ADULTO", "Elemento": "BOSQUE", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FFI", "EQUIPO": "RAIMON_GO" },
 
-    { "Nombre": "PERCIVAL-TRAVIS_(ORION)", "Curso": "ADULTO", "Elemento": "BOSQUE", "Posición": "DT",
+    { "Nombre": "PERCIVAL-TRAVIS_ORION", "Curso": "ADULTO", "Elemento": "BOSQUE", "Posición": "DT",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
 
     { "Nombre": "PERCY-HURST_(PERSEO)", "Curso": "2º", "Elemento": "FUEGO", "Posición": "DL",
@@ -1241,7 +1241,7 @@ Characters = [
     { "Nombre": "SHAWN-FROSTE_(LEGENDARIO)", "Curso": "ADULTO", "Elemento": "AIRE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "ALIUS", "EQUIPO": "INAZUMA-JAPON_LEGENDARIO" },
 
-    { "Nombre": "SHAWN-FROSTE_(ORION)", "Curso": "3º", "Elemento": "AIRE", "Posición": "DF",
+    { "Nombre": "SHAWN-FROSTE_ORION", "Curso": "3º", "Elemento": "AIRE", "Posición": "DF",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "4", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
 
     { "Nombre": "SHISHIMARU", "Curso": "NIÑO", "Elemento": "MONTAÑA", "Posición": "DF",
@@ -1265,7 +1265,7 @@ Characters = [
     { "Nombre": "SILVIA-WOODS_ARES", "Curso": "3º", "Elemento": "MONTAÑA", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "RIBERA" },
 
-    { "Nombre": "SILVIA-WOODS_(ORION)", "Curso": "3º", "Elemento": "MONTAÑA", "Posición": "MG",
+    { "Nombre": "SILVIA-WOODS_ORION", "Curso": "3º", "Elemento": "MONTAÑA", "Posición": "MG",
       "Género": "F", "Invocador": "EG-N", "Dorsal": "-", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
 
     { "Nombre": "SIMEON-AYP", "Curso": "POR-DEF", "Elemento": "MONTAÑA", "Posición": "DL",
@@ -1401,7 +1401,7 @@ Characters = [
     { "Nombre": "VALENTIN-EISNER", "Curso": "3º", "Elemento": "AIRE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "RAIMON_INAKUNI" }, 
 
-    { "Nombre": "VALENTIN-EISNER_(ORION)", "Curso": "2º", "Elemento": "AIRE", "Posición": "MD",
+    { "Nombre": "VALENTIN-EISNER_ORION", "Curso": "2º", "Elemento": "AIRE", "Posición": "MD",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "7", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
 
     { "Nombre": "VICTOR-BLADE", "Curso": "1º", "Elemento": "FUEGO", "Posición": "DL",
@@ -1468,7 +1468,7 @@ Characters = [
     { "Nombre": "XAVIER-SCHILLER", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "11", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "ACADEMIA-ALIA" },
 
-    { "Nombre": "XAVIER-SCHILLER_(ORION)", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DL",
+    { "Nombre": "XAVIER-SCHILLER_ORION", "Curso": "2º", "Elemento": "BOSQUE", "Posición": "DL",
       "Género": "M", "Invocador": "EG-N", "Dorsal": "9", "Capitán": "C-N", "Nacionalidad": "JAP", "Debut": "FF_ARES", "EQUIPO": "INAZUMA-JAPON_(ORION)" },
 
     { "Nombre": "XAVIER-FOSTER_(XENE)", "Curso": "2º", "Elemento": "FUEGO", "Posición": "DL",
